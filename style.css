@@ -105,7 +105,7 @@ ul,li {
   background: white;
 
   margin: 0px 0px 24px 0px;
-  border-radius: 20px;
+  border-radius: 0px;
   box-shadow: 0px 2px 10px -4px black;
 }
 
@@ -608,80 +608,39 @@ background-color: #000;
     bottom: 0px;
 }
 
-.card {
-    border: none;
-}
+/* flip product */
 
 .card-flip {
-    perspective: 1000px;
+  perspective: 1000px;
+
 }
 .card-flip:hover .flip, .card-flip.hover .flip {
-    transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 .card-flip, .front, .back {
-    width: 100%;
-    height: 380px;
-}
-
-.card-block {
-    background-color: #c9c9c9;
-    padding: 15px;
-    height: 140px;
-}
-
-.card-block-1 {
-    background-color: #fff;
-    padding:1px;
-    margin: 6px;
-    height: 380px;
-    width: 100%;
-    border: 0px;
+  width: 100%;
+  height: auto;
 }
 .flip {
-    transition: 0.6s;
-    transform-style: preserve-3d;
-    position: relative;
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
 }
 .front, .back {
-    backface-visibility: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
-   
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .front {
-    z-index: 2;
-    transform: rotateY(0deg);
+  z-index: 2;
+  transform: rotateY(0deg);
 }
 .back {
-    transform: rotateY(180deg);
-    box-shadow: 2px 1px 6px 6px #888;
+  transform: rotateY(180deg);
 }
 
-.card-title {
-    font-size: 15px;
-}
-
-.info-text {
-    margin-bottom: 10px;
-}
-
-.card-box{
-    width: 600px;
-    border: none;
-    border-radius: 10px;
-    background-color: #fff;
-    box-shadow: 3px 3px 3px 3px #c9c9c9;
-}
-
-.splide__track{
-    background-color: #fff;
-}
-
-.splide__pagination__page:hover {
-    background-color: red;
-}
-
+/* end flip products */
 
 footer .main-footer{	padding: 20px 0;	background: #888;}
 footer ul{	padding-left: 0;	list-style: none;}
@@ -958,13 +917,14 @@ transition: all 250ms ease-in-out 0s;
       /* dropdown in products */
 
 .accordion {
-  width: 100%;
-  max-width: 360px;
-  margin: 30px auto 20px;
-  background: #FFF;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+  margin: auto;
+    width: 100%;
+    margin-top: 20px;
+    border-left: none;
+    height: auto;
+    border-radius: 1px;
+    background-color: #fff;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important
 }
 
 .accordion .link {
@@ -972,8 +932,8 @@ transition: all 250ms ease-in-out 0s;
   display: block;
   padding: 15px 15px 15px 42px;
   color: #4D4D4D;
-  font-size: 14px;
-  font-weight: 700;
+  font-size: 13px;
+  font-weight: 600;
   border-bottom: 1px solid #CCC;
   position: relative;
   -webkit-transition: all 0.4s ease;
@@ -1018,16 +978,16 @@ transition: all 250ms ease-in-out 0s;
 
 .submenu {
   display: none;
-  background: #444359;
+  background: #e3e3e3;
   font-size: 14px;
 }
 
-.submenu li { border-bottom: 1px solid #4b4a5e; }
+.submenu li { border-bottom: 1px solid #000; }
 
 .submenu a {
   display: block;
   text-decoration: none;
-  color: #d9d9d9;
+  color: #000;
   padding: 12px;
   padding-left: 42px;
   -webkit-transition: all 0.25s ease;
@@ -1036,6 +996,6 @@ transition: all 250ms ease-in-out 0s;
 }
 
 .submenu a:hover {
-  background: #b63b4d;
+  background: #FFE700;
   color: #FFF;
 }
