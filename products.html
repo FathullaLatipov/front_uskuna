@@ -116,6 +116,60 @@
 <br>
 <br>
 
+
+<div class="container">
+  <ul id="accordion2" class="accordion">
+  <div class="filter">
+    <h4>Фильтр</h4>
+   <p style="float: right;margin-top: -4%;">Сбросить</p>
+    <div class="row">
+      <div class="col-md-3">
+          <li style="box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important">
+            <div class="link"><i class="fa fa-database"></i>Все товары<i class="fa fa-chevron-down"></i></div>
+            <ul class="submenu">
+              <li><a href="#">Арзондан бошлаб</a></li>
+              <li><a href="#">Кимматдан бошлаб</a></li>
+              <li><a href="#">Барчаси</a></li>
+            </ul>
+          </li>
+      </div>
+      <div class="col-md-3">
+        <li style="box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important">
+            <div class="link"><i class="fas fa-dollar-sign"></i>Валюта<i class="fa fa-chevron-down"></i></div>
+            <ul class="submenu">
+              <li><a href="#">Доллар</a></li>
+              <li><a href="#">Сум</a></li>
+            </ul>
+          </li>
+      </div>
+      <div class="col-md-3">
+         <li style="box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important">
+            <div class="link"><i class="fa fa-check"></i>В наличии<i class="fa fa-chevron-down"></i></div>
+            <ul class="submenu">
+              <li><a href="#">Photoshop</a></li>
+              <li><a href="#">HTML</a></li>
+              <li><a href="#">CSS</a></li>
+            </ul>
+          </li>
+      </div>
+      <div class="col-md-3">
+         <li style="box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important">
+            <div class="link" style="font-size: 13px;"><i class="fas fa-search-dollar"></i>Цена<br><i class="fa fa-chevron-down"></i></div>
+            <ul class="submenu">
+              <li><a href="#"><span style="font-size: 11px;">от 500 до 546460000</span></a></li>
+              <li><a href="#">HTML</a></li>
+              <li><a href="#">CSS</a></li>
+            </ul>
+          </li>
+      </div>
+   
+    </div>
+
+  </div>
+</ul>
+</div>
+
+
 <div class="container">
     <div class="row">
         <div class="col-xl-3 col-lg-4 col-md-5">
@@ -1115,6 +1169,35 @@
           var accordion = new Accordion($('#accordion'), false);
         });
 
+
+        </script>
+        <script>
+                  $(function() {
+          var Accordion = function(el, multiple) {
+            this.el = el || {};
+            this.multiple = multiple || false;
+
+            // Variables privadas
+            var links = this.el.find('.link');
+            // Evento
+            links.on('click', {el: this.el, multiple: this.multiple}, this.dropdown)
+          }
+
+          Accordion.prototype.dropdown = function(e) {
+            var $el = e.data.el;
+              $this = $(this),
+              $next = $this.next();
+
+            $next.slideToggle();
+            $this.parent().toggleClass('open');
+
+            if (!e.data.multiple) {
+              $el.find('.submenu').not($next).slideUp().parent().removeClass('open');
+            };
+          }	
+
+          var accordion = new Accordion($('#accordion2'), false);
+        });
 
         </script>
         </html>

@@ -302,6 +302,18 @@ p {
     box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important
   }
 
+  .filter {
+    padding: 20px 32px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    border-left: none;
+    height: auto;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important
+  }
+
   .contacts {
     margin: auto;
     width: 100%;
@@ -1029,7 +1041,7 @@ transition: all 250ms ease-in-out 0s;
 .accordion .link {
   cursor: pointer;
   display: block;
-  padding: 15px 15px 15px 42px;
+  padding: 15px 15px 15px 35px;
   color: #4D4D4D;
   font-size: 13px;
   font-weight: 600;
