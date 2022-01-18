@@ -19,6 +19,7 @@ p {
 }
 
 
+/* navbar */
 .navbar-nav .nav-item .nav-link {
     font-weight: 500;
     margin: 7px;
@@ -40,6 +41,7 @@ p {
   color: #FFE700;
 }
 
+/*  end navbar  */
 .banner {
     background-color: #FFE700;
     width: 100%;
