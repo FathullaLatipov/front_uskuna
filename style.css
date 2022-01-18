@@ -356,6 +356,17 @@ p {
     border-left: 0.3em solid transparent;
     }
 
+
+  .btn-like{
+    color: #000;
+   background: #f0c543;
+   top: 0px;
+       position: absolute;
+       margin-top: 5%;
+       margin-left: -10.7%;
+       font-size: 20px;
+  }
+
   .dropdown-menu{
     float: left;
     position: absolute;
