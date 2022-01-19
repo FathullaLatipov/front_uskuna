@@ -1707,3 +1707,10 @@ ul.social-footer2 li a {
 }
 
 /*  */
+
+.best-text {
+  background: #d18a86;
+  padding: 60px;
+  height:auto;
+  border-radius: 10px;
+}
