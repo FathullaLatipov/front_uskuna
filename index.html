@@ -18,18 +18,14 @@
 <body>
   <!-- start navbar -->
   <nav class="container navbar navbar-expand-lg navbar-light bg-white">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" style="color: #000;" href="#" id="navbarDropdown" role="button"
-          data-toggle="dropdown" aria-expanded="false">
-          Русский
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
+    <ul id="accordion4" class="accordion4">
+      <li>
+        <div class="link">Русский<i class="fa fa-chevron-down"></i></div>
+        <ul class="submenu4">
+          <li><a href="#">Доллар</a></li>
+          <hr class="mb-0 mt-0">
+          <li><a href="#">Сум</a></li>
+        </ul>
       </li>
     </ul>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -43,12 +39,13 @@
       </ul>
       <form class="form-inline my-2 my-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="#"> <img src="./images/search.png" style="margin-top: -7px;" alt=""> Не нашли
+          <a class="nav-link-2" href="#"> <img src="./images/search_product.svg"
+              style="width: 16px;height: 16px;left: 0%;right: 0%;color: #132E6B;" alt=""> Не нашли
             товар?</a>
         </li>
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="./our_works.html">Наши работы</a>
+            <a class="nav-link" href="./our_works.html" style="color: #202634;">Наши работы</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./blog.html">Статьи</a>
@@ -71,7 +68,8 @@
       <a href="./index.html"><img src="./images/logo.png" style="width: 200px;height: auto;" alt=""></a>
       <ul id="accordion3" class="accordion" style="margin: 10px;width: 140px;background-color: #FFE700;">
         <li>
-          <div class="link"> <img src="./images/box.png" style="width: 20px;height: auto;margin-left: -15%;" alt=""> Каталог<i class="fa fa-chevron-down"></i></div>
+          <div class="link"> <img src="./images/box.png" style="width: 20px;height: auto;margin-left: -15%;" alt="">
+            Каталог<i class="fa fa-chevron-down"></i></div>
           <ul class="submenu" style="position: absolute;
                 display: block;
                 float: right;
@@ -115,7 +113,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <input class="form-control" placeholder="Поиск" style="width: 505px;height: 48px;margin-top: 3px;" type="text">
-        <button class="btn" style="margin-left: -9%;"><img src="./images/search_icon.png" alt=""></button>
+        <img src="./images/search.svg" alt=""></button>
       </ul>
       <form class="form-inline my-2 my-lg-0">
         <ul class="navbar-nav mr-auto">
@@ -838,6 +836,35 @@
     }
 
     var accordion = new Accordion($('#accordion3'), false);
+  });
+
+</script>
+<script>
+  $(function () {
+    var Accordion = function (el, multiple) {
+      this.el = el || {};
+      this.multiple = multiple || false;
+
+      // Variables privadas
+      var links = this.el.find('.link');
+      // Evento
+      links.on('click', { el: this.el, multiple: this.multiple }, this.dropdown)
+    }
+
+    Accordion.prototype.dropdown = function (e) {
+      var $el = e.data.el;
+      $this = $(this),
+        $next = $this.next();
+
+      $next.slideToggle();
+      $this.parent().toggleClass('open');
+
+      if (!e.data.multiple) {
+        $el.find('.submenu').not($next).slideUp().parent().removeClass('open');
+      };
+    }
+
+    var accordion = new Accordion($('#accordion4'), false);
   });
 
 </script>
