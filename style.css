@@ -49,6 +49,54 @@ p {
   color: #FFE700;
 }
 
+
+/* wishlist */
+.nav-item-like {
+  margin-top: 8.47%;
+  margin-left: -5%;
+}
+
+
+.like_radius {
+  position: absolute;
+  width: 19px;
+  height: 18px;
+  background: #FF0007;
+  border-radius: 50%;
+  padding: 5px;
+  z-index: 99;
+  margin-left: -1%;
+  margin-top: -.9%;
+}
+
+.like_count {
+  position: absolute;
+  z-index: 999;
+  margin-top: -15%;
+
+}
+
+/* end wishlist */
+
+/* phone */
+
+/* end phone */
+.phone_link {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 16px;
+  padding-left: 25px;
+  color: #000;
+  margin: 0px;
+}
+
+.call {
+  color: red;
+  float: right;
+  padding: 0px;
+  margin: 4px 0px 0px 0px;
+}
+
 /*  end navbar  */
 .banner {
   background-color: #FFE700;
@@ -60,6 +108,18 @@ p {
   margin: 30px;
 }
 
+.slider-navigation{
+  display: table;
+  color: yellow;
+  margin: auto;
+  bottom: 125px;
+}
+
+.slide-burger {
+  background: url(./images/background.svg);
+  height: 100%;
+  
+}
 
 /* Style the tab */
 .tab {
@@ -198,6 +258,30 @@ p {
   margin-top: 45%;
 
 }
+
+
+/* not found products */
+.not-found {
+  width: 16px;
+  height: 16px;
+  left: 0%;
+  right: 0%;
+  color: #132E6B;
+}
+
+/*  end not found products */
+
+
+
+/* logo image */
+
+.logo_image {
+  width: 215px;
+  height: 49px;
+}
+
+/* logo image end */
+ƒ
 
 /* pagination */
 /* pagination end */
@@ -1374,8 +1458,8 @@ ul.social-footer2 li a {
   background-color: #fff;
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
   margin: 10px;
-  width: 146px; 
-  height:53px;
+  width: 146px;
+  height: 53px;
   background-color: #FFE700;
   border-radius: 6px;
 }
@@ -1444,7 +1528,7 @@ ul.social-footer2 li a {
 
 .accordion4 {
   margin: auto;
-  width:110px;
+  width: 110px;
   margin-top: 20px;
   border-left: none;
   height: auto;
@@ -1519,7 +1603,7 @@ ul.social-footer2 li a {
   font-size: 14px;
   text-align: center;
   offset: 0px 4px;
-  box-shadow:2px 4px 2px 3px rgba(105, 105, 105, 0.25);
+  box-shadow: 2px 4px 2px 3px rgba(105, 105, 105, 0.25);
 }
 
 .submenu4 li {
@@ -1922,6 +2006,6 @@ ul.social-footer2 li a {
 .best-text {
   background: #d18a86;
   padding: 60px;
-  height:auto;
+  height: auto;
   border-radius: 15px;
 }
