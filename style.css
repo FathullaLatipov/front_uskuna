@@ -7,6 +7,7 @@
 
 body {
   background-color: #fff;
+  font-family: 'TT Norms';
 }
 
 ul, li {
@@ -72,7 +73,9 @@ p {
 .like_count {
   position: absolute;
   z-index: 999;
-  margin-top: -15%;
+  font-weight: 100;
+  margin-top: -20%;
+  color: #fff;
 
 }
 
@@ -121,6 +124,100 @@ p {
   
 }
 
+.title {
+  font-size: 33px;
+  text-align: left;
+  margin-left: 19%;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 51px;
+  color: #131311;
+  margin-top: -24%;
+}
+
+.title2 {
+  position: absolute;
+  font-size:20px;
+  text-align: left;
+  font-style: normal;
+  font-weight: normal;
+  margin-top: 5%;
+  margin-left: 7.5%;
+  padding: 20px;
+  line-height: 20px;
+  color: #131311;
+}
+
+.title3 {
+  font-size: 16px;
+  float: left;
+  width: 196px;
+  height: 57px;
+  background: #FFE700;
+  border-radius: 6px;
+  margin-left: 20%;
+  font-style: normal;
+  font-weight: 500;
+  color: #131311;
+  margin-top: 34%;
+}
+
+
+
+.slider-navigation>li>a.is-active {
+  background: #FFE700;
+}
+
+
+
+
+/* menu */
+#menu {
+  height: 50px;
+  width: 167px;
+  overflow: hidden;
+  margin: 50px auto;
+  text-align: center;
+
+}
+
+#menu ul li {
+  float: left;
+  margin: 0 5px;
+  list-style-type: none;
+
+}
+
+/* Menu Link Styles */
+#menu ul a {
+  display: block;
+  background: #FFE700;
+  color: #fff;
+  height: 100px;
+  width: 167px;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all .35s ease-in-out;
+
+}
+
+/* Secondary Link Styles */
+#menu ul a:nth-of-type(even) {
+  text-shadow: 0 0 6px #fff;
+  background: #FF0007;
+  color: white;
+  padding-top: -3px;
+  
+}
+
+/* Hover Slide */
+#menu ul li:hover :first-child {
+  margin-top: -100px;
+  
+}
+
+/* menu */
 /* Style the tab */
 .tab {
   float: left;
@@ -1879,7 +1976,6 @@ ul.social-footer2 li a {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  font-family: 'icomoon';
 }
 
 .has-children .dropdown {
