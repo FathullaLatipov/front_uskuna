@@ -124,6 +124,16 @@ p {
   
 }
 
+.slider-controls {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  z-index: 9;
+  -webkit-transform: translate3d(0px, -50%, 0px);
+  transform: translate3d(0px, -50%, 0px);
+  z-index: 0;
+}
+
 .title {
   font-size: 33px;
   text-align: left;
@@ -175,22 +185,15 @@ p {
   border-top: 0;
   margin: 0 20px 20px;
   display: inline-flex;
-  overflow-x: hidden;
 }
 
 .minimalist-tab-menu2 {
   padding-right: 0;
   padding-left: 0;
   padding-bottom: 0;
-  width: 270px;
-  border-right: 1px;
-  border: 1px solid #cecece;
-  border-top: 0;
-  border-radius: 10px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  z-index: 1000;
-  background-color: white;
+  width: 250px;
+  background-color: #fff;
+  box-shadow: 0px 6px 20px rgba(169, 169, 170, 0.1);
 }
 
 .minimalist-tab-menu2 .list-group2 {
@@ -220,23 +223,22 @@ p {
 .minimalist-tab-menu2 .list-group2 > li:last-child2 {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  background-color: #ececec;
+  background-color: red;
 }
 
-.minimalist-tab-menu2 .list-group2 > li > img,
-.minimalist-tab-menu2 .list-group2 > li > i {
+.minimalist-tab-menu2 .list-group2 > li > img{
   color: #f36920;
   line-height: 48px;
   text-align: left;
-  max-width: 100%;
-  max-height: 19px;
+  width: 21px;
+  max-height: 27px;
   margin-right: 15px;
-  margin-top: -2px;
+  margin-top: -9px;
   transition: all 0.5s ease-in-out;
 }
 
 .minimalist-tab-menu2 .list-group2 li.active {
-  background-color: #494894;
+  background-color: #FFE700;
   background-image: #494894;
   color: #ffffff;
 }
@@ -249,7 +251,7 @@ p {
   padding-left: 1em;
   font-family: "FontAwesome";
   font-size: 12px;
-  color: #cecece;
+  color: #A9A9AA;
   float: right;
 }
 
@@ -265,12 +267,7 @@ p {
   padding-right: 0;
   height: 384px;
   display: inline-block;
-  border: 1px solid #cecece;
   border-radius: 10px;
-  border-left: 0;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  border-bottom-left-radius: 0;
   z-index: 1;
   position: absolute;
   top: 0;
@@ -335,8 +332,10 @@ p {
   padding: 25px 0;
   float: left;
   height: 100%;
+  background-color: #FFF;
   display: grid;
   grid-auto-flow: column;
+  z-index: 9999;
   grid-template-rows: repeat(6, 1fr);
 }
 
@@ -717,8 +716,8 @@ nav .nav-ul li.active .nav-ul li a{
   border-left-color: transparent;
 }
 nav ul ul li a:hover{
-  color: cyan!important;
-  background: #1e1e1e!important;
+  color: #fff;
+  background: #FFE700
 }
 nav ul li a span{
   position: absolute;
