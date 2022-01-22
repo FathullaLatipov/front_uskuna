@@ -1045,20 +1045,20 @@
 
 </script>
 <script>
-$(document).ready(function() {
+  $(document).ready(function() {
   $(".minimalist-vertical-menu2").on("mouseleave", function() {
     $(".minimalist-tab-content2").removeClass("active");
-    $(".minimalist-tab-menu2>.list-group2>li").removeClass("active");
+    $(".minimalist-tab-menu2>.list-group2>.menu-item2").removeClass("active");
   });
                                                   
-  $("li").on( "mouseleave", function() {
+  $(".menu-item2").on( "mouseleave", function() {
      if(!$(".minimalist-tab-content2").hasClass("active")) {
       $(this).removeClass("active");
     }
   }).on( "mouseenter", function(e) {
     e.preventDefault();
     $(this)
-      .siblings("li.active")
+      .siblings(".menu-item2.active")
       .removeClass("active");
     $(this).addClass("active");
     var index = $(this).index();
