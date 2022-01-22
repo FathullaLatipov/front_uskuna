@@ -67,47 +67,41 @@
   <nav class="container navbar navbar-expand-lg navbar-light bg-white">
     <ul class="navbar-nav mr-auto">
       <a href="./index.html"><img src="./images/logo.png" class="logo_image" alt=""></a>
-      <ul id="accordion3" class="accordion3">
-        <li>
-          <div class="link"> <img src="./images/squares_2.svg"
-              style="width: 16px;height: 16px;margin-left: -16px;margin-top: -4%;" alt="">
-            <span style="font-size: 18px;line-height: 21px;"> Каталог </span>
-            <i class="fa fa-chevron-down"></i>
-          </div>
-          <!-- <ul class="submenu" style="position: absolute;
-                display: block;
-                float: right;
-                margin-left: -19%;
-                margin-top: 1.5%;">
-            <li class="has-children">
-              <i class="fas fa-th-large"></i><a href="#" style="font-size: 13px; margin: 0px 15px 0px 0px;">Пищевая
-                промышленность</a><i class="fa fa-chevron-down second" style="  -webkit-transform: rotate(110deg);
-                      -ms-transform: rotate(110deg);
-                      -o-transform: rotate(110deg);
-                      transform: rotate(270deg);"></i>
-              <ul class="dropdown">
-                <li><a href="#">Menu One</a></li>
-                <li><a href="#">Menu Two</a></li>
-                <li><a href="#">Menu Three</a></li>
+      <div class="btn1 nav-drop-menu" style="box-shadow: none;padding: 10px;text-align: center;padding-top: -9%;">
+        <div class="elemet-menu">
+          <span class="fas fa-th-large1" style="width:146px;height: 53px;background-color: #FFE700;line-height: 39px;"> <img src="./images/squares_2.svg" alt=""> <b style="color: #132E6B;padding: 0px;font-size: 18px;font-weight: 500;font-style: normal;font-family: 'TT Norms';text-align: center;margin-left:3%;">Каталог</b> </span>
+        </div>
+     </div>
+     <nav class="sidebar">
+        <div class="text">
+           Side Menu
+        </div>
+        <ul class="nav-ul">
+           <li class="active"><a href="#">Dashboard</a></li>
+           <li>
+              <a href="#" class="feat-btn">Features
+              <span class="fas fa-caret-down first"></span>
+              </a>
+              <ul class="feat-show">
+                 <li><a href="#">Pages</a></li>
+                 <li><a href="#">Elements</a></li>
               </ul>
-            </li>
-            <li class="has-children">
-              <i class="fas fa-th-large"></i><a href="#">ads</a><i class="fa fa-chevron-down second" style="  -webkit-transform: rotate(110deg);
-                      -ms-transform: rotate(110deg);
-                      -o-transform: rotate(110deg);
-                      transform: rotate(270deg);"></i>
-              <ul class="dropdown">
-                <li><a href="#">Menu One</a></li>
-                <li><a href="#">Menu Two</a></li>
-                <li><a href="#">Menu Three</a></li>
+           </li>
+           <li>
+              <a href="#" class="serv-btn">Services
+              <span class="fas fa-caret-down second"></span>
+              </a>
+              <ul class="serv-show">
+                 <li><a href="#">App Design</a></li>
+                 <li><a href="#">Web Design</a></li>
               </ul>
-            </li>
-            <li><a href="#">CSS</a></li>
-          </ul> -->
-        </li>
-
-      </ul>
-
+           </li>
+           <li><a href="#">Portfolio</a></li>
+           <li><a href="#">Overview</a></li>
+           <li><a href="#">Shortcuts</a></li>
+           <li><a href="#">Feedback</a></li>
+        </ul>
+     </nav>
     </ul>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -987,64 +981,6 @@
 
 </body>
 <script>
-  $(function () {
-    var Accordion = function (el, multiple) {
-      this.el = el || {};
-      this.multiple = multiple || false;
-
-      // Variables privadas
-      var links = this.el.find('.link');
-      // Evento
-      links.on('click', { el: this.el, multiple: this.multiple }, this.dropdown)
-    }
-
-    Accordion.prototype.dropdown = function (e) {
-      var $el = e.data.el;
-      $this = $(this),
-        $next = $this.next();
-
-      $next.slideToggle();
-      $this.parent().toggleClass('open');
-
-      if (!e.data.multiple) {
-        $el.find('.submenu').not($next).slideUp().parent().removeClass('open');
-      };
-    }
-
-    var accordion = new Accordion($('#accordion3'), false);
-  });
-
-</script>
-<script>
-  $(function () {
-    var Accordion = function (el, multiple) {
-      this.el = el || {};
-      this.multiple = multiple || false;
-
-      // Variables privadas
-      var links = this.el.find('.link');
-      // Evento
-      links.on('click', { el: this.el, multiple: this.multiple }, this.dropdown)
-    }
-
-    Accordion.prototype.dropdown = function (e) {
-      var $el = e.data.el;
-      $this = $(this),
-        $next = $this.next();
-
-      $next.slideToggle();
-      $this.parent().toggleClass('open');
-
-      if (!e.data.multiple) {
-        $el.find('.submenu').not($next).slideUp().parent().removeClass('open');
-      };
-    }
-
-    var accordion = new Accordion($('#accordion4'), false);
-  });
-
-</script>
-<script>
   $(document).ready(function() {
   $(".minimalist-vertical-menu2").on("mouseleave", function() {
     $(".minimalist-tab-content2").removeClass("active");
@@ -1069,5 +1005,22 @@
       .addClass("active");
   });
 });
+</script>
+<script>
+  $('.btn1').click(function(){
+    $(this).toggleClass("click");
+    $('.sidebar').toggleClass("show");
+  });
+    $('.feat-btn').click(function(){
+      $('nav ul .feat-show').toggleClass("show");
+      $('nav ul .first').toggleClass("rotate");
+    });
+    $('.serv-btn').click(function(){
+      $('nav ul .serv-show').toggleClass("show1");
+      $('nav ul .second').toggleClass("rotate");
+    });
+    $('nav ul li').click(function(){
+      $(this).addClass("active").siblings().removeClass("active");
+    });
 </script>
 </html>
