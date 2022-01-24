@@ -142,7 +142,6 @@ p {
   font-weight: bold;
   line-height: 51px;
   color: #131311;
-  margin-top: -24%;
 }
 
 .title2 {
@@ -151,7 +150,6 @@ p {
   text-align: left;
   font-style: normal;
   font-weight: normal;
-  margin-top: 5%;
   margin-left: 7.5%;
   padding: 20px;
   line-height: 20px;
@@ -307,7 +305,9 @@ p {
 }
 
 .dropdown-item2:hover {
-  border-color: #cecece;
+  border-color: #FFE700;
+  background-color: #FFE700;
+  color: #fff;
 }
 
 .dropdown-item2 a {
@@ -347,8 +347,9 @@ p {
 }
 .promotion2 .title22 {
   font-size: 16px;
-  color: #f36920;
+  color: #000;
   font-weight: 600;
+  display: inline-block;
 }
 .promotion2 a .box-img {
   margin: 5px 0px;
@@ -381,7 +382,7 @@ p {
   height: 50px;
   width: 167px;
   overflow: hidden;
-  margin: 50px auto;
+  margin: 20px auto;
   text-align: center;
 
 }
