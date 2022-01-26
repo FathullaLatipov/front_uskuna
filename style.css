@@ -1249,7 +1249,7 @@ nav .nav-ul li a span.rotate {
 
 .dark-overlay {
   background: rgba(0, 0, 0, 0.4);
-  height: auto;
+  height: 100%;
   margin-top: -15px;
 }
 
@@ -1378,7 +1378,7 @@ nav .nav-ul li a span.rotate {
 }
 
 .card-text {
-  margin-top: 15%;
+  margin-top: 10%;
 }
 
 .card-front,
@@ -1412,26 +1412,21 @@ nav .nav-ul li a span.rotate {
 }
 
 .card-front p.detail {
-  font-size: 15px;
-  font-weight: 430;
-  margin: 0;
-  color: #000;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 17px;
+  color: #656565;
 }
 
 .card-front.bg-violet {
   background-color: #fff;
 }
 
-.card-front.bg-magenta {
-  background-color: #c110a0;
-}
-
-.card-front.bg-blue {
-  background-color: #00a0d2;
-}
-
-.card-front.bg-green {
-  background-color: #00c389;
+.card-text .front-title {
+  color: #131311;
+  font-size: 15px;
+  line-height: 19px;
+  font-weight: 500;
 }
 
 .card-back {
@@ -1440,15 +1435,24 @@ nav .nav-ul li a span.rotate {
   transform: rotateY(-180deg);
 }
 
-.card-back p.title {
-  color: #000;
+.card-back p.back-title {
+  color: #1A0052;
   text-align: center;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 19px;
   margin-bottom: 1px;
+  padding: 12px;
 }
 
 .card-back p.desc {
-  color: #63666a;
+  color: #131311;
   text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 19px;
+  margin-top: 10px;
 }
 
 .card-back p.link {
@@ -2726,14 +2730,6 @@ h3 {
 
 
 
-/* Icons */
-@font-face {
-  font-family: "slick";
-  src: url("./fonts/slick.eot");
-  src: url("./fonts/slick.eot?#iefix") format("embedded-opentype"), url("./fonts/slick.woff") format("woff"), url("./fonts/slick.ttf") format("truetype"), url("./fonts/slick.svg#slick") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
 
 /* Arrows */
 .slick-prev,
@@ -2794,3 +2790,9 @@ h3 {
 }
 
 /* end carousel or slider */
+
+
+/* button in center  */
+
+
+/* end button in center */
