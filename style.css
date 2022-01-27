@@ -1536,7 +1536,7 @@ nav .nav-ul li a span.rotate {
 
 footer .main-footer {
   padding: 20px 0;
-  background: #888;
+  background: #F4F5F7;
 }
 
 footer ul {
@@ -1649,16 +1649,21 @@ footer.light .footer-copyright {
   margin-bottom: 18px;
 }
 
-.widget li a {
+/* .widget li a {
   color: #fff;
 }
 
 .widget li a:hover {
   color: #4b92dc;
-}
+} */
 
 .widget-title {
   margin-bottom: 20px;
+  font-size: 20px;
+  color: #131311;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 24px;
 }
 
 .widget-title span::after {
@@ -1677,23 +1682,30 @@ footer.light .footer-copyright {
   right: 0;
 }
 
+.widget-desc {
+  font-style: 14px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 150%;
+  font-family: sans-serif;
+  color: #616161;
+}
+
+.widget-number {
+  color: #616161;
+  font-size: 16px;
+  line-height: 150%;
+  font-style: normal;
+  font-weight: normal;
+  font-family: sans-serif;
+  padding: 10px;
+}
+
 .widget .badge {
   float: right;
   background: #7f7f7f;
 }
 
-.typo-light h1,
-.typo-light h2,
-.typo-light h3,
-.typo-light h4,
-.typo-light h5,
-.typo-light h6,
-.typo-light p,
-.typo-light div,
-.typo-light span,
-.typo-light small {
-  color: #fff;
-}
 
 ul.social-footer2 {
   margin: 0;
@@ -1733,6 +1745,12 @@ ul.social-footer2 li a {
 
 .thumb-content {
   padding: 6px;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: normal;
+  font-style: normal;
+  color: #616161;
+  font-family: sans-serif;
 }
 
 

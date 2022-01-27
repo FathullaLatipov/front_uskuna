@@ -53,6 +53,17 @@ $(document).ready(function() {
 });
 
 
+$(document).ready(function() {
+  
+$('h3').magnificPopup({
+      delegate: 'a',
+			gallery: {
+			enabled: true
+			},		
+			type: 'image' 
+		});
+  
+  });
 
   $(document).ready(function () {
     $(".minimalist-vertical-menu2").on("mouseleave", function () {
@@ -149,12 +160,12 @@ $(document).ready(function() {
     var accordion = new Accordion($('#accordion4'), false);
   });
 
-  document.addEventListener('DOMContentLoaded', function () {
-    var splide = new Splide('.splide', {
-      type: 'loop',
-      perPage: 3,
-      focus: 'center',
-    });
+      document.addEventListener('DOMContentLoaded', function () {
+      var splide = new Splide('.splide', {
+        type: 'loop',
+        perPage: 3,
+        focus: 'center',
+      });
 
-    splide.mount();
-  });
+      splide.mount();
+    });
