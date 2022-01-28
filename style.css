@@ -111,12 +111,6 @@ p {
   margin: 30px;
 }
 
-.slider-navigation {
-  display: table;
-  color: yellow;
-  margin: auto;
-  bottom: 185px;
-}
 
 .slide-burger {
   background: url(./images/background.svg);
@@ -1279,7 +1273,7 @@ nav .nav-ul li a span.rotate {
   position: absolute;
   z-index: 999999;
   box-sizing: border-box;
-  right:20px;
+  left:30%;
   top: 8px;
   width:56px;
   height: 53px;
@@ -1311,6 +1305,7 @@ nav .nav-ul li a span.rotate {
 }
 
 .my_menu {
+  position: absolute;
   width: 19px;
   height: 19px;
   background-image: url(./images/squares_2.svg);
@@ -1350,12 +1345,13 @@ nav .nav-ul li a span.rotate {
   background-color: #fff;
   height: 850px;
   position: absolute;
-  left: -300px;
+  left: -900px;
   top: -1rem;
-  width: 277px;
+  width:305px;
   overflow: auto;
   transition: 0.5s ease left;
   z-index: 9999;
+
 }
 
 .hamburger-active .hamburger-menu {
@@ -1516,7 +1512,7 @@ nav .nav-ul li a span.rotate {
   }
   .navbar-toggler {
     position: absolute;
-    right: 20px;
+    left: 20px;
     top: 15px;
     z-index: 9;
   }
@@ -1524,7 +1520,7 @@ nav .nav-ul li a span.rotate {
     position: absolute;
     width: 24px;
     height: 21px;
-    right: 39%;
+    left: 20.8%;
     top: 25px;
     z-index: 99;
   }
@@ -1532,7 +1528,7 @@ nav .nav-ul li a span.rotate {
     position: absolute;
     width: 24px;
     height: 21px;
-    right: 27%;
+    left: 25%;
     top: 25px;
     z-index: 99;
   }
@@ -1545,7 +1541,7 @@ nav .nav-ul li a span.rotate {
     border-radius: 50%;
     padding: 5px;
     z-index: 99;
-    right: 37%;
+    left: 22%;
     top: 15px;
   }
 
@@ -1559,8 +1555,136 @@ nav .nav-ul li a span.rotate {
   
   }
 
+  .btn1.nav-drop-menu {
+    display: none;
+  }
+
+  .minimalist-tab-menu2 {
+    display: none
+  }
+
+  .container.navbar.navbar-expand-lg.navbar-light.bg-white{
+    position: fixed;
+     z-index: 9;
+     top: 0px;
+     height: 70px;
+   }
+
+   #slider {
+     margin-top: 10%;
+   }
+
+   .title {
+    font-size: 18px;
+    text-align: left;
+    margin-left: 19%;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 21px;
+    color: #131311;
+  }
+
+  .title2 {
+    display: none ;
+  }
+
+  .title2_2 {
+    position: absolute;
+    font-size: 14px;
+    text-align: left;
+    font-style: normal;
+    font-weight: normal;
+    margin-left: 3.5%;
+    padding: 20px;
+    line-height: 17px;
+    color: #131311;
+  }
+
+  #image-carousel {
+    width: 150px;
+    height: 150px;
+    margin-left: 8%;
+  }
+
+  #slider {
+    height: 250px;
+  }
+
+  .slider-navigation {
+    display: table;
+    color: yellow;
+    margin: auto;
+    /* bottom: 170px; */
+    top: -250px;
+  }
+  
+  .slider__container {
+    position: relative;
+    width: 100%;
+    height: 492px;
+    display: block;
+    margin: 0px;
+    padding: 0;
+    padding: 0px;
+    font-size: 0;
+    list-style: none;
+    white-space: nowrap;
+  }
+
+  .slider-controls {
+    width: 100%;
+    position: absolute;
+    top: 18%;
+    z-index: 9;
+    -webkit-transform: translate3d(0px, -50%, 0px);
+    transform: translate3d(0px, -50%, 0px);
+    z-index: 0;
+  }
 
 
+  .slide-burger {
+    background: url(./images/background.svg);
+    height: 50%;
+    top: -50%;
+  }
+
+  .slider-controls>.previous {
+    width: 40px;
+    left: -7px;
+  }
+
+  .slider-controls>.next {
+   width: 40px;
+  }
+}
+
+@media (min-width:1000px) {
+  .hamburger {
+    display: none;
+  }
+  .like-mobile{
+    display: none;
+  }
+  .search-mobile{
+    display: none;
+  }
+  #image-carousel {
+    width: 330px;
+    height: 333px;
+    margin-left: 8%;
+  }
+  .title2_2 {
+    display: none;
+  }
+  #slider {
+    height: 557px;
+  }
+  .slider-navigation {
+    display: table;
+    color: yellow;
+    margin: auto;
+    bottom: 185px;
+  }
 }
 
 
@@ -3023,7 +3147,7 @@ ul.social-footer2 li a {
     height: 100%;
     margin: 0 auto;
     /* margin-left: 1%; */
-    padding-left: 1%;
+    /* padding-left: 1%; */
     overflow: hidden;
 }
 
