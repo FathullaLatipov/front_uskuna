@@ -106,7 +106,7 @@ $('h3').magnificPopup({
     $(this).addClass("active").siblings().removeClass("active");
   });
 
-  $(function () {
+  (function () {
     var Accordion = function (el, multiple) {
       this.el = el || {};
       this.multiple = multiple || false;
@@ -133,7 +133,7 @@ $('h3').magnificPopup({
     var accordion = new Accordion($('#accordion3'), false);
   });
 
-  $(function () {
+  (function () {
     var Accordion = function (el, multiple) {
       this.el = el || {};
       this.multiple = multiple || false;
@@ -169,3 +169,11 @@ $('h3').magnificPopup({
 
       splide.mount();
     });
+
+    (function(){
+
+      $(".hamburger").on("click", function() {
+        $(this).parent(".hamburger-wrapper").toggleClass("hamburger-active")
+      });
+      
+      }());
