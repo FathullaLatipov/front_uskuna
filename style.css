@@ -105,6 +105,7 @@ p {
   background-color: #FFE700;
   width: 100%;
   height: 250px;
+  margin-top: -1%;
 }
 
 .blok {
@@ -403,6 +404,8 @@ p {
   height: 479px;
   margin-top: -4%;
 }
+
+
 
 .shadow {
   position: absolute;
@@ -1018,13 +1021,9 @@ nav .nav-ul li a span.rotate {
 }
 
 .tabcontent2 {
-  margin-left: 1%;
   width: 100%;
   border-left: none;
   height: auto;
-  border-radius: 15px;
-  background-color: #fff;
-  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important
 }
 
 .video {
