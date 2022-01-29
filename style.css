@@ -8,6 +8,8 @@
 body {
   background-color: #fff;
   font-family: 'TT Norms';
+  box-sizing: border-box;
+  width: 100%;
 }
 
 ul, li {
