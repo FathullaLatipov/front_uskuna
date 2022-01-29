@@ -12,6 +12,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
     integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
   <link rel='stylesheet' href='https://mverissimo.github.io/tweenslideshow/dist/assets/stylesheet/application.min.css'>
   <link rel="stylesheet" href="./style.css">
@@ -160,8 +161,11 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <input class="form-control" placeholder="Поиск" style="width: 516px;height: 53px;margin-top: 3px;" type="text">
-        <img src="./images/search.svg" class="search_icon" alt=""></button>
+       
+          <input class="form-control" placeholder="Поиск" style="width: 516px;height: 53px;margin-top: 3px;" type="text">
+          <a href="">
+          <img src="./images/search.svg" class="search_icon" alt="">
+        </a>
       </ul>
       <form class="form-inline my-2 my-lg-0">
         <ul class="navbar-nav mr-auto">
@@ -190,6 +194,9 @@
         <nav class="minimalist-vertical-menu2">
           <div class="minimalist-tab-menu2">
             <ul class="list-group2">
+              <div class="containeasdr">
+                <p class="category_title">Категории</p>
+              </div>
               <li class="menu-item2 has-child2">
                 <img src="./images/pishevaya.svg" style="margin-top: 5%;" alt=""><span
                   style="margin-top: 0%;position: absolute;font-size: 13px;margin-left: -2.5%;font-weight: normal;font-style: normal;">Пищевая
@@ -837,19 +844,9 @@
                     <h1 class="title">предложения</h1>
                     <p class="title2">Новогоднии скидки успейте купить<br> по выгодным ценам только сейчас!</p>
                     <p class="title2_2">Новогоднии скидки успейте<br> купить по выгодным ценам<br> только сейчас!</p>
-                    <button class="btn"></button>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <div id="menu" style="margin-left: 19%;">
-                      <ul>
-                        <li><a href="#" style="padding-top:10%">Узнать подробнее</a><a href="#"
-                            style="padding-top:10%">Узнать подробнее</a>
-                        </li>
-                      </ul>
-                    </div>
+                    <ul>
+                      <li><button class="button-left button-bottom-left"><p style="font-size: 16px;">Читать подробнее</p></button></li>
+                    </ul>
                   </div>
                   <div class="column"><img src="./images/carousel1.svg" id="image-carousel" class="image burger"></div>
                 </div>
@@ -885,7 +882,7 @@
     <div class="back_elements">
 
     </div>
-    <img src="./images/settings.svg" style="float: right;width: 82px;height: 82px;" alt="">
+    <img src="./images/settings.svg" class="icon-right" alt="">
     <h1 class="text-center" style="font-weight: 600;font-size: 35px;padding: 20px;margin-top: 30px;">Производственииые
       линии</h1>
     <p class="text-center" style="color: silver;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
@@ -927,22 +924,13 @@
         </div>
       </div>
     </div>
-    <img src="./images/Group_417.svg"
-      style="float: left;position: absolute;padding: 10px;width: 82px;height: 82px;transform: rotate(-31.26deg);"
-      alt="">
+    <img src="./images/Group_417.svg" class="icon-left" alt="">
   </div>
 
 
   <div class="text-center">
-
     <ul>
-      <div id="menu">
-        <ul>
-          <li><a href="#" style="padding-top:10%">Узнать подробнее</a><a href="#" style="padding-top:10%">Узнать
-              подробнее</a>
-          </li>
-        </ul>
-      </div>
+      <li><button class="button-center button-bottom"><p style="font-size: 16px;">Смотреть</p></button></li>
     </ul>
     <br>
   </div>
@@ -988,15 +976,14 @@
     <div class="back_elements">
 
     </div>
-    <img src="./images/Group_418.svg" style="float: right;width: 82px;height: 82px;transform: rotate(-29.52deg);"
-      alt="">
+    <img src="./images/Group_418.svg" class="icon-right-transform"  alt="">
     <h1 class="text-center" style="font-weight: 600;font-size: 35px;padding: 20px;margin-top: 30px;margin-left: 5%;">
       Каталог Uskunalar</h1>
     <p class="text-center" style="color: silver;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
       aliquid autem<br> minima nemo ex consectetur maiores recusandae.Enim, assumenda, aperiam ea magnam odio aliquid ex
       repudiandae nobis</p>
     <br>
-    <br>
+
     <hr style="border: 2px solid #ffe600;width: 100px;text-align: center;margin: auto;border-radius: 20px;">
     <br>
   </div>
@@ -1133,8 +1120,7 @@
     <div class="back_elements">
 
     </div>
-    <img src="./images/Group_419.svg" style="float: left;margin-top: 5%;transform: rotate(-40.4deg);position: absolute;"
-      alt="">
+    <img src="./images/Group_419.svg" class="icon-left-transform" alt="">
     <h1 class="text-center" style="font-weight: 600;font-size: 35px;padding: 20px;margin-top: 30px;margin-left: 0%;">
       Популярные товары</h1>
     <p class="text-center" style="color: silver;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
@@ -1239,11 +1225,10 @@
                     </div>
                   </div>
                   <div class="buttons" style="text-align: center;padding: 10px;">
-                    <a href="./single-product.html" class="card-link"><button class="btn btn-warning"
-                        style="height:48px;width:127px">Заказать</button></a>
-                    <a href="#" class="card-link"><button class="btn"
-                        style="width: 48px;height: 48px;background-color: #FFF5F5;"><img src="./images/like.svg"
-                          style="margin-top: 7px;" alt=""></button></a>
+                    <ul>
+                      <li><button class="button-product button-bottom-product"><p style="font-size: 16px;">Заказать</p></button></li>
+                    </ul>
+                    <a href="#" class="card-link"><button class="btn-like1"><img src="./images/like.svg" alt=""></button></a>
                   </div>
                 </div>
               </a>
@@ -1252,6 +1237,7 @@
           </div>
         </div>
       </div>
+
       <div class="col-md-3">
         <div class="produdcs-section">
           <div class="flex-item">
@@ -1342,11 +1328,10 @@
                     </div>
                   </div>
                   <div class="buttons" style="text-align: center;padding: 10px;">
-                    <a href="./single-product.html" class="card-link"><button class="btn btn-warning"
-                        style="height:48px;width:127px">Заказать</button></a>
-                    <a href="#" class="card-link"><button class="btn"
-                        style="width: 48px;height: 48px;background-color: #FFF5F5;"><img src="./images/like.svg"
-                          style="margin-top: 7px;" alt=""></button></a>
+                    <ul>
+                      <li><button class="button-product button-bottom-product"><p style="font-size: 16px;">Заказать</p></button></li>
+                    </ul>
+                    <a href="#" class="card-link"><button class="btn-like1"><img src="./images/like.svg" alt=""></button></a>
                   </div>
                 </div>
               </a>
@@ -1445,11 +1430,10 @@
                     </div>
                   </div>
                   <div class="buttons" style="text-align: center;padding: 10px;">
-                    <a href="./single-product.html" class="card-link"><button class="btn btn-warning"
-                        style="height:48px;width:127px">Заказать</button></a>
-                    <a href="#" class="card-link"><button class="btn"
-                        style="width: 48px;height: 48px;background-color: #FFF5F5;"><img src="./images/like.svg"
-                          style="margin-top: 7px;" alt=""></button></a>
+                    <ul>
+                      <li><button class="button-product button-bottom-product"><p style="font-size: 16px;">Заказать</p></button></li>
+                    </ul>
+                    <a href="#" class="card-link"><button class="btn-like1"><img src="./images/like.svg" alt=""></button></a>
                   </div>
                 </div>
               </a>
@@ -1548,11 +1532,10 @@
                     </div>
                   </div>
                   <div class="buttons" style="text-align: center;padding: 10px;">
-                    <a href="./single-product.html" class="card-link"><button class="btn btn-warning"
-                        style="height:48px;width:127px">Заказать</button></a>
-                    <a href="#" class="card-link"><button class="btn"
-                        style="width: 48px;height: 48px;background-color: #FFF5F5;"><img src="./images/like.svg"
-                          style="margin-top: 7px;" alt=""></button></a>
+                    <ul>
+                      <li><button class="button-product button-bottom-product"><p style="font-size: 16px;">Заказать</p></button></li>
+                    </ul>
+                    <a href="#" class="card-link"><button class="btn-like1"><img src="./images/like.svg" alt=""></button></a>
                   </div>
                 </div>
               </a>
@@ -1568,14 +1551,12 @@
     <div class="back_elements">
 
     </div>
-    <img src="./images/Group_417.svg" style="float: right;margin-top: 5%;transform: rotate(23.85deg);" alt="">
+    <img src="./images/Group_417.svg" class="icon-right-transform2" alt="">
     <h1 class="text-center" style="font-weight: 600;font-size: 35px;padding: 20px;margin-top: 30px;margin-left: 5%;">
       Готовый бизнес</h1>
     <p class="text-center" style="color: silver;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
       aliquid autem<br> minima nemo ex consectetur maiores recusandae.Enim, assumenda, aperiam ea magnam odio aliquid ex
       repudiandae nobis</p>
-    <br>
-    <br>
     <br>
     <hr style="border: 2px solid #ffe600;width: 100px;text-align: center;margin: auto;border-radius: 20px;">
     <br>
@@ -1658,30 +1639,35 @@
 
           </div>
         </div>
-      </div>
+      </div>    
+     
     </div>
-    <br>
-
+  
   </div>
 
 
   </div>
+  <div class="text-center">
+    <ul>
+      <li><button class="button-center button-bottom"><p style="font-size: 16px;">Смотреть</p></button></li>
+    </ul>
+  </div>  
+  <br>
+  <br>
   <div class="container">
     <div class="back_elements">
 
     </div>
-    <img src="./images/Group_418.svg"
-      style="float: left;margin-top: 3%;transform: rotate(-29.52deg);position: absolute;" alt="">
+    <img src="./images/Group_418.svg" class="icon-left-transform2" alt="">
     <h1 class="text-center" style="font-weight: 600;font-size: 35px;padding: 20px;margin-top: 30px;margin-left: 0%;">
       Статьи и советы</h1>
     <p class="text-center" style="color: silver;">Идейные соображения высшего порядка, а также постоянное
       информационно-<br>пропагандистское обеспечение нашей деятельности представляет собой интересный.</p>
     <br>
     <br>
-    <br>
     <hr style="border: 2px solid #ffe600;width: 100px;text-align: center;margin: auto;border-radius: 20px;">
     <br>
-    <br>
+   
   </div>
   <div class="container">
     <div class="splide">
@@ -1740,19 +1726,18 @@
     </div>
   </div>
 
-  <br>
   <div class="container">
     <div class="back_elements">
 
     </div>
-    <img src="./images/settings.svg" style="float: right;margin-top: 1%;transform: rotate(-29.52deg);" alt="">
-    <h1 class="text-center" style="font-weight: 600;font-size: 35px;padding: 20px;margin-top: 30px;margin-left: 5%;">
+    <img src="./images/settings.svg" class="icon-right-transform3"  alt="">
+    <h1 class="text-center" style="font-weight: 600;font-size: 35px;padding: 20px;margin-top: 30px;">
       Наши работы</h1>
-    <p class="text-center" style="color: silver;margin-left: 10%;">Идейные соображения высшего порядка, а также
+    <p class="text-center" style="color: silver;">Идейные соображения высшего порядка, а также
       постоянное информационно-<br>пропагандистское обеспечение нашей деятельности представляет собой интересный.</p>
-    <br>
+      <br>
+      <br>
     <hr style="border: 2px solid #ffe600;width: 100px;text-align: center;margin: auto;border-radius: 20px;">
-    <br>
     <br>
   </div>
   <div class="container">
@@ -1767,7 +1752,16 @@
         <img src="./images/photo2].png" style="margin: 20px;" alt="">
       </div>
     </div>
+    <img src="./images/Group_417.svg" class="icon-left-absolute" alt="">
+    <div class="text-center">
+      <ul>
+        <li><button class="button-center button-bottom"><p style="font-size: 16px;">Смотреть еще</p></button></li>
+      </ul>
+    </div> 
   </div>
+
+  <br>
+  <br>
 
   <footer id="footer" class="footer-1">
     <div class="main-footer widgets-dark typo-light">

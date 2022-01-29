@@ -115,7 +115,9 @@ p {
 .slide-burger {
   background: url(./images/background.svg);
   height: 100%;
-
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-size: cover;
 }
 
 .slider-controls {
@@ -206,6 +208,8 @@ p {
   text-align: left;
   color: #454a4e;
   background: transparent;
+  border-bottom: 1px solid #F4F5F7;
+  width: 260px;
   display: block;
   line-height: 46.5px;
   cursor: pointer;
@@ -233,6 +237,16 @@ p {
   background-color: #FFE700;
   background-image: #494894;
   color: #ffffff;
+  width: 250px;
+}
+
+.category_title {
+    text-align: left;
+    border-bottom: 1px solid #F4F5F7;
+    width: 100%;
+    font-size: 16px;
+    color: #132E6B;
+    padding:13px 20px 10px;
 }
 
 .minimalist-tab-menu2 .list-group2 li.active i {
@@ -387,7 +401,7 @@ p {
   position: absolute;
   width: 70%;
   height: 479px;
-  margin-top: -3%;
+  margin-top: -4%;
 }
 
 .shadow {
@@ -568,6 +582,120 @@ p {
 
 }
 
+.button-center {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1px;
+  margin-top: 19px;
+  background: #FFE700;
+  border: none;
+  position: relative;
+  z-index: 1;
+  border-radius: 6px;
+  width:163px;
+  height:57px;
+  overflow: hidden; 
+}
+.button-center:after {
+  content: '';
+  background: #FF0007;
+  position: absolute;
+  width:163px;
+  height:57px;
+  z-index: -1;
+  transition: all 0.4s ease-in-out;
+}
+
+/* hover-bottom */
+.button-bottom:after {
+  bottom:-94%;
+  left:0;
+}
+
+.button-bottom:hover:after {
+  bottom:0;
+}
+
+.button-left {
+  position: absolute;
+  right: 34%;
+  margin-top: 20%;
+  letter-spacing: 1px;
+  background: #FFE700;
+  border: none;
+  position: relative;
+  z-index: 99;
+  border-radius: 6px;
+  width:196px;
+  height:57px;
+  overflow: hidden; 
+}
+.button-left:after {
+  content: '';
+  background: #FF0007;
+  position: absolute;
+  width:196px;
+  height:57px;
+  z-index: -1;
+  transition: all 0.4s ease-in-out;
+}
+
+/* hover-bottom */
+.button-bottom-left:after {
+  bottom:-94%;
+  left:0;
+}
+
+.button-bottom-left:hover:after {
+  bottom:0;
+}
+
+.button-product {
+  position: absolute;
+  right: 16%;
+  margin-top: 1%;
+  letter-spacing: 1px;
+  background: #FFE700;
+  border: none;
+  position: relative;
+  z-index: 99;
+  border-radius: 6px;
+  width:127px;
+  height:48px;
+  overflow: hidden; 
+}
+.button-product:after {
+  content: '';
+  background: #FF0007;
+  position: absolute;
+  width:127px;
+  height:48px;
+  z-index: -1;
+  transition: all 0.4s ease-in-out;
+}
+
+/* hover-bottom */
+.button-bottom-product:after {
+  bottom:-94%;
+  left:0;
+}
+
+.button-bottom-product:hover:after {
+  bottom:0;
+}
+
+.btn-like1 {
+ position: absolute;
+ bottom: 7.6%;
+ right: 13%;
+ width: 48px;
+ height: 48px;
+ background-color: #FFF5F5;
+ border: none;
+ border-radius: 4px;
+}
+
+
+
 .ig-btn {
   opacity: 0;
   background-color: #FFE700;
@@ -597,11 +725,12 @@ p {
 
 
 .search_icon {
+  position: absolute;
+  top: 44%;
+  right: 22%;
   width: 19px;
   height: 19px;
   color: #000;
-  margin-top: 19px;
-  margin-left: -37px;
   font-size: 16px;
   align-items: left;
   vertical-align: top;
@@ -695,13 +824,13 @@ nav-drop-menu {
 .sidebar {
   position: absolute;
   z-index: 9999;
-  width: 278px;
+  width: 260px;
   margin-top: 4.6%;
   top: 39px;
   left: -950px;
   background: #fff;
   transition: left 0.4s ease;
-  box-shadow: 3px 3px 3px 3px yellow;
+  box-shadow: 0px 6px 20px rgb(169 169 170 / 10%);
 }
 
 .sidebar.show {
@@ -1634,7 +1763,7 @@ nav .nav-ul li a span.rotate {
   .slider-controls {
     width: 100%;
     position: absolute;
-    top: 18%;
+    top: 35%;
     z-index: 9;
     -webkit-transform: translate3d(0px, -50%, 0px);
     transform: translate3d(0px, -50%, 0px);
@@ -1677,13 +1806,73 @@ nav .nav-ul li a span.rotate {
     display: none;
   }
   #slider {
-    height: 557px;
+    height: 598px;
   }
   .slider-navigation {
     display: table;
     color: yellow;
     margin: auto;
     bottom: 185px;
+  }
+  .icon-right {
+    position: absolute;
+    right: 14%;
+    width: 82px;
+    height: 82px;
+  }
+  .icon-left {
+    position: absolute;
+    left: 14%;
+    padding: 10px;
+    width: 82px;
+    height: 82px;
+    transform: rotate(-31.26deg);
+  }
+
+  .icon-left-absolute {
+    position: absolute;
+    left: 14%;
+    padding: 10px;
+    width: 82px;
+    height: 82px;
+    transform: rotate(-31.26deg);
+  }
+
+
+  .icon-right-transform {
+    position: absolute;
+    right: 17%;
+    width: 82px;
+    height: 82px;
+    transform: rotate(-29.52deg);
+  }
+
+  .icon-left-transform {
+    position: absolute;
+    left: 17%;
+    margin-top: 2%;
+    transform: rotate(-40.4deg);
+    position: absolute;
+  }
+
+  .icon-right-transform2 {
+    position: absolute;
+    right: 13%;
+    transform: rotate(23.85deg);
+  }
+
+  .icon-left-transform2 {
+    position: absolute;
+    left: 17%;
+    margin-top: 1%;
+    transform: rotate(-29.52deg);
+    position: absolute;
+  }
+
+  .icon-right-transform3 {
+    position: absolute;
+    right: 15%;
+    transform: rotate(-29.52deg);
   }
 }
 
