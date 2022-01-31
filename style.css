@@ -1020,27 +1020,20 @@ nav .nav-ul li a span.rotate {
 }
 
 #Paris {
-  float: right;
-  margin-left: 1%;
   padding: 20px 32px;
   width: 100%;
   border-left: none;
   height: auto;
   border-radius: 15px;
-  background-color: #fff;
-  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important
 }
 
 #Tokyo {
-  float: right;
   margin-left: 1%;
   padding: 20px 32px;
   width: 100%;
   border-left: none;
   height: auto;
   border-radius: 15px;
-  background-color: #fff;
-  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important
 }
 
 .single-blog {
