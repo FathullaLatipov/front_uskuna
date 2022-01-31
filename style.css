@@ -102,6 +102,17 @@ p {
   margin: 4px 0px 0px 0px;
 }
 
+.catalog_nav {
+  color: #132E6B;
+  padding: 0px;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-family: 'TT Norms';
+  text-align: center;
+  margin-left:3%;
+}
+
 /*  end navbar  */
 
 /* banner */
@@ -304,7 +315,7 @@ p {
 .minimalist-tab2 {
   position: relative;
   background: none;
-  /* width: 1030px; */
+  /* width: 100%; */
 }
 
 .minimalist-tab-content2 {
@@ -588,10 +599,10 @@ p {
 .card {
   display: inline-block;
   background: white;
-
   margin: 0px 0px 24px 0px;
-  border-radius: 0px;
-  box-shadow: 0px 2px 10px -4px black;
+  border-radius: 6px;
+  border:none;
+  box-shadow: 0px 6px 20px rgba(169, 169, 170, 0.1);
 }
 
 .imagewrap {
@@ -624,7 +635,6 @@ p {
 }
 
 .button-center {
-  font-family: 'Open Sans', sans-serif;
   letter-spacing: 1px;
   margin-top: 19px;
   background: #FFE700;
@@ -636,6 +646,7 @@ p {
   height:57px;
   overflow: hidden; 
 }
+
 .button-center:after {
   content: '';
   background: #FF0007;
@@ -807,10 +818,7 @@ p {
 }
 
 /* logo image end */
-ƒ
 
-/* pagination */
-/* pagination end */
 /* Change background color of buttons on hover */
 .tab button:hover {
   background-color: #ddd;
@@ -1055,7 +1063,8 @@ nav .nav-ul li a span.rotate {
   height: 50px;
   border: 1px solid #FFE700;
   background: #FFE700;
-  margin: 5px;
+  margin: 0px 0px 7px 6px;
+  border-radius: 6px;
 }
 
 .tabcontent2 {
@@ -1077,17 +1086,7 @@ nav .nav-ul li a span.rotate {
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important
 }
 
-.form {
-  margin-left: 1%;
-  padding: 20px 32px;
-  width: 100%;
-  margin-top: 20px;
-  border-left: none;
-  height: auto;
-  border-radius: 15px;
-  background-color: #fff;
-  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important
-}
+
 
 .blog {
   display: initial;
@@ -1103,6 +1102,8 @@ nav .nav-ul li a span.rotate {
   background-color: #fff;
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important
 }
+
+
 
 .splide__track {
     padding-left: 0px;
@@ -1278,6 +1279,52 @@ nav .nav-ul li a span.rotate {
   border-radius: 5px;
 }
 
+.aim_project {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #132E6B;
+  margin-top: 7px;
+}
+
+.client_work {
+  color: #131311;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 24px;
+  margin-top: 3px;
+  font-size: 16px;
+}
+
+/* our works */
+
+.work_image {
+  width: 582px;
+  height: 370px;
+  border-radius: 6px;
+}
+
+.title-work {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 24px;
+  color: #131311;
+}
+
+.desc-work {
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 24px;
+  color: #a9a9a9;
+  margin-top: 9px;
+}
+
+/* end our works */
+
+
+/* footer */
 .site-footer {
   background-color: #000;
   padding: 45px 0 20px;
@@ -1431,6 +1478,29 @@ nav .nav-ul li a span.rotate {
 .social-icons a.dribbble:hover {
   background-color: #ea4c89
 }
+
+
+/* form */
+
+.form {
+  margin-left: 1%;
+  padding: 20px 32px;
+  width: 100%;
+  margin-top: 20px;
+  border-left: none;
+  height: auto;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0px 6px 20px rgba(169, 169, 170, 0.1);
+}
+
+.form-us {
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+/* form us */
 
 
 /*----HAMBURGER SIDE----*/
@@ -1866,6 +1936,16 @@ nav .nav-ul li a span.rotate {
     transform: rotate(-31.26deg);
   }
 
+  .icon-left-works {
+    position: absolute;
+    left: -10%;
+    z-index: 0;
+    padding: 10px;
+    width: 82px;
+    height: 82px;
+    transform: rotate(-31.26deg);
+  }
+
   .icon-left-absolute {
     position: absolute;
     left: 14%;
@@ -1883,6 +1963,24 @@ nav .nav-ul li a span.rotate {
     height: 82px;
     transform: rotate(-29.52deg);
   }
+
+  .icon-right-transform-work {
+    position: absolute;
+    right: -15%;
+    z-index: 0;
+    width: 82px;
+    height: 82px;
+    transform: rotate(-29.52deg);
+  }
+
+  .icon-left-transform-work {
+    position: absolute;
+    left: -11%;
+    transform: rotate(-40.4deg);
+    position: absolute;
+  }
+
+  
 
   .icon-left-transform {
     position: absolute;
@@ -2978,6 +3076,40 @@ ul.social-footer2 li a {
   color: #FFF;
 }
 
+
+
+/* pagination in pages */
+
+.previous_button{
+  width: 71px;
+  height: 19px;
+  background: #132E6B;
+  border: 2px solid #132E6B;
+  color: #fff;
+}
+
+.page_numb {
+  padding: 0 22px;
+  color: #132E6B;
+  line-height: 24px;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.page_numb-active {
+  background: #E5ECF0;
+  border-radius: 8px;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 6%;
+  margin-top: -5%;
+  color: #132E6B;
+}
+
+/* end pagination in pages */
 
 /**
  * Submenu
