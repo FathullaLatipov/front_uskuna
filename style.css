@@ -1251,27 +1251,6 @@ nav .nav-ul li a span.rotate {
   opacity: .3;
 }
 
-.date {
-  background-color: #000;
-  width: 80px;
-  color: #fff;
-  float: right;
-  margin-top: -5%;
-  border-radius: 15px;
-}
-
-.yellow-box {
-  background-color: #FFE700;
-  padding: 20px;
-  width: 80px;
-  height: 240px;
-  float: left;
-  position: relative;
-  z-index: 2;
-  margin-top: 6%;
-  border-radius: 5px;
-}
-
 .aim_project {
   font-size: 16px;
   line-height: 24px;
@@ -2107,6 +2086,103 @@ nav .nav-ul li a span.rotate {
   position: absolute;
   bottom: 0px;
 }
+
+
+
+/* blog page */
+
+.blog-info {
+  margin-left: -6%;
+}
+
+.blog-box {
+  background: #ffffff;
+  width: 100%;
+  height: 315px;
+  box-shadow: 0px 6px 20px rgba(169, 169, 170, 0.1);
+  border-radius: 6px;
+  position: absolute;
+}
+
+.blog-title {
+  font-size: 26px;
+  line-height: 31px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: -0.02em;
+  color: #000;
+}
+
+.blog-views {
+  font-size: 16px;
+  margin-bottom: 4px;
+  line-height: 22px;
+  font-weight: normal;
+  font-style: normal;
+  color: #a9a9a9;
+}
+
+.blog-desc {
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  color: #131311;
+  line-height: 25px;
+  margin-top: 10px;
+}
+
+.blog-right {
+  width: 9px;
+  height: 17px;
+  padding-top: 5px;
+}
+
+.date {
+  position: absolute;
+  z-index: 5;
+  right: 7%;
+  background: #131311;
+  color: #fff;
+  padding: 18px;
+  text-align: center;
+  top: 5%;
+  width: 82px;
+  height: 80px;
+  box-shadow: 0px 6px 20px rgba(169, 169, 170, 0.1);
+  border-radius: 6px;
+}
+
+.date-number {
+  font-size: 32px;
+  line-height: 22px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.date-date {
+  font-size: 14px;
+  line-height: 22px;
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+  text-align: right;
+  margin: -6px;
+}
+
+.blog-yellow {
+  position: absolute;
+  left: -34px;
+  bottom: -408px;
+  background: #FFE700;
+  width: 80px;
+  height: 260px;
+  box-shadow: 0px 6px 20px rgba(169, 169, 170, 0.1);
+  border-radius: 6px;
+}
+
+/* end blog page */
+
+
 
 /* flip product */
 
