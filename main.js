@@ -55,15 +55,15 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   
-$('h3').magnificPopup({
-      delegate: 'a',
-			gallery: {
-			enabled: true
-			},		
-			type: 'image' 
-		});
+// $('h3').magnificPopup({
+//       delegate: 'a',
+// 			gallery: {
+// 			enabled: true
+// 			},		
+// 			type: 'image' 
+// 		});
   
-  });
+//   });
 
   $(document).ready(function () {
     $(".minimalist-vertical-menu2").on("mouseleave", function () {
