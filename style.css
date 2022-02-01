@@ -1051,11 +1051,20 @@ nav .nav-ul li a span.rotate {
   margin-top: 20px;
   border-left: none;
   height: auto;
-  border-radius: 15px;
   background-color: #fff;
-  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important
+  box-shadow: 0px 6px 20px rgba(169, 169, 170, 0.1);
+  border-radius: 20px;
 }
 
+.btn-prev {
+  background: #E5ECF0;
+  border-radius: 8px;
+}
+
+.btn-next {
+  background: #E5ECF0;
+  border-radius: 8px;
+}
 
 
 .hr-left {
@@ -1300,6 +1309,12 @@ nav .nav-ul li a span.rotate {
 }
 
 /* end our works */
+
+.table td, .table th {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 0px;
+}
 
 
 /* footer */
