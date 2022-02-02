@@ -110,7 +110,7 @@ p {
   font-style: normal;
   font-family: 'TT Norms';
   text-align: center;
-  margin-left:3%;
+  margin-left: 3%;
 }
 
 /*  end navbar  */
@@ -291,12 +291,12 @@ p {
 }
 
 .category_title {
-    text-align: left;
-    border-bottom: 1px solid #F4F5F7;
-    width: 100%;
-    font-size: 16px;
-    color: #132E6B;
-    padding:13px 20px 10px;
+  text-align: left;
+  border-bottom: 1px solid #F4F5F7;
+  width: 100%;
+  font-size: 16px;
+  color: #132E6B;
+  padding: 13px 20px 10px;
 }
 
 .minimalist-tab-menu2 .list-group2 li.active i {
@@ -607,7 +607,7 @@ p {
   background: white;
   margin: 0px 0px 24px 0px;
   border-radius: 6px;
-  border:none;
+  border: none;
   box-shadow: 0px 6px 20px rgba(169, 169, 170, 0.1);
 }
 
@@ -648,29 +648,29 @@ p {
   position: relative;
   z-index: 1;
   border-radius: 6px;
-  width:163px;
-  height:57px;
-  overflow: hidden; 
+  width: 163px;
+  height: 57px;
+  overflow: hidden;
 }
 
 .button-center:after {
   content: '';
   background: #FF0007;
   position: absolute;
-  width:163px;
-  height:57px;
+  width: 163px;
+  height: 57px;
   z-index: -1;
   transition: all 0.4s ease-in-out;
 }
 
 /* hover-bottom */
 .button-bottom:after {
-  bottom:-94%;
-  left:0;
+  bottom: -94%;
+  left: 0;
 }
 
 .button-bottom:hover:after {
-  bottom:0;
+  bottom: 0;
 }
 
 .button-left {
@@ -683,28 +683,29 @@ p {
   position: relative;
   z-index: 99;
   border-radius: 6px;
-  width:196px;
-  height:57px;
-  overflow: hidden; 
+  width: 196px;
+  height: 57px;
+  overflow: hidden;
 }
+
 .button-left:after {
   content: '';
   background: #FF0007;
   position: absolute;
-  width:196px;
-  height:57px;
+  width: 196px;
+  height: 57px;
   z-index: -1;
   transition: all 0.4s ease-in-out;
 }
 
 /* hover-bottom */
 .button-bottom-left:after {
-  bottom:-94%;
-  left:0;
+  bottom: -94%;
+  left: 0;
 }
 
 .button-bottom-left:hover:after {
-  bottom:0;
+  bottom: 0;
 }
 
 .button-product {
@@ -717,39 +718,40 @@ p {
   position: relative;
   z-index: 99;
   border-radius: 6px;
-  width:127px;
-  height:48px;
-  overflow: hidden; 
+  width: 127px;
+  height: 48px;
+  overflow: hidden;
 }
+
 .button-product:after {
   content: '';
   background: #FF0007;
   position: absolute;
-  width:127px;
-  height:48px;
+  width: 127px;
+  height: 48px;
   z-index: -1;
   transition: all 0.4s ease-in-out;
 }
 
 /* hover-bottom */
 .button-bottom-product:after {
-  bottom:-94%;
-  left:0;
+  bottom: -94%;
+  left: 0;
 }
 
 .button-bottom-product:hover:after {
-  bottom:0;
+  bottom: 0;
 }
 
 .btn-like1 {
- position: absolute;
- bottom: 7.6%;
- right: 13%;
- width: 48px;
- height: 48px;
- background-color: #FFF5F5;
- border: none;
- border-radius: 4px;
+  position: absolute;
+  bottom: 7.6%;
+  right: 13%;
+  width: 48px;
+  height: 48px;
+  background-color: #FFF5F5;
+  border: none;
+  border-radius: 4px;
 }
 
 
@@ -1115,10 +1117,10 @@ nav .nav-ul li a span.rotate {
 
 
 .splide__track {
-    padding-left: 0px;
-    padding-right: 0px;
-    height: 351px;
-    margin: 19px;
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 351px;
+  margin: 19px;
 }
 
 .article {
@@ -1179,7 +1181,7 @@ nav .nav-ul li a span.rotate {
   height: auto;
   border-radius: 5px;
   background-color: #fff;
-  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important
+  box-shadow: 0px 6px 20px rgba(169, 169, 170, 0.1);
 }
 
 .contacts {
@@ -1502,9 +1504,9 @@ nav .nav-ul li a span.rotate {
   position: absolute;
   z-index: 999999;
   box-sizing: border-box;
-  left:30%;
+  left: 30%;
   top: 8px;
-  width:56px;
+  width: 56px;
   height: 53px;
   padding: 16px 16px 10px 17px;
   cursor: pointer;
@@ -1544,11 +1546,12 @@ nav .nav-ul li a span.rotate {
   border: none;
 }
 
-.hamburger-active .my_menu{
+.hamburger-active .my_menu {
   background-image: url(./images/close.svg);
-  transition: 2s ease left translate(7px, 7px);;
-  
-} 
+  transition: 2s ease left translate(7px, 7px);
+  ;
+
+}
 
 .hamburger-active span.hamurger-first {
   transform: rotate(45deg) translate(7px, 7px);
@@ -1576,7 +1579,7 @@ nav .nav-ul li a span.rotate {
   position: absolute;
   left: -900px;
   top: -1rem;
-  width:305px;
+  width: 305px;
   overflow: auto;
   transition: 0.5s ease left;
   z-index: 9999;
@@ -1723,12 +1726,15 @@ nav .nav-ul li a span.rotate {
     margin-right: 0;
     font-weight: 600
   }
+
   .navbar .accordion4 {
     display: none;
   }
+
   .hr-top {
     display: none;
   }
+
   .logo_image {
     width: 170px;
     height: 40px;
@@ -1739,12 +1745,14 @@ nav .nav-ul li a span.rotate {
     height: 40px;
     margin: 25px;
   }
+
   .navbar-toggler {
     position: absolute;
     left: 20px;
     top: 15px;
     z-index: 9;
   }
+
   .like-mobile {
     position: absolute;
     width: 24px;
@@ -1753,6 +1761,7 @@ nav .nav-ul li a span.rotate {
     top: 25px;
     z-index: 99;
   }
+
   .search-mobile {
     position: absolute;
     width: 24px;
@@ -1774,14 +1783,14 @@ nav .nav-ul li a span.rotate {
     top: 15px;
   }
 
-  
+
   .like_count {
     position: absolute;
     z-index: 999;
     font-weight: 100;
     margin-top: -20%;
     color: #fff;
-  
+
   }
 
   .btn1.nav-drop-menu {
@@ -1792,18 +1801,18 @@ nav .nav-ul li a span.rotate {
     display: none
   }
 
-  .container.navbar.navbar-expand-lg.navbar-light.bg-white{
+  .container.navbar.navbar-expand-lg.navbar-light.bg-white {
     position: fixed;
-     z-index: 9;
-     top: 0px;
-     height: 70px;
-   }
+    z-index: 9;
+    top: 0px;
+    height: 70px;
+  }
 
-   #slider {
-     margin-top: 10%;
-   }
+  #slider {
+    margin-top: 10%;
+  }
 
-   .title {
+  .title {
     font-size: 18px;
     text-align: left;
     margin-left: 19%;
@@ -1814,7 +1823,7 @@ nav .nav-ul li a span.rotate {
   }
 
   .title2 {
-    display: none ;
+    display: none;
   }
 
   .title2_2 {
@@ -1846,7 +1855,7 @@ nav .nav-ul li a span.rotate {
     /* bottom: 170px; */
     top: -250px;
   }
-  
+
   .slider__container {
     position: relative;
     width: 100%;
@@ -1883,7 +1892,7 @@ nav .nav-ul li a span.rotate {
   }
 
   .slider-controls>.next {
-   width: 40px;
+    width: 40px;
   }
 }
 
@@ -1891,35 +1900,43 @@ nav .nav-ul li a span.rotate {
   .hamburger {
     display: none;
   }
-  .like-mobile{
+
+  .like-mobile {
     display: none;
   }
-  .search-mobile{
+
+  .search-mobile {
     display: none;
   }
+
   #image-carousel {
     width: 330px;
     height: 333px;
     margin-left: 8%;
   }
+
   .title2_2 {
     display: none;
   }
+
   #slider {
     height: 598px;
   }
+
   .slider-navigation {
     display: table;
     color: yellow;
     margin: auto;
     bottom: 185px;
   }
+
   .icon-right {
     position: absolute;
     right: 14%;
     width: 82px;
     height: 82px;
   }
+
   .icon-left {
     position: absolute;
     left: 14%;
@@ -1973,7 +1990,7 @@ nav .nav-ul li a span.rotate {
     position: absolute;
   }
 
-  
+
 
   .icon-left-transform {
     position: absolute;
@@ -2321,7 +2338,6 @@ nav .nav-ul li a span.rotate {
   font-weight: 500;
   font-style: normal;
   line-height: 19px;
-  margin-top: 10px;
 }
 
 .card-back p.link {
@@ -2856,7 +2872,7 @@ ul.social-footer2 li a {
   width: 170px;
   height: 210px;
   border-radius: 6px;
-  margin:0px 20px 20px
+  margin: 0px 20px 20px
 }
 
 .boys {
@@ -2864,7 +2880,7 @@ ul.social-footer2 li a {
   width: 170px;
   height: 210px;
   border-radius: 6px;
-  margin:0px 20px 20px
+  margin: 0px 20px 20px
 }
 
 .girls {
@@ -2872,7 +2888,7 @@ ul.social-footer2 li a {
   width: 170px;
   height: 210px;
   border-radius: 6px;
-  margin:0px 20px 20px
+  margin: 0px 20px 20px
 }
 
 .home-blog {
@@ -2916,6 +2932,7 @@ ul.social-footer2 li a {
   color: #131311;
   margin-top: 10px;
 }
+
 /*  */
 
 .accordion {
@@ -2932,16 +2949,16 @@ ul.social-footer2 li a {
 .accordion .link {
   cursor: pointer;
   display: block;
-  padding: 15px 15px 15px 35px;
+  padding: 15px 15px 11px 15px;
   color: #4D4D4D;
   font-size: 13px;
   font-weight: 600;
-  border-bottom: 1px solid #CCC;
   position: relative;
   -webkit-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
+
 
 .accordion li:last-child .link {
   border-bottom: 0;
@@ -2964,6 +2981,8 @@ ul.social-footer2 li a {
   right: 12px;
   left: auto;
   font-size: 16px;
+  top: 19px;
+  transform: rotate(-90deg);
 }
 
 .accordion li.open .link {
@@ -3170,7 +3189,7 @@ ul.social-footer2 li a {
 
 /* pagination in pages */
 
-.previous_button{
+.previous_button {
   width: 71px;
   height: 19px;
   background: #132E6B;
@@ -3214,7 +3233,8 @@ ul.social-footer2 li a {
 }
 
 .submenu li {
-  border-bottom: 1px solid #000;
+  border-bottom: none;
+  text-align: left;
 }
 
 .submenu a {
@@ -3222,7 +3242,7 @@ ul.social-footer2 li a {
   text-decoration: none;
   color: #000;
   padding: 12px 42px 14px 36px;
-  padding-left: 42px;
+  padding-left: 18px;
   -webkit-transition: all 0.25s ease;
   -o-transition: all 0.25s ease;
   transition: all 0.25s ease;
@@ -3591,12 +3611,12 @@ ul.social-footer2 li a {
 }
 
 .slider {
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    /* margin-left: 1%; */
-    /* padding-left: 1%; */
-    overflow: hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  /* margin-left: 1%; */
+  /* padding-left: 1%; */
+  overflow: hidden;
 }
 
 /* Slider */
@@ -3790,7 +3810,8 @@ h3 {
 }
 
 .splide__arrow svg {
-  fill: #FFE700;;
+  fill: #FFE700;
+  ;
   height: 1.2em;
   width: .9em;
 }
@@ -3824,6 +3845,7 @@ h3 {
   right: 0;
   z-index: 1;
 }
+
 /* end carousel or slider */
 
 
