@@ -2988,6 +2988,7 @@ ul.social-footer2 li a {
 .accordion li.open .link {
   color: #000;
   background: #FFE700;
+  border-radius: 4px;
 }
 
 .accordion li.open i {

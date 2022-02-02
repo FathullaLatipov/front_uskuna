@@ -53,7 +53,7 @@ $(document).ready(function() {
 });
 
 
-$(document).ready(function() {
+// $(document).ready(function() {
   
 // $('h3').magnificPopup({
 //       delegate: 'a',
