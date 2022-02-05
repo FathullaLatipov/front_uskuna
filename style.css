@@ -1333,12 +1333,27 @@ nav .nav-ul li a span.rotate {
 
 
 /* tablinks in product sorted */
-
-
-.sort-menu-products:hover{
-  display: block;
+.sort-menu-info {
+  display: none;
+  transition: 3s all;
 }
 
+
+.sort-menu-products:hover .sort-menu-info{
+  background: #fff;
+  display: block; /* Убираем отступ снизу */
+  transition: 3s ease-in;
+  width: 100%;
+  height: 203px;
+}
+
+.info-back-product {
+  font-size: 14px;
+  font-family: 'system-ui';
+  color: #a9a9a9;
+  line-height: 17px;
+  padding: 9px;
+}
 
 /*  end tablinks in product sorted */
 
