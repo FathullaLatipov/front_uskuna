@@ -1844,6 +1844,7 @@ nav .nav-ul li a span.rotate {
     z-index: 9;
     top: 0px;
     height: 70px;
+    width: 100%;
   }
 
   #slider {
@@ -1858,6 +1859,7 @@ nav .nav-ul li a span.rotate {
     font-weight: bold;
     line-height: 21px;
     color: #131311;
+    margin-top: -19%;
   }
 
   .title2 {
@@ -1866,7 +1868,7 @@ nav .nav-ul li a span.rotate {
 
   .title2_2 {
     position: absolute;
-    font-size: 14px;
+    font-size: 13px;
     text-align: left;
     font-style: normal;
     font-weight: normal;
@@ -1931,6 +1933,174 @@ nav .nav-ul li a span.rotate {
 
   .slider-controls>.next {
     width: 40px;
+  }
+
+  .button-left {
+    position: absolute;
+    left:9%;
+    bottom: 10px;
+    background: #FFE700;
+    border: none;
+    z-index: 1;
+    border-radius: 6px;
+    width: 147px;
+    height: 57px;
+    overflow: hidden;
+  }
+  .icon-right {
+    position: absolute;
+    display: none;
+  }
+  .back_elements {
+    background: url(./images/backgorund-shadow.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 479px;
+    margin-top: -24%;
+  }
+
+  .carousel-button-text {
+    font-size: 13.5px;
+    font-weight: bold;
+    line-height: 10px;
+  }
+  .splide_2 .splide__arrow {
+    display: block;
+    position: absolute;
+    top:90%;
+    margin: 10px;
+    transform: translateY(-50%);
+    width: 3em;
+    height: 3em;
+    z-index: 1;
+  }
+
+  .splide_3 .splide__arrow {
+    display: block;
+    position: absolute;
+    top: 350%;
+    margin: 10px;
+    transform: translateY(-50%);
+    width: 3em;
+    height: 3em;
+    z-index: 1;
+  }
+  .shadow {
+    position: absolute;
+    width: 91%;
+    background: #fff;
+    height: 82px;
+    top: 270px;
+    opacity: 0.8;
+    border-radius: 0px 0px 6px 6px;
+  }
+  .shadow_text {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: bold;
+    position: absolute;
+    margin: 14px;
+  }
+  .img-splide-1 {
+    height: 353px;
+    width: 100%;
+  }
+  .img-splide-2 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .shadow2 {
+    position: absolute;
+    width: 91%;
+    background: #fff;
+    height: 82px;
+    top: 270px;
+    opacity: 0.8;
+    border-radius: 0px 0px 6px 6px;
+  }
+
+  .splide__pagination {
+    bottom: -7em;
+    left: 0px;
+    padding: 0px 6em;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+  }
+
+  .lines-1 {
+    display: none;
+  }
+
+  .number_icons {
+    margin-top: 15%;
+  }
+
+  .dark-text {
+    color: #fff;
+    padding: 10px;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+  }
+  
+  .dark-desc {
+    color: #fff;
+    margin: 11px 0px 16px 0px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+  }
+
+  .catalog-uskuna {
+    font-weight: 600;
+    font-size: 24px;
+    padding: 20px;
+    margin-top: 30px;
+  }
+
+  .icon-right-transform{
+    width: 50px;
+    transform: rotate(-31.26deg);
+  }
+  .box {
+    width: 165px;
+    margin: 9px;
+    height: 250px;
+    background-color: #fff;
+    border: none;
+    box-shadow: 0px 6px 20px rgb(169 169 170 / 10%);
+    border-radius: 6px;
+    padding: 16px;
+    transition: .1s all;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .memac-carousel {
+    margin-top: 40%;
+  }
+
+
+  .mebel-carousel{
+    width: 120px;
+  }
+
+  .slick-dots {
+    display: none;
+  }
+
+  .icon-left-transform {
+    position: absolute;
+    width: 60px;
+    right: 3%;
+    transform: rotate(-29.52deg);
   }
 }
 
@@ -2057,6 +2227,109 @@ nav .nav-ul li a span.rotate {
     right: 15%;
     transform: rotate(-29.52deg);
   }
+  .splide_2 {
+    display: none;
+  }
+
+  .splide_2 .splide__arrow {
+    display: none;
+    position: absolute;
+    top: 100%;
+    transform: translateY(-50%);
+    width: 2em;
+    z-index: 1;
+  }
+
+  .splide__pagination {
+    bottom: -0em;
+    left: 0;
+    padding: 0px 6em;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+  }
+
+  .dark-desc {
+    color: #fff;
+    margin: 10px 0px 30px 0px;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+  }
+
+  .dark-text {
+    color: #fff;
+    padding: 10px;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+  }
+    
+  .catalog-uskuna {
+    font-weight: 600;
+    font-size: 35px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 5%;
+  }
+
+  .box {
+    width: 248px;
+    margin: 9px;
+    height: 240px;
+    background-color: #fff;
+    border: none;
+    box-shadow: 0px 6px 20px rgba(169, 169, 170, 0.1);
+    border-radius: 6px;
+    padding: 16px;
+    transition: .1s all;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .box:hover {
+    background-color: #ffe600;
+    transition: .1s all;
+  }
+
+  .memac-carousel {
+    margin-top: 10%;
+  }
+
+  .slick-dots {
+    display: none;
+  }
+
+  .mobile-button {
+    display: none;
+  }
+
+    
+}
+
+.slick-dots {
+  display: none;
+}
+
+#slick-slide00 {
+  display: none;
+}
+
+#slick-slide01 {
+  display: none;
+}
+
+#slick-slide02 {
+  display: none;
+}
+
+#slick-slide03 {
+  display: none;
+}
+
+#slick-slide04 {
+  display: none;
 }
 
 
@@ -2094,21 +2367,7 @@ nav .nav-ul li a span.rotate {
   background-size: cover;
 }
 
-.dark-text {
-  color: #fff;
-  padding: 10px;
-  font-size: 32px;
-  line-height: 40px;
-  text-align: center;
-}
 
-.dark-desc {
-  color: #fff;
-  margin: 10px 0px 30px 0px;
-  font-size: 18px;
-  line-height: 21px;
-  text-align: center;
-}
 
 .dark-number {
   font-size: 36px;
@@ -2128,26 +2387,6 @@ nav .nav-ul li a span.rotate {
 }
 
 /* end parallax and more */
-
-.box {
-  width: 248px;
-  margin: 9px;
-  height: 240px;
-  background-color: #fff;
-  border: none;
-  box-shadow: 0px 6px 20px rgba(169, 169, 170, 0.1);
-  border-radius: 6px;
-  padding: 16px;
-  transition: .1s all;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-.box:hover {
-  background-color: #ffe600;
-  transition: .1s all;
-}
 
 .product-box {
   width: 100%;
@@ -3876,14 +4115,7 @@ h3 {
   width: 8px;
 }
 
-.splide__pagination {
-  bottom: -0em;
-  left: 0;
-  padding: 0px 6em;
-  position: absolute;
-  right: 0;
-  z-index: 1;
-}
+
 
 /* end carousel or slider */
 
