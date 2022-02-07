@@ -1126,15 +1126,6 @@ nav .nav-ul li a span.rotate {
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important
 }
 
-
-
-.splide__track {
-  padding-left: 0px;
-  padding-right: 0px;
-  height: 351px;
-  margin: 19px;
-}
-
 .article {
   position: absolute;
   padding: 10px 7px 0px 11px;
@@ -1982,7 +1973,7 @@ nav .nav-ul li a span.rotate {
   .splide_3 .splide__arrow {
     display: block;
     position: absolute;
-    top: 350%;
+    top: 360%;
     margin: 10px;
     transform: translateY(-50%);
     width: 3em;
@@ -2101,6 +2092,27 @@ nav .nav-ul li a span.rotate {
     width: 60px;
     right: 3%;
     transform: rotate(-29.52deg);
+  }
+
+  .desk-product {
+    display: none;
+  }
+
+  .produdcs-section2 {
+    width: 99%;
+    height: 482px;
+    border-left: none;
+    border-radius: 15px;
+    background-color: #fff;
+  }
+
+  .button-bottom2:after {
+    bottom: -124%;
+    left: 0;
+  }
+  
+  .button-bottom2:hover:after {
+    bottom: 0;
   }
 }
 
@@ -2305,7 +2317,29 @@ nav .nav-ul li a span.rotate {
     display: none;
   }
 
-    
+
+  .splide__track {
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 351px;
+  margin: 19px;
+  }
+
+
+  .card-text {
+    margin-top: 10%;
+  }
+
+  .splide_3 .splide__arrow {
+    display: none;
+  }
+
+  .search-form-navbar{
+    width: 516px;
+    height: 53px;
+    margin-top: 3px;
+  }
+
 }
 
 .slick-dots {
@@ -2540,9 +2574,6 @@ nav .nav-ul li a span.rotate {
 
 }
 
-.card-text {
-  margin-top: 10%;
-}
 
 .card-front,
 .card-back {
