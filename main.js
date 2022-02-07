@@ -2,7 +2,7 @@ $(document).ready(function() {
 
   
     $('.responsive').slick({
-        dots: false,
+        // dots: false,
         infinite: true,
         speed: 300,
         slidesToShow: 4,
