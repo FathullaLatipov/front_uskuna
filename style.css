@@ -1617,7 +1617,7 @@ nav .nav-ul li a span.rotate {
   position: absolute;
   left: -900px;
   top: -1rem;
-  width: 305px;
+  width: 80%;
   overflow: auto;
   transition: 0.5s ease left;
   z-index: 9999;
@@ -1826,7 +1826,9 @@ nav .nav-ul li a span.rotate {
     position: absolute;
     z-index: 999;
     font-weight: 100;
-    margin-top: -20%;
+    margin-top: -16%;
+    margin-left: -3%;
+    font-size: 14px;
     color: #fff;
 
   }
@@ -1992,11 +1994,12 @@ nav .nav-ul li a span.rotate {
   }
   .shadow {
     position: absolute;
-    width: 91%;
+    width: 92.1%;
     background: #fff;
     height: 82px;
-    top: 270px;
+    bottom: 20px;
     opacity: 0.8;
+    margin-top: 6px;
     border-radius: 0px 0px 6px 6px;
   }
   .shadow_text {
@@ -2007,7 +2010,7 @@ nav .nav-ul li a span.rotate {
     margin: 14px;
   }
   .img-splide-1 {
-    height: 353px;
+    height: 383px;
     width: 100%;
   }
   .img-splide-2 {
@@ -2024,14 +2027,15 @@ nav .nav-ul li a span.rotate {
     width: 91%;
     background: #fff;
     height: 82px;
-    top: 270px;
+    top: 83%;
     opacity: 0.8;
     border-radius: 0px 0px 6px 6px;
   }
 
   .splide__pagination {
-    bottom: -7em;
+    bottom: -10em;
     left: 0px;
+    display: none;
     padding: 0px 6em;
     position: absolute;
     right: 0;
