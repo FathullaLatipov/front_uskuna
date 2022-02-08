@@ -115,48 +115,6 @@ p {
 
 /*  end navbar  */
 
-/* banner */
-.banner {
-  background-image: url(./images/desk_back.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 250px;
-}
-
-.banner-text {
-  font-size: 42px;
-  font-weight: 500;
-  font-style: normal;
-  line-height: 50px;
-  margin-top: 6%;
-  text-align: center;
-  letter-spacing: -0.02em;
-  color: #132E6B;
-}
-
-.banner-desc {
-  font-size: 16px;
-  font-weight: normal;
-  line-height: 19px;
-  letter-spacing: -0.02em;
-  color: #132E6B;
-  text-align: center;
-  margin-top: 14px;
-}
-
-.banner-desc-title {
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  color: #132E6B;
-  letter-spacing: -0.02em;
-  line-height: 19px;
-}
-
-/* end banner */
-
 .blok {
   margin: 30px;
 }
@@ -1301,8 +1259,8 @@ nav .nav-ul li a span.rotate {
 /* our works */
 
 .work_image {
-  width: 582px;
-  height: 370px;
+  width: 100%;
+  height: auto;
   border-radius: 6px;
 }
 
@@ -1339,9 +1297,10 @@ nav .nav-ul li a span.rotate {
 }
 
 
-.sort-menu-products:hover .sort-menu-info{
+.sort-menu-products:hover .sort-menu-info {
   background: #fff;
-  display: block; /* Убираем отступ снизу */
+  display: block;
+  /* Убираем отступ снизу */
   transition: 3s ease-in;
   width: 100%;
   height: 203px;
@@ -1940,7 +1899,7 @@ nav .nav-ul li a span.rotate {
 
   .button-left {
     position: absolute;
-    left:9%;
+    left: 9%;
     bottom: 10px;
     background: #FFE700;
     border: none;
@@ -1950,10 +1909,12 @@ nav .nav-ul li a span.rotate {
     height: 57px;
     overflow: hidden;
   }
+
   .icon-right {
     position: absolute;
     display: none;
   }
+
   .back_elements {
     background: url(./images/backgorund-shadow.svg);
     background-position: center;
@@ -1971,10 +1932,11 @@ nav .nav-ul li a span.rotate {
     font-weight: bold;
     line-height: 10px;
   }
+
   .splide_2 .splide__arrow {
     display: block;
     position: absolute;
-    top:90%;
+    top: 90%;
     margin: 10px;
     transform: translateY(-50%);
     width: 3em;
@@ -1992,6 +1954,7 @@ nav .nav-ul li a span.rotate {
     height: 3em;
     z-index: 1;
   }
+
   .shadow {
     position: absolute;
     width: 92.1%;
@@ -2002,6 +1965,7 @@ nav .nav-ul li a span.rotate {
     margin-top: 6px;
     border-radius: 0px 0px 6px 6px;
   }
+
   .shadow_text {
     font-size: 18px;
     line-height: 21px;
@@ -2009,10 +1973,12 @@ nav .nav-ul li a span.rotate {
     position: absolute;
     margin: 14px;
   }
+
   .img-splide-1 {
     height: 383px;
     width: 100%;
   }
+
   .img-splide-2 {
     width: 100%;
     height: 100%;
@@ -2057,7 +2023,7 @@ nav .nav-ul li a span.rotate {
     line-height: 40px;
     text-align: center;
   }
-  
+
   .dark-desc {
     color: #fff;
     margin: 11px 0px 16px 0px;
@@ -2073,13 +2039,14 @@ nav .nav-ul li a span.rotate {
     margin-top: 30px;
   }
 
-  .icon-right-transform{
+  .icon-right-transform {
     width: 50px;
     transform: rotate(-31.26deg);
   }
+
   .box {
     width: 100%;
-    margin: 9px;
+    margin: 9px 0px;
     height: 250px;
     background-color: #fff;
     border: none;
@@ -2097,7 +2064,7 @@ nav .nav-ul li a span.rotate {
   }
 
 
-  .mebel-carousel{
+  .mebel-carousel {
     width: 120px;
   }
 
@@ -2129,7 +2096,7 @@ nav .nav-ul li a span.rotate {
     bottom: -124%;
     left: 0;
   }
-  
+
   .button-bottom2:hover:after {
     bottom: 0;
   }
@@ -2141,7 +2108,7 @@ nav .nav-ul li a span.rotate {
     height: 570px;
     border-radius: 6px;
   }
-  
+
   .all {
     background-image: url(./images/alls.png);
     background-position: center;
@@ -2151,9 +2118,9 @@ nav .nav-ul li a span.rotate {
     background-size: cover;
     border-radius: 6px;
     margin-top: 13px;
-    
+
   }
-  
+
   .boys {
     background-image: url(./images/boy.png);
     background-position: center;
@@ -2163,9 +2130,9 @@ nav .nav-ul li a span.rotate {
     background-size: cover;
     border-radius: 6px;
     margin-top: 13px;
-    
+
   }
-  
+
   .girls {
     background-image: url(./images/girl.png);
     background-position: center;
@@ -2226,6 +2193,7 @@ nav .nav-ul li a span.rotate {
   .splide {
     display: none;
   }
+
   .icon-right-transform2 {
     position: absolute;
     width: 60px;
@@ -2241,11 +2209,15 @@ nav .nav-ul li a span.rotate {
     width: 60px;
   }
 
-  .icon-right-transform3{
+  .icon-right-transform3 {
     position: absolute;
     margin-top: -10%;
     width: 60px;
     transform: rotate(-29.52deg);
+  }
+
+  .icon-left {
+    display: none;
   }
 
   .splide_4 .splide__arrow {
@@ -2262,6 +2234,74 @@ nav .nav-ul li a span.rotate {
     width: 44px;
     border-radius: unset;
     height: 45px;
+  }
+
+  .tab2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* banner */
+  .banner {
+    background-image: url(./images/phone_mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 186px;
+    margin-top: 9%;
+  }
+
+  .banner-text {
+    font-size: 42px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 50px;
+    margin-top: 13%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #132E6B;
+  }
+
+  .banner-desc {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: #132E6B;
+    text-align: center;
+    margin-top: 14px;
+  }
+
+  .banner-desc-title {
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    color: #132E6B;
+    letter-spacing: -0.02em;
+    line-height: 19px;
+  }
+
+  /* end banner */
+
+  .icon-left-works {
+    top: -50%;
+    position: absolute;
+    z-index: 99;
+    right: 7%;
+    transform: rotate(20.33deg);
+  }
+
+  .icon-left-transform-work {
+    display: none;
+  }
+
+  .icon-right-transform-work {
+    display: none;
+  }
+
+  .form-control.city12 {
+    margin-top: 20px;
   }
 
 }
@@ -2389,6 +2429,7 @@ nav .nav-ul li a span.rotate {
     right: 15%;
     transform: rotate(-29.52deg);
   }
+
   .splide_2 {
     display: none;
   }
@@ -2426,7 +2467,7 @@ nav .nav-ul li a span.rotate {
     line-height: 40px;
     text-align: center;
   }
-    
+
   .catalog-uskuna {
     font-weight: 600;
     font-size: 35px;
@@ -2469,10 +2510,10 @@ nav .nav-ul li a span.rotate {
 
 
   .splide__track {
-  padding-left: 0px;
-  padding-right: 0px;
-  height: 351px;
-  margin: 19px;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 351px;
+    margin: 19px;
   }
 
 
@@ -2495,7 +2536,7 @@ nav .nav-ul li a span.rotate {
     height: 670px;
     border-radius: 6px;
   }
-  
+
   .all {
     background-image: url(./images/alls.png);
     width: 170px;
@@ -2503,7 +2544,7 @@ nav .nav-ul li a span.rotate {
     border-radius: 6px;
     margin: 0px 20px 20px
   }
-  
+
   .boys {
     background-image: url(./images/boy.png);
     width: 170px;
@@ -2511,7 +2552,7 @@ nav .nav-ul li a span.rotate {
     border-radius: 6px;
     margin: 0px 20px 20px
   }
-  
+
   .girls {
     background-image: url(./images/girl.png);
     width: 170px;
@@ -2566,9 +2607,11 @@ nav .nav-ul li a span.rotate {
   .row-1 {
     display: none;
   }
+
   .splide_4 {
     display: none;
   }
+
   .btn.send-email {
     background-color: #ffe600;
     position: absolute;
@@ -2580,6 +2623,52 @@ nav .nav-ul li a span.rotate {
     border-radius: unset;
     height: 45px;
   }
+
+  .hamburger-menu {
+    display: none;
+  }
+
+  /* banner */
+  .banner {
+    background-image: url(./images/desk_back.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 250px;
+  }
+
+  .banner-text {
+    font-size: 42px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 50px;
+    margin-top: 6%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #132E6B;
+  }
+
+  .banner-desc {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: #132E6B;
+    text-align: center;
+    margin-top: 14px;
+  }
+
+  .banner-desc-title {
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    color: #132E6B;
+    letter-spacing: -0.02em;
+    line-height: 19px;
+  }
+
+  /* end banner */
 
 }
 
@@ -3629,7 +3718,7 @@ ul.social-footer2 li a {
 .accordion4 li i.fa-chevron-down {
   right: 0px;
   padding: 3px;
-  top: 15px;
+  top: 12px;
   left: auto;
   font-size: 16px;
 
@@ -4418,10 +4507,10 @@ h3 {
 
 .price-filter {
   background: #fff;
-box-shadow: 0px 0px 25px 8px rgba(3, 127, 139, 0.05);
-border-radius: 4px;
-width: 95px;
-height: 36px;
+  box-shadow: 0px 0px 25px 8px rgba(3, 127, 139, 0.05);
+  border-radius: 4px;
+  width: 95px;
+  height: 36px;
 }
 
 .price-filter-title {
@@ -4432,4 +4521,5 @@ height: 36px;
   font-weight: 100;
   font-family: 'system-ui';
 }
+
 /* end js slider */

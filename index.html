@@ -2127,22 +2127,22 @@
               <h5 class="widget-title ml-2">Меню<span></span></h5>
               <ul class="thumbnail-widget">
                 <li>
-                  <div class="thumb-content"><a href="#." class="thumb-content">Каталог</a></div>
+                  <div class="thumb-content"><a href="./catelog.html" class="thumb-content">Каталог</a></div>
                 </li>
                 <li>
-                  <div class="thumb-content"><a href="#." class="thumb-content">Наши работа</a></div>
+                  <div class="thumb-content"><a href="./our_works.html" class="thumb-content">Наши работа</a></div>
                 </li>
                 <li>
-                  <div class="thumb-content"><a href="#." class="thumb-content">Наши видео</a></div>
+                  <div class="thumb-content"><a href="./videos.html" class="thumb-content">Наши видео</a></div>
                 </li>
                 <li>
-                  <div class="thumb-content"><a href="#." class="thumb-content">Статьи</a></div>
+                  <div class="thumb-content"><a href="./blog.html" class="thumb-content">Статьи</a></div>
                 </li>
                 <li>
-                  <div class="thumb-content"><a href="#." class="thumb-content">О нас</a></div>
+                  <div class="thumb-content"><a href="./about.html" class="thumb-content">О нас</a></div>
                 </li>
                 <li>
-                  <div class="thumb-content"><a href="#." class="thumb-content">Контакты</a></div>
+                  <div class="thumb-content"><a href="./contacts.html" class="thumb-content">Контакты</a></div>
                 </li>
               </ul>
             </div>
@@ -2153,7 +2153,7 @@
               <h5 class="widget-title">Контакты<span></span></h5>
               <p class="widget-number"> <img src="./images/map1.png" style="width: 25px;height: 25px;" alt=""> Тошкент
                 шаҳри, Сирғали тумани, Катта олмос 1-тор кўчаси 9а-уй.</p>
-              <p class="widget-number"> <img src="./images/phone.svg" alt=""> +998 71 250 77 77</p>
+            <a href="tel:+998 71 250 77 77"> <p class="widget-number"> <img src="./images/phone.svg" alt=""> +998 71 250 77 77</p></a> 
               <p class="widget-number"> <img src="./images/clock.svg" alt=""> c 9:00 до 18:00 ежедневно</p>
             </div>
           </div>
@@ -2231,32 +2231,7 @@
     splide.mount();
 </script>
   <script>
-    $(function () {
-      var Accordion = function (el, multiple) {
-        this.el = el || {};
-        this.multiple = multiple || false;
-
-        // Variables privadas
-        var links = this.el.find('.link');
-        // Evento
-        links.on('click', { el: this.el, multiple: this.multiple }, this.dropdown)
-      }
-
-      Accordion.prototype.dropdown = function (e) {
-        var $el = e.data.el;
-        $this = $(this),
-          $next = $this.next();
-
-        $next.slideToggle();
-        $this.parent().toggleClass('open');
-
-        if (!e.data.multiple) {
-          $el.find('.submenu').not($next).slideUp().parent().removeClass('open');
-        };
-      }
-
-      var accordion = new Accordion($('#accordion4'), false);
-    });
+   
   </script>
   <!-- Code by Fathulla Latipov LF -->
 </body>
