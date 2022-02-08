@@ -1140,8 +1140,7 @@ nav .nav-ul li a span.rotate {
 .article2 {
   padding: 10px 7px 0px 11px;
   background-color: #fff;
-  margin-top: -1%;
-  width: 350px;
+  width: 100%;
   height: 78px;
   text-align: left;
   box-shadow: 0px 6px 20px rgb(169 169 170 / 10%);
@@ -1543,7 +1542,7 @@ nav .nav-ul li a span.rotate {
   position: absolute;
   z-index: 999999;
   box-sizing: border-box;
-  left: 30%;
+  right: 3%;
   top: 8px;
   width: 56px;
   height: 53px;
@@ -1567,7 +1566,7 @@ nav .nav-ul li a span.rotate {
 }
 
 .hamburger-active .hamburger {
-  right: 20px;
+  right: 3%;
 }
 
 .hamburger-active span.hamurger-second {
@@ -1614,7 +1613,7 @@ nav .nav-ul li a span.rotate {
   box-sizing: border-box;
   color: #CACACA;
   background-color: #fff;
-  height: 850px;
+  height: 1250px;
   position: absolute;
   left: -900px;
   top: -1rem;
@@ -1796,7 +1795,7 @@ nav .nav-ul li a span.rotate {
     position: absolute;
     width: 24px;
     height: 21px;
-    left: 20.8%;
+    right: 38%;
     top: 25px;
     z-index: 99;
   }
@@ -1805,7 +1804,7 @@ nav .nav-ul li a span.rotate {
     position: absolute;
     width: 24px;
     height: 21px;
-    left: 25%;
+    right: 24%;
     top: 25px;
     z-index: 99;
   }
@@ -1818,7 +1817,7 @@ nav .nav-ul li a span.rotate {
     border-radius: 50%;
     padding: 5px;
     z-index: 99;
-    left: 22%;
+    right: 35%;
     top: 15px;
   }
 
@@ -1846,6 +1845,7 @@ nav .nav-ul li a span.rotate {
     top: 0px;
     height: 70px;
     width: 100%;
+    box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px, rgb(0 0 0 / 23%) 0px 3px 6px;
   }
 
   #slider {
@@ -2013,6 +2013,10 @@ nav .nav-ul li a span.rotate {
   .img-splide-2 {
     width: 100%;
     height: 100%;
+  }
+
+  .icon-left-absolute {
+    display: none;
   }
 
   .shadow2 {
@@ -2188,7 +2192,7 @@ nav .nav-ul li a span.rotate {
   .home-blog2 {
     display: initial;
     position: absolute;
-    right: 18px;
+    right: 30px;
     bottom: 4px;
     padding: 20px 20px;
     width: 354px;
@@ -2240,6 +2244,21 @@ nav .nav-ul li a span.rotate {
     transform: rotate(-29.52deg);
   }
 
+  .splide_4 .splide__arrow {
+    display: none;
+  }
+
+  .btn.send-email {
+    background-color: #ffe600;
+    position: absolute;
+    /* left: 0px; */
+    right: 29%;
+    /* top: 3px; */
+    bottom: 0px;
+    width: 44px;
+    border-radius: unset;
+    height: 45px;
+  }
 
 }
 
@@ -2461,6 +2480,10 @@ nav .nav-ul li a span.rotate {
     display: none;
   }
 
+  .splide_4 .splide__arrow {
+    display: none;
+  }
+
 
   .ded {
     background-image: url(./images/ded.png);
@@ -2541,6 +2564,17 @@ nav .nav-ul li a span.rotate {
   }
   .splide_4 {
     display: none;
+  }
+  .btn.send-email {
+    background-color: #ffe600;
+    position: absolute;
+    /* left: 0px; */
+    right: 29%;
+    /* top: 3px; */
+    bottom: 0px;
+    width: 44px;
+    border-radius: unset;
+    height: 45px;
   }
 
 }
@@ -4221,7 +4255,7 @@ h3 {
   color: transparent;
   top: 50%;
   padding: 11px;
-
+  z-index: 1;
   border: none;
   outline: none;
 }
@@ -4251,6 +4285,7 @@ h3 {
   position: absolute;
   z-index: 999;
   margin-top: -22px;
+  z-index: 1;
 }
 
 .slick-prev:before {
@@ -4261,6 +4296,7 @@ h3 {
   position: absolute;
   right: 9px;
   margin-top: -22px;
+  z-index: 1;
 }
 
 .slick-next:before {
