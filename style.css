@@ -572,7 +572,11 @@ p {
 .imagewrap {
   display: inline-block;
   position: relative;
-  padding: 10px 20px 4px 9px;
+  padding: 10px 0px 4px;
+}
+
+.options {
+  margin-top: 90%;
 }
 
 .thumbnail {
@@ -974,18 +978,6 @@ nav .nav-ul li a span.rotate {
 /* end navbar */
 
 /* Style the tab content */
-.tabcontent {
-  float: right;
-  margin-left: 1%;
-  padding: 20px 32px;
-  width: 100%;
-  border-left: none;
-  height: auto;
-  border-radius: 15px;
-  background-color: #fff;
-  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important
-}
-
 #Paris {
   padding: 20px 32px;
   width: 100%;
@@ -1057,7 +1049,7 @@ nav .nav-ul li a span.rotate {
 .video {
   float: right;
   margin-left: 1%;
-  padding: 20px 32px;
+  padding: 20px;
   width: 100%;
   margin-top: 20px;
   border-left: none;
@@ -1786,7 +1778,7 @@ nav .nav-ul li a span.rotate {
     z-index: 999;
     font-weight: 100;
     margin-top: -16%;
-    margin-left: -3%;
+    margin-left: 2%;
     font-size: 14px;
     color: #fff;
 
@@ -2197,7 +2189,7 @@ nav .nav-ul li a span.rotate {
   .icon-right-transform2 {
     position: absolute;
     width: 60px;
-    margin-top: -10%;
+    margin-top: 1%;
     transform: rotate(23.85deg);
   }
 
@@ -2252,6 +2244,16 @@ nav .nav-ul li a span.rotate {
     margin-top: 9%;
   }
 
+  .banner2 {
+    background-image: url(./images/phone_mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 186px;
+    margin-top: 14%;
+  }
+
   .banner-text {
     font-size: 42px;
     font-weight: 500;
@@ -2301,8 +2303,35 @@ nav .nav-ul li a span.rotate {
   }
 
   .form-control.city12 {
+    position: relative;
     margin-top: 20px;
   }
+
+  .desc-blog {
+    display: none;
+  }
+
+  .desk_pagination {
+    display: none;
+  }
+
+  .about-desktop-drop {
+    display: none;
+  }
+
+  .tabcontent {
+    float: right;
+    margin-left: 1%;
+    padding: 15px;
+    width: 100%;
+    border-left: none;
+    margin-top: 10%;
+    height: auto;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important
+  }
+
 
 }
 
@@ -2508,6 +2537,26 @@ nav .nav-ul li a span.rotate {
     display: none;
   }
 
+  .mobile-blog {
+    display: none;
+  }
+
+  .mobile-pagination {
+    display: none;
+  }
+
+
+  .tabcontent {
+    float: right;
+    margin-left: 1%;
+    padding: 20px 32px;
+    width: 100%;
+    border-left: none;
+    height: auto;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important
+  }
 
   .splide__track {
     padding-left: 0px;
@@ -2668,7 +2717,54 @@ nav .nav-ul li a span.rotate {
     line-height: 19px;
   }
 
+  .banner2 {
+    background-image: url(./images/desk_back.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 250px;
+  }
+
+  .banner-text {
+    font-size: 42px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 50px;
+    margin-top: 6%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #132E6B;
+  }
+
+  .banner-desc {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: #132E6B;
+    text-align: center;
+    margin-top: 14px;
+  }
+
+  .banner-desc-title {
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    color: #132E6B;
+    letter-spacing: -0.02em;
+    line-height: 19px;
+  }
+
   /* end banner */
+
+  /* about */
+
+  .about-mobile-drop {
+    display: none;
+  }
+
+  /* end about */
 
 }
 
@@ -2886,6 +2982,18 @@ nav .nav-ul li a span.rotate {
   box-shadow: 0px 6px 20px rgba(169, 169, 170, 0.1);
   border-radius: 6px;
 }
+
+.blog-yellow-mobile {
+  position: absolute;
+  top: 15%;
+  background: #FFE700;
+  z-index: 1;
+  width: 50px;
+  height: 450px;
+  box-shadow: 0px 6px 20px rgba(169, 169, 170, 0.1);
+  border-radius: 6px;
+}
+
 
 /* end blog page */
 
