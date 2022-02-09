@@ -2383,7 +2383,27 @@ nav .nav-ul li a span.rotate {
     box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important
   }
 
+  .mobile-work {
+    padding-left: 0px;
+  }
 
+  .btn-prev {
+    display: none;
+  }
+
+  .btn-next {
+    display: none;
+  }
+  
+  .btn-prev-mobile {
+    background: #E5ECF0;
+    border-radius: 8px;
+  }
+  
+  .btn-next-mobile {
+    background: #E5ECF0;
+    border-radius: 8px;
+  }
 }
 
 @media (min-width:1000px) {
