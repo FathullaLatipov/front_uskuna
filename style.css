@@ -2404,6 +2404,13 @@ nav .nav-ul li a span.rotate {
     background: #E5ECF0;
     border-radius: 8px;
   }
+
+  .icon-right-22 {
+    position: absolute;
+    right: 7%;
+    margin-top: -10%;
+    transform: rotate(20.33deg);
+  }
 }
 
 @media (min-width:1000px) {
@@ -2498,6 +2505,13 @@ nav .nav-ul li a span.rotate {
     left: -11%;
     transform: rotate(-40.4deg);
     position: absolute;
+  }
+
+  .icon-right-22 {
+    position: absolute;
+    left: -7%;
+    top: 20%;
+    transform: rotate(-25deg);
   }
 
 
@@ -2837,6 +2851,7 @@ nav .nav-ul li a span.rotate {
 
   /* end about */
 
+
 }
 
 .slick-dots {
@@ -2891,6 +2906,16 @@ nav .nav-ul li a span.rotate {
 }
 
 
+
+  /* single products */
+  .single-product-title {
+    font-style: 26px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 31px;
+    color: #131311;
+  }
+  /* end single products */
 
 .hid-box {
   top: 90%;
