@@ -52,7 +52,7 @@
           <li class="nav-item">
             <a class="nav-link" href="./videos.html">Наши видео</a>
           </li>
-          <li class="nav-item-active">
+          <li class="nav-item">
             <a class="nav-link" href="./about.html">О нас</a>
           </li>
           <li class="nav-item">
@@ -785,8 +785,8 @@
       <div class="row">
 
       </div>
-      <h1 class="banner-text">Каталог</h1>
-      <p class="banner-desc">Главная <span> > <a href="" class="banner-desc-title">Каталог</a></span></p>
+      <h1 class="banner-text">Карточка товара</h1>
+      <p class="banner-desc">Главная <span> > <a href="" class="banner-desc-title">Карточка товара</a></span> > <a href="" class="banner-desc-title">Духовка с 3 конфорками, 6 противней Standard DKL-306C</a></span></p>
 
       <img src="./images/backgorund-shadow.svg" style="margin-top: -30%;margin-left: -60%;" alt="">
     </div>
@@ -800,96 +800,132 @@
     <div class="row">
       <div class="col-md-6">
         <div class="single-image">
-          <img src="./images/info_product.png" alt="">
-          <button class="btn btn-like"><i class="far fa-heart"></i></button>
-          <!--     top: 0px;
-    position: absolute;
-    margin-top: 7%;
-    /* left: 30%; */
-    right: px;
-    margin-left: -8%; -->
-        </div>
-        <div class="row">
-          <div class="col-md-2">
-            <div class="single-images">
-              <img src="./images/mini_image1.png" class="p-1" alt="">
+          <div class="product-gallery">
+            <div class="product-image">
+              <img class="active" src="./images/info_product.svg" style="width: 100%;height: 450px;">
             </div>
+            <ul class="image-list" style="margin-left: 2%;">
+              <li class="image-item" ><img style="width: 80px;height: 79px;padding: 2px;" src="./images/info_product.svg"></li>
+              <li class="image-item" ><img style="width: 80px;height: 79px;padding: 2px;" src="./images/single-2.svg"></li>
+              <li class="image-item" ><img style="width: 80px;height: 79px;padding: 2px;" src="./images/single-3.svg"></li>
+              <li class="image-item" ><img style="width: 80px;height: 79px;padding: 2px;" src="./images/single-4.svg"></li>
+              <li class="image-item" ><img style="width: 80px;height: 79px;padding: 2px;" src="./images/single-5.svg"></li>
+            </ul>
           </div>
-          <div class="col-md-2">
-            <img src="./images/mini_image2.png" class="p-2" alt="">
-          </div>
-          <div class="col-md-2">
-            <img src="./images/mini_image1.png" class="p-1" alt="">
-          </div>
-          <div class="col-md-2">
-            <img src="./images/mini_image2.png" class="p-2" alt="">
-          </div>
-          <div class="col-md-2">
-            <img src="./images/mini_image1.png" class="p-1" alt="">
-          </div>
-          <div class="col-md-2">
-
-          </div>
+          <a href="#" class="card-link"><button class="btn"
+            style="width: 48px;height: 48px;background-color: #FFF5F5;position: absolute;right: 16.3%;top: 25px;"><img
+              src="./images/like.svg" style="margin-top: 7px;" alt=""></button></a>
         </div>
       </div>
       <div class="col-md-6">
-        <p class="single-product-title">Буровая установка БР 73212С</p>
+        <p class="single-product-title" style="font-size: 24px;">Буровая установка БР 73212С</p>
         <div class="row">
           <div class="col-md-6 mt-3">
-            <p>Есть в наличии</p>
+            <p class="in_box"> <img src="./images/radius.svg" alt=""> Есть в наличии</p>
           </div>
           <div class="col-md-6 mt-3">
-            <p>Артикул:BR1243</p>
+            <p class="in_article">Артикул:BR1243</p>
           </div>
         </div>
-        <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia sed, explicabo cupiditate nostrum obcaecati
-          commodi ipsam ullam numquam magni corporis doloribus optio ut unde ipsa. Quae, nobis. Iure, fuga itaque</p>
+        <p class="desc_prod mt-4">Печь подовая хлебопекарная  FROSTY PL-4 состоит из двух независимых друг от друга секций с размером пода 865х655 мм. Подовые хлебопекарные печи с пароувлажнением являются профессиональным оборудованием</p>
         <div class="row">
-          <div class="col-md-6 mt-5">
-            <p style="margin-bottom: 0px;color:#c4c4c4;font-weight: 300;">Цена в долорах:</p>
-            <h3>$2 470</h3>
+          <div class="col-md-6 mt-4">
+            <p class="price_prod">Цена в долорах:</p>
+            <h3 class="count_prod">$2 470</h3>
           </div>
-          <div class="col-md-6 mt-5">
-            <p style="margin-bottom: 0px;color:#c4c4c4;font-weight: 300;">Цена в суммах:</p>
-            <h3>30 825 734 сум</h3>
+          <div class="col-md-6 mt-4">
+            <p class="price_prod">Цена в суммах:</p>
+            <h3 class="count_prod">30 825 734 сум</h3>
           </div>
         </div>
         <div class="row">
           <div class="col-md-5">
-            <p class="mt-3">Количество</p>
-            <br>
-            <br>
-            <br>
-            <div class='ctrl'>
-              <div class='ctrl-button ctrl-button-decrement'>-</div>
-              <div class='ctrl-counter'>
-                <input class='ctrl-counter-input' maxlength='10' type='text' value='1'>
-                <div class='ctrl-counter-num'>1</div>
+            <div class="numbers_prod">
+              <p class="count_num">Количество</p>
+              <div class='ctrl mt-2'>
+                <div class='ctrl-button ctrl-button-decrement'>-</div>
+                <div class='ctrl-counter'>
+                  <input class='ctrl-counter-input' maxlength='10' type='text' value='1'>
+                  <div class='ctrl-counter-num'>1</div>
+                </div>
+                <div class='ctrl-button ctrl-button-increment'>+</div>
               </div>
-              <div class='ctrl-button ctrl-button-increment'>+</div>
+            </div>
+
+          </div>
+          <div class="col-md-3">
+            <!-- Button trigger modal -->
+
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalCenterTitle">Заполните форму и наши операторы с вами свяжутся</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <form action="">
+                        <div class="row mt-3">
+                          <div class="col-md-6">
+                            <input class="form-control" style="height: 50px;background-color: #F4F5F7;border: none;" type="text"
+                              placeholder="ФИО">
+                          </div>
+                          <div class="col-md-6">
+                            <select class="form-control city12" style="height: 50px;background-color: #F4F5F7;border: none;padding: 5px;" id="exampleFormControlSelect1">
+                              <option value="tash" class="options">Ташкент</option>
+                              <option value="tash" class="options">Самарканд</option>
+                              <option value="tash" class="options">Андижан</option>
+                              <option value="tash" class="options">Фаргона</option>
+                              <option value="tash" class="options">Хорезм</option>
+                            </select>
+                          </div>
+                          <div class="col-md-12 mt-4">
+                            <input class="form-control" style="height: 50px;background-color: #F4F5F7;border: none;" type="text" placeholder="Ваш номер">
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" style="height: 55px;margin-top: 5%;" data-dismiss="modal">Закрыть</button>
+                      <ul>
+                        <li><button class="button-left button-bottom-left" type="submit" data-toggle="modal" data-target="#exampleModalCenter" style="width: 113px;height: 55px;position: relative;left: 5%;">
+                            <p class="carousel-button-text">Купить</p>
+                          </button></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="numbers_prod" style="margin-left: 20%;margin-top: 35px;">
+              <ul>
+                <li><button class="button-left button-bottom-left" type="button" data-toggle="modal" data-target="#exampleModalCenter" style="width: 113px;height: 57px;">
+                    <p class="carousel-button-text">Купить</p>
+                  </button></li>
+              </ul>
             </div>
           </div>
-          <div class="col-md-3 mt-4">
-            <br>
-            <button class="btn btn-success mt-4" style="height: 50px;width: 100px;">Купить</button>
-          </div>
           <div class="col-md-4 mt-4">
-            <br>
-            <p class="mas" style="margin-top:40px;"><a href="" style="text-decoration-style: dotted;">Купить через банк</a></p>
+            <div class="numbers_prod">
+             <p class="mas" style="margin-top:30%;"><a href="" style="border-bottom: 1px dashed #132E6B;color: #132E6B;list-style-type: none;">Купить через банк</a></p>
+            </div>
           </div>
         </div>
-        <i class="far fa-file-pdf fa-2x"></i> <a href="" style="color: #000;font-weight: 500;"> <span
-            style="margin-left: 10px;">Скачать Pdf</span></a>
+        <a href=""> <img src="./images/pdf 1.svg" alt=""><span class="download_pdf">Скачать Pdf</span></a>
       </div>
+      <img src="./images/settings.svg" class="icon-right" style="transform: rotate(-25deg);" alt="">
+      <img src="./images/Group_419.svg" class="icon-right-2" style="position: absolute;right: 27%;margin-top: 24%;transform: rotate(-35deg);" alt="">
     </div>
   </div>
-
+<br>
   <div data-aos="fade-right">
     <div class="container">
-      <p style="margin-bottom: 0px;border-bottom: 3px solid red;width: 350px;margin-top: 10px;">Характеристики и
-        описания оборудования</p>
+      <p class="description_prod">Характеристики и описания оборудования</p>
     </div>
-    <div class="container" style="border: 1px solid #888;padding: 20px;">
+    <div class="container" style="border: 1px solid #C9C8D3;border-radius: 4px;padding: 20px;">
       <table class="table table-striped">
         <tbody>
           <tr>
@@ -953,23 +989,14 @@
         </tbody>
       </table>
       <p style=" border-bottom: 3px silver dashed;"></p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis similique soluta repellendus delectus
-        eius maxime voluptatibus velit quas fugit ad temporibus doloribus nam a sapiente blanditiis maiores hic ducimus
-        vel ratione odit, perferendis illum. Nulla, quam consequuntur officia odio laudantium ea, commodi quibusdam
-        quae, sequi repellat assumenda eligendi tempora. Illo maxime quos alias iure atque porro consequatur officia
-        optio amet suscipit odit dolorum adipisci sunt vel est obcaecati nostrum fuga esse quas eius cum possimus, nam
-        perferendis necessitatibus. Tempore placeat libero exercitationem nisi, quasi magnam sed quaerat ab unde dolor
-        iure fuga sunt. Quis tempore laudantium corrupti vitae. Magni quia eos ipsum possimus mollitia atque, ad qui
-        dolore repudiandae nostrum rem earum voluptas similique ipsa enim recusandae dignissimos, vero iure!</p>
       <br>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus nobis eligendi dicta voluptates cupiditate
-        alias quis, vero vitae nisi ut. Sit cupiditate, saepe voluptatum voluptatem quaerat architecto iusto
-        consequuntur quia blanditiis in animi perspiciatis ratione. Expedita ipsa voluptates incidunt in molestiae
-        asperiores blanditiis laborum odit numquam. Ab, nam aliquam voluptatibus ipsa exercitationem recusandae quasi
-        nemo sit quis incidunt cumque voluptates possimus id, dolore impedit modi sapiente itaque! Corrupti, consequatur
-        recusandae?</p>
+      <p class="description_long">Печь подовая хлебопекарная  FROSTY PL-4 состоит из двух независимых друг от друга секций с размером пода 865х655 мм. Подовые хлебопекарные печи с пароувлажнением являются профессиональным оборудованием и применяются в супермаркетах, механизированных пекарнях, ресторанах, в кондитерских производствах, на предприятиях общепита. Выпечка, производимая в подовых печах, отличается высоким качеством за счет равномерного распределения температуры и пароувлажнения внутри пекарной камеры. Под - это металлическая или керамическая плита, непосредственно на которой производится выпечка. Выпечка ставится на под в формах либо на противнях.
+        В верхней и нижней части рабочей камеры установлены нагревательные элементы, ТЭНы, расположенных под днищем и сводом каждой камеры, обеспечивая постоянное равномерное распределение тепла. </p>
+      <br>
+      <p class="description_long">В случае конструкции печи в несколько камер, каждая секция печи независима друг от друга, оснащена независимым терморегулятором с возможностью отключения верхних нагревательных элементов и системой пароувлажнения для каждой секции. Пароувлажнение в секциях печи достигается за счет расположенных ванн для испарения воды. Вода в ванны заливается через отверстия, расположенные с левой стороны каждой камеры.</p>
     </div>
   </div>
+  <img src="./images/Group_418.svg" class="icon-left" style="width: 90px;margin-left: 4%;" alt="">
   <br>
   <br>
 
@@ -982,6 +1009,7 @@
       Популярные товары</h1>
     <p class="text-center" style="color: silver;">Идейные соображения высшего порядка, а также постоянное
       информационно-<br>пропагандистское обеспечение нашей деятельности представляет собой интересный.</p>
+      <br>
     <hr style="border: 2px solid #ffe600;width: 100px;text-align: center;margin: auto;border-radius: 20px;background-color: #ffe700;">
   </div>
 
@@ -1082,7 +1110,7 @@
                           <p style="font-size: 16px;">Заказать</p>
                         </button></li>
                     </ul>
-                    <a href="#" class="card-link"><button class="btn-like1"><img src="./images/like.svg"
+                    <a href="#" class="card-link"><button class="btn-like2"><img src="./images/like.svg"
                           alt=""></button></a>
                   </div>
                 </div>
@@ -1188,7 +1216,7 @@
                           <p style="font-size: 16px;">Заказать</p>
                         </button></li>
                     </ul>
-                    <a href="#" class="card-link"><button class="btn-like1"><img src="./images/like.svg"
+                    <a href="#" class="card-link"><button class="btn-like2"><img src="./images/like.svg"
                           alt=""></button></a>
                   </div>
                 </div>
@@ -1293,7 +1321,7 @@
                           <p style="font-size: 16px;">Заказать</p>
                         </button></li>
                     </ul>
-                    <a href="#" class="card-link"><button class="btn-like1"><img src="./images/like.svg"
+                    <a href="#" class="card-link"><button class="btn-like2"><img src="./images/like.svg"
                           alt=""></button></a>
                   </div>
                 </div>
@@ -1398,7 +1426,7 @@
                           <p style="font-size: 16px;">Заказать</p>
                         </button></li>
                     </ul>
-                    <a href="#" class="card-link"><button class="btn-like1"><img src="./images/like.svg"
+                    <a href="#" class="card-link"><button class="btn-like2"><img src="./images/like.svg"
                           alt=""></button></a>
                   </div>
                 </div>
@@ -1412,6 +1440,23 @@
   </div>
 </div>
 
+<br>
+  <!-- pagination menu -->
+  <nav aria-label="Page navigation example" style="margin: 20px auto;display: flex;
+justify-content: center;">
+    <a class="prew_icon" href=""><img src="./images/left.svg" alt=""></a>
+    <ul style=" display: flex;
+ justify-content: center;">
+      <li class="page_numb"><a href="" style="color: #132E6B;">1</a></li>
+      <li class="page_numb-active"><a href="" style="color: #132E6B;">2</a></li>
+      <li class="page_numb"><a href="" style="color: #132E6B;">3</a></li>
+      <li class="page_numb"><a href="" style="color: #132E6B;">4</a></li>
+      <li class="page_numb"><a href="" style="color: #132E6B;">5</a></li>
+    </ul>
+    <a href=""><img src="./images/right.svg" alt=""></a>
+  </nav>
+
+  <!-- end pagination menu -->
 
 
 
@@ -1630,6 +1675,22 @@ integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/f
     var controls = new ctrls();
     document.addEventListener('DOMContentLoaded', controls.ready);
   })();
+</script>
+<script>
+  const activeImage = document.querySelector(".product-image .active");
+  const productImages = document.querySelectorAll(".image-list img");
+  const navItem = document.querySelector('a.toggle-nav');
+
+  function changeImage(e) {
+    activeImage.src = e.target.src;
+  }
+
+  function toggleNavigation(){
+    this.nextElementSibling.classList.toggle('active');
+  }
+
+  productImages.forEach(image => image.addEventListener("click", changeImage));
+  navItem.addEventListener('click', toggleNavigation);
 </script>
 <script>
   AOS.init();
