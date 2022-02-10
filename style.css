@@ -2053,7 +2053,7 @@ nav .nav-ul li a span.rotate {
     background-size: cover;
     overflow: hidden;
     position: absolute;
-    width: 95%;
+    width: 92%;
     height: 479px;
     margin-top: -24%;
   }
@@ -2084,6 +2084,13 @@ nav .nav-ul li a span.rotate {
     width: 3em;
     height: 3em;
     z-index: 1;
+  }
+
+  .splide_3_2 .splide__arrows {
+    position: relative;
+    z-index: 2;
+    top: 164px;
+    margin: 10px;
   }
 
   .shadow {
