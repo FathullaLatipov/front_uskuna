@@ -546,7 +546,6 @@ p {
 
 .accordion5_1 {
   max-width: 560px;
-  border-top: 1px solid #d9e5e8;
 }
 .accordion5_1 li {
   border-bottom: 1px solid #d9e5e8;
@@ -1421,17 +1420,21 @@ nav .nav-ul li a span.rotate {
 
 /* tablinks in product sorted */
 .sort-menu-info {
-  display: none;
+  opacity:0;
+  height: 0;
+  padding: 0 8px;
+  overflow: hidden;
+  transition: all .3s ease .15s;
 }
 
 
 .sort-menu-products:hover .sort-menu-info {
   background: #fff;
+  opacity:1;
+  overflow: hidden;
   display: block;
-  /* Убираем отступ снизу */
-  transition: 3s ease-in;
   width: 100%;
-  height: 203px;
+  height: 213px;
 }
 
 .info-back-product {
@@ -2496,6 +2499,81 @@ nav .nav-ul li a span.rotate {
     margin-top: -10%;
     transform: rotate(20.33deg);
   }
+
+  .categories_block {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 500;
+    color: #131311;
+    font-style: normal;
+    position: absolute;
+    top: -10px;
+  }
+  
+  .like-mobile-1 {
+    width: 36px;
+    height: 36px;
+    background-color: #FFF5F5;
+    position: absolute;
+    right: 10px;
+  }
+
+  .like-img-mobile {
+    margin-top: 3px;
+    min-width: 17px;
+    margin-left: -23%;
+  }
+
+  .btn.new-mobile-1 {
+    width: 36px;
+    height: 36px;
+    background-color: #2EC1AC;
+    position: absolute;
+    right: 60px;
+    border-radius: 50px;
+  }
+  .new-mobile-text {
+    position: absolute;
+    top: 10px;
+    left: 2px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 11px;
+  }
+  .card-text .front-title {
+    color: #131311;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    font-style: normal;
+  }
+
+  .card-front p.desc-price {
+   display: none;
+  }
+  .card-front p.mob-price {
+    color: #131311;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 19px;
+  }
+
+  .card-back.bg-violet {
+   display: none;
+  }
+
+  .flex-item:hover .card-front {
+
+  }
+  
+  .flex-item:hover .card-back {
+   
+  }
+  
+
+  
 }
 
 @media (min-width:1000px) {
@@ -2598,6 +2676,9 @@ nav .nav-ul li a span.rotate {
     top: 20%;
     transform: rotate(-25deg);
   }
+  .button-left.button-bottom-left.ds-none {
+    display: none;
+  }
 
 
 
@@ -2628,6 +2709,55 @@ nav .nav-ul li a span.rotate {
     right: 15%;
     transform: rotate(-29.52deg);
   }
+
+  .categories_block {
+    display: none;
+  }
+
+  .btn.btn-mobile {
+    display: none;
+  }
+
+  .like-mobile-1 {
+    width: 48px;
+    height: 48px;
+    background-color: #FFF5F5;
+    position: absolute;
+    right: 10px;
+  }
+
+  .like-img-mobile {
+    margin-left: 1%;
+    margin-top: 7px;
+  }
+
+  .btn.new-mobile-1 {
+    width: 48px;
+    height: 48px;
+    background-color: #2EC1AC;
+    position: absolute;
+    right: 70px;
+    border-radius: 50px;
+  }
+
+  .new-mobile-text {
+    margin-left:-52%;
+    color: #fff;
+    font-weight: normal;
+    font-size: 16px;
+  }
+
+  .card-text .front-title {
+    color: #131311;
+    font-size: 15px;
+    line-height: 19px;
+    font-weight: 500;
+  }
+
+  .mob-price {
+    display: none;
+  }
+  
 
   .splide_2 {
     display: none;
@@ -2745,6 +2875,10 @@ nav .nav-ul li a span.rotate {
   }
 
   .splide_4 .splide__arrow {
+    display: none;
+  }
+
+  #accordion4_2 {
     display: none;
   }
 
@@ -2936,6 +3070,20 @@ nav .nav-ul li a span.rotate {
 
   /* end about */
 
+  .card-front p.desc-price {
+    margin-top: 10px;
+  }
+
+  .flex-item:hover .card-front {
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+  }
+  
+  .flex-item:hover .card-back {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+  
 
 }
 
@@ -3342,15 +3490,10 @@ nav .nav-ul li a span.rotate {
   color: #656565;
 }
 
+
+
 .card-front.bg-violet {
   background-color: #fff;
-}
-
-.card-text .front-title {
-  color: #131311;
-  font-size: 15px;
-  line-height: 19px;
-  font-weight: 500;
 }
 
 .card-back {
@@ -3399,15 +3542,6 @@ nav .nav-ul li a span.rotate {
 }
 
 /*-------- cards / flip effect --------*/
-.flex-item:hover .card-front {
-  -webkit-transform: rotateY(-180deg);
-  transform: rotateY(-180deg);
-}
-
-.flex-item:hover .card-back {
-  -webkit-transform: rotateY(0);
-  transform: rotateY(0);
-}
 
 /* end flip products */
 

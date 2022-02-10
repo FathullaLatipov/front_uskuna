@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+ <!-- china leasing impex header and footer, number in header and social icons -->
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,6 +19,22 @@
   <link rel='stylesheet' href='https://mverissimo.github.io/tweenslideshow/dist/assets/stylesheet/application.min.css'>
   <link rel="stylesheet" href="./style.css">
 </head>
+
+<style>
+  @media (max-width:950px) {
+    #accordion2 {
+      display: none;
+    }
+
+    #accordion {
+      display: none;
+    }
+
+    .categories_none {
+      display: none;
+    }
+  }
+</style>
 
 <body>
   <!-- start navbar -->
@@ -44,7 +60,7 @@
         </li>
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="./our_works.html">Наши работы</a>
+            <a class="nav-link" href="./our_works.html" style="color: #202634;">Наши работы</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./blog.html">Статьи</a>
@@ -52,7 +68,7 @@
           <li class="nav-item">
             <a class="nav-link" href="./videos.html">Наши видео</a>
           </li>
-          <li class="nav-item-active">
+          <li class="nav-item">
             <a class="nav-link" href="./about.html">О нас</a>
           </li>
           <li class="nav-item">
@@ -66,8 +82,8 @@
     <hr class="hr-top" style="margin-top: 0px;">
   </div>
   <!-- mobile menu -->
-  <nav class="container navbar navbar-expand-lg navbar-light bg-white">
-    <ul class="navbar-nav mr-auto">
+  <nav class="container navbar navbar-expand-lg navbar-light bg-white" style="width: 100%;background-color: red;">
+    <ul class="navbar-nav">
       <a href="./index.html"><img src="./images/logo.png" class="logo_image" alt=""></a>
       <img src="./images/like.svg" class="like-mobile" alt="">
       <span class="like_radius_mobile">
@@ -83,15 +99,15 @@
         <div class="hamburger-menu">
           <ul class="main-links">
             <img src="./images/logo.png" class="logo_image2" alt="">
-            <li class="delay02"><a href="#">Каталог</a></li>
-            <li class="delay03"><a href="#">Наши работы</a></li>
-            <li class="delay04"><a href="#">Наши видео</a></li>
-            <li class="delay05"><a href="#">Наши статьи</a></li>
-            <li class="delay06"><a href="#">О нас</a></li>
-            <li class="delay07"><a href="#">Контакты</a></li>
-            <li class="delay08"><a href="#"><img src="./images/search_product.svg" class="not-found" alt=""> Не нашли
+            <li class="delay02"><a href="./catelog.html">Каталог</a></li>
+            <li class="delay03"><a href="./our_works.html">Наши работы</a></li>
+            <li class="delay04"><a href="./videos.html">Наши видео</a></li>
+            <li class="delay05"><a href="./blog.html">Наши статьи</a></li>
+            <li class="delay06"><a href="./about.html">О нас</a></li>
+            <li class="delay07"><a href="./contacts.html">Контакты</a></li>
+            <li class="delay08"><a href="./not_found_product.html"><img src="./images/search_product.svg" class="not-found" alt=""> Не нашли
                 товар?</a></li>
-            <li class="delay09"><a href="">
+            <li class="delay09"><a href="tel:+998 71 250 77 77">
                 <p style="color: #000;font-weight: bold;">+998 71 250 77 77</p>
               </a></li>
             <li class="delay08" style="margin-top: -7%"><a href="">
@@ -104,7 +120,8 @@
       <div class="btn1 nav-drop-menu" style="box-shadow: none;padding: 10px;text-align: center;padding-top: -9%;">
         <div class="elemet-menu">
           <span class="fas fa-th-large1" style="width:146px;height: 53px;background-color: #FFE700;line-height: 39px;">
-            <img src="./images/squares_2.svg" alt=""> <b class="catalog_nav">Каталог</b>
+            <img src="./images/squares_2.svg" alt=""> <b
+              style="color: #132E6B;padding: 0px;font-size: 18px;font-weight: 500;font-style: normal;font-family: 'TT Norms';text-align: center;margin-left:3%;">Каталог</b>
           </span>
         </div>
       </div>
@@ -112,12 +129,13 @@
         <div class="text">
           Категории
         </div>
+        <!-- menu in categories -->
         <div class="minimalist-tab-menu2">
           <ul class="list-group2">
             <li class="menu-item2 has-child3">
               <img src="./images/pishevaya.svg" style="margin-top: 0%;" alt=""><span
                 style="margin-top: 0%;position: absolute;font-size: 13px;font-weight: normal;font-style: normal;">Пищевая
-                промышленность</span>
+                промышленностьяяя</span>
             </li>
             <li class="menu-item2 has-child2">
               <img src="./images/pishevaya_2.svg" style="margin-top: 5%;" alt=""><span
@@ -160,6 +178,7 @@
           </ul>
 
         </div>
+        <!-- end menu in categories -->
       </nav>
     </ul>
 
@@ -193,7 +212,6 @@
   </nav>
   <!-- end mobile menu -->
   <!-- start carousel -->
-<!-- china leasing impex header and footer, number in header and social icons -->
   <div class="container">
     <div class="row">
       <div class="col-md-3">
@@ -786,8 +804,8 @@
       <div class="row">
 
       </div>
-      <h1 class="banner-text">Каталог</h1>
-      <p class="banner-desc">Главная <span> > <a href="" class="banner-desc-title">Каталог</a></span></p>
+      <h1 class="banner-text">О нашей компании</h1>
+      <p class="banner-desc">Главная <span> > <a href="" class="banner-desc-title">О нас</a></span></p>
 
       <img src="./images/backgorund-shadow.svg" style="margin-top: -30%;margin-left: -60%;" alt="">
     </div>
@@ -798,7 +816,8 @@
 
 
   <img src="./images/settings.svg" class="icon-right" style="right: 15%;transform: rotate(20.33deg);" alt="">
-  <div class="container mt-5">
+  <!-- filter -->
+  <div class="container ">
     <ul id="accordion2" class="accordion" style="position:relative">
       <div class="filter">
         <h4>Фильтр</h4>
@@ -875,13 +894,65 @@
       </div>
     </ul>
   </div>
+  <!-- end filter -->
+  <!-- logotip product, дочерние компании, homiylar...., bayroqlar va davlat -->
 
+  <!-- filter mobile -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <br>
+        <p class="categories_block mt-2">Категории</p>
+        <ul id="accordion4_2" class="accordion" style="border-radius: 6px;">
 
+          <li>
+            <div class="link" style="background-color: #FFE700;border-radius: 6px;"> <img src="./images/pishevaya.svg"
+                alt=""> <span
+                style="position: absolute;margin-top: 2%;margin-left: 5%;font-family: revert;font-weight: 100;">Пищевая
+                промышленность</span><i class="fa fa-chevron-down"></i>
+              <hr class="hr-menu-mobile" style="position: absolute;bottom: -1px;">
+            </div>
+            <ul class="submenu">
+              <li><a href="#">Прокатное производства</a></li>
+              <li><a href="#">Холодильники</a></li>
+              <li>
+                <ul class="accordion5_1">
+                  <li>
+                    <a>Lorem ipsum</a>
+                    <p>Lorem ipsum dolor1 </p>
+                    <p>lasdfasd fasdfasdf sadff</p>
+                  </li>
+                  <li>
+                    <a>Repellat Odit Aliquid</a>
+                    <p>Lorem ipsum dolor1 </p>
+                  </li>
+                  <li>
+                    <a>Dolor sit Amet</a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, ipsum, fuga, in,
+                      obcaecati magni ullam nobis voluptas fugiat tenetur voluptatum quas tempora maxime rerum neque
+                      deserunt suscipit provident cumque et mollitia ex aspernatur porro minus sapiente voluptatibus eos
+                      at perferendis repellat odit aliquid harum molestias ratione pariatur adipisci. Aliquid, iure.</p>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="#">Мебель для кухни</a></li>
+              <li><a href="#">Мельница</a></li>
+              <li><a href="#">Переработка молока</a></li>
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- end filter mobile -->
   <div class="container">
     <div class="row">
       <div class="col-xl-3 col-lg-4 col-md-5">
         <ul class="accordion">
-          <h3 style="margin-bottom: -20px;padding: 15px;color: #132E6B;text-align: left;">Категории</h3>
+          <h3 class="categories_none" style="margin-bottom: -20px;padding: 15px;color: #132E6B;text-align: left;">
+            Категории</h3>
           <!-- <hr class="hr-menu" style="position: absolute;"> -->
         </ul>
         <div class="sidebar-categories">
@@ -1246,7 +1317,8 @@
           <div class="sorting mr-auto">
 
             <!-- <option value="1">{% trans 'Showing' %} {{ page_obj.start_index }}-{{ page_obj.end_index }} {% trans 'of' %} {{ page_obj.paginator.count }}</option> -->
-
+            <button class="btn btn-mobile"
+              style="width: 108px;height: 48px;background-color: #f4f5f7;border-radius: 6px;">Фильтр</button>
 
           </div>
           <div class="tab3">
@@ -1262,28 +1334,38 @@
 
 
           <div id="London" class="tabcontent3">
-            <div class="container">
+            <div class="container-1">
               <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 col-6">
                   <div class="produdcs-section">
                     <div class="flex-item">
                       <div class="flex-item-inner">
                         <!-- card -->
                         <a href="#">
-                          <div class="card-front bg-violet">
-                            <a href="#" class="card-link"><button class="btn"
-                                style="width: 48px;height: 48px;background-color: #FFF5F5;position: absolute;right: 10px;"><img
-                                  src="./images/like.svg" style="margin-top: 7px;" alt=""></button></a>
-                            <a href="#" class="card-link"><button class="btn"
-                                style="width: 48px;height: 48px;background-color: #2EC1AC;position: absolute;right: 70px;border-radius: 50px;">
-                                <p style="margin-left:-52%;color: #fff;font-weight: normal;font-size: 16px;">NEW!</p>
+                          <div class="card-front bg-vioet">
+                            <a href="#" class="card-link"><button class="btn like-mobile-1"><img src="./images/like.svg"
+                                  class="like-img-mobile" alt=""></button></a>
+                            <a href="#" class="card-link"><button class="btn new-mobile-1">
+                                <p class="new-mobile-text">NEW!</p>
                               </button></a>
                             <img src="./images/stanok.png" style="width: 100%;height: auto;" alt="">
                             <div class="card-text">
                               <h4 class="front-title">Буровая установка БР 73212С</h4>
                               <p class="detail">Артикул: US</p>
-                              <p class="desc">$3 800 - 24 731 675 сум</p>
+                              <p class="desc-price">$3 800 - 24 731 675 сум</p>
+                              <p class="mob-price">$3 800</p>
+                              <p class="mob-price">24 731 675 cум</p>
                             </div>
+                            <ul>
+                              <li>
+                                <a href="./single-product.html">
+                                  <button class="button-left button-bottom-left ds-none" type="button"
+                                    style="width: 127px;height: 52px;">
+                                    <p class="carousel-button-text" style="font-size: 16px;">Заказать</p>
+                                  </button>
+                                </a>
+                              </li>
+                            </ul>
                           </div>
                           <div class="card-back bg-violet">
                             <p class="back-title">Буровая установка БР 73212С</p>
@@ -1361,7 +1443,7 @@
                                     </button>
                                   </a></li>
                               </ul>
-                              <a href="#" class="card-link"><button class="btn-like1"><img src="./images/like.svg"
+                              <a href="#" class="card-link"><button class="btn-like2"><img src="./images/like.svg"
                                     alt=""></button></a>
                             </div>
                           </div>
@@ -1371,26 +1453,36 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-6">
                   <div class="produdcs-section">
                     <div class="flex-item">
                       <div class="flex-item-inner">
                         <!-- card -->
                         <a href="#">
-                          <div class="card-front bg-violet">
-                            <a href="#" class="card-link"><button class="btn"
-                                style="width: 48px;height: 48px;background-color: #FFF5F5;position: absolute;right: 10px;"><img
-                                  src="./images/like.svg" style="margin-top: 7px;" alt=""></button></a>
-                            <a href="#" class="card-link"><button class="btn"
-                                style="width: 48px;height: 48px;background-color: #2EC1AC;position: absolute;right: 70px;border-radius: 50px;">
-                                <p style="margin-left:-52%;color: #fff;font-weight: normal;font-size: 16px;">NEW!</p>
+                          <div class="card-front bg-vioet">
+                            <a href="#" class="card-link"><button class="btn like-mobile-1"><img src="./images/like.svg"
+                                  class="like-img-mobile" alt=""></button></a>
+                            <a href="#" class="card-link"><button class="btn new-mobile-1">
+                                <p class="new-mobile-text">NEW!</p>
                               </button></a>
                             <img src="./images/stanok.png" style="width: 100%;height: auto;" alt="">
                             <div class="card-text">
                               <h4 class="front-title">Буровая установка БР 73212С</h4>
                               <p class="detail">Артикул: US</p>
-                              <p class="desc">$3 800 - 24 731 675 сум</p>
+                              <p class="desc-price">$3 800 - 24 731 675 сум</p>
+                              <p class="mob-price">$3 800</p>
+                              <p class="mob-price">24 731 675 cум</p>
                             </div>
+                            <ul>
+                              <li>
+                                <a href="./single-product.html">
+                                  <button class="button-left button-bottom-left ds-none" type="button"
+                                    style="width: 127px;height: 52px;">
+                                    <p class="carousel-button-text" style="font-size: 16px;">Заказать</p>
+                                  </button>
+                                </a>
+                              </li>
+                            </ul>
                           </div>
                           <div class="card-back bg-violet">
                             <p class="back-title">Буровая установка БР 73212С</p>
@@ -1462,11 +1554,13 @@
                             </div>
                             <div class="buttons" style="text-align: center;padding: 10px;">
                               <ul>
-                                <li><button class="button-product button-bottom-product">
-                                    <p style="font-size: 16px;">Заказать</p>
-                                  </button></li>
+                                <li><a href="./single-product.html">
+                                    <button class="button-product button-bottom-product">
+                                      <p style="font-size: 16px;">Заказать</p>
+                                    </button>
+                                  </a></li>
                               </ul>
-                              <a href="#" class="card-link"><button class="btn-like1"><img src="./images/like.svg"
+                              <a href="#" class="card-link"><button class="btn-like2"><img src="./images/like.svg"
                                     alt=""></button></a>
                             </div>
                           </div>
@@ -1476,26 +1570,36 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-6">
                   <div class="produdcs-section">
                     <div class="flex-item">
                       <div class="flex-item-inner">
                         <!-- card -->
                         <a href="#">
-                          <div class="card-front bg-violet">
-                            <a href="#" class="card-link"><button class="btn"
-                                style="width: 48px;height: 48px;background-color: #FFF5F5;position: absolute;right: 10px;"><img
-                                  src="./images/like.svg" style="margin-top: 7px;" alt=""></button></a>
-                            <a href="#" class="card-link"><button class="btn"
-                                style="width: 48px;height: 48px;background-color: #E97171;position: absolute;right: 70px;border-radius: 50px;">
-                                <p style="margin-left:-32%;color: #fff;font-weight: normal;">-30%</p>
+                          <div class="card-front bg-vioet">
+                            <a href="#" class="card-link"><button class="btn like-mobile-1"><img src="./images/like.svg"
+                                  class="like-img-mobile" alt=""></button></a>
+                            <a href="#" class="card-link"><button class="btn new-mobile-1">
+                                <p class="new-mobile-text">NEW!</p>
                               </button></a>
                             <img src="./images/stanok.png" style="width: 100%;height: auto;" alt="">
                             <div class="card-text">
                               <h4 class="front-title">Буровая установка БР 73212С</h4>
                               <p class="detail">Артикул: US</p>
-                              <p class="desc">$3 800 - 24 731 675 сум</p>
+                              <p class="desc-price">$3 800 - 24 731 675 сум</p>
+                              <p class="mob-price">$3 800</p>
+                              <p class="mob-price">24 731 675 cум</p>
                             </div>
+                            <ul>
+                              <li>
+                                <a href="./single-product.html">
+                                  <button class="button-left button-bottom-left ds-none" type="button"
+                                    style="width: 127px;height: 52px;">
+                                    <p class="carousel-button-text" style="font-size: 16px;">Заказать</p>
+                                  </button>
+                                </a>
+                              </li>
+                            </ul>
                           </div>
                           <div class="card-back bg-violet">
                             <p class="back-title">Буровая установка БР 73212С</p>
@@ -1567,11 +1671,13 @@
                             </div>
                             <div class="buttons" style="text-align: center;padding: 10px;">
                               <ul>
-                                <li><button class="button-product button-bottom-product">
-                                    <p style="font-size: 16px;">Заказать</p>
-                                  </button></li>
+                                <li><a href="./single-product.html">
+                                    <button class="button-product button-bottom-product">
+                                      <p style="font-size: 16px;">Заказать</p>
+                                    </button>
+                                  </a></li>
                               </ul>
-                              <a href="#" class="card-link"><button class="btn-like1"><img src="./images/like.svg"
+                              <a href="#" class="card-link"><button class="btn-like2"><img src="./images/like.svg"
                                     alt=""></button></a>
                             </div>
                           </div>
@@ -1581,28 +1687,36 @@
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 col-6">
                   <div class="produdcs-section">
                     <div class="flex-item">
                       <div class="flex-item-inner">
                         <!-- card -->
                         <a href="#">
-                          <div class="card-front bg-violet">
-                            <a href="#" class="card-link"><button class="btn"
-                                style="width: 48px;height: 48px;background-color: #FFF5F5;position: absolute;right: 10px;"><img
-                                  src="./images/like.svg" style="margin-top: 7px;" alt=""></button></a>
-                            <a href="#" class="card-link"><button class="btn"
-                                style="width: 48px;height: 48px;background-color: #2EC1AC;position: absolute;right: 70px;border-radius: 50px;">
-                                <p style="margin-left:-52%;color: #fff;font-weight: normal;font-size: 16px;">NEW!</p>
+                          <div class="card-front bg-vioet">
+                            <a href="#" class="card-link"><button class="btn like-mobile-1"><img src="./images/like.svg"
+                                  class="like-img-mobile" alt=""></button></a>
+                            <a href="#" class="card-link"><button class="btn new-mobile-1">
+                                <p class="new-mobile-text">NEW!</p>
                               </button></a>
                             <img src="./images/stanok.png" style="width: 100%;height: auto;" alt="">
                             <div class="card-text">
                               <h4 class="front-title">Буровая установка БР 73212С</h4>
                               <p class="detail">Артикул: US</p>
-                              <p class="desc">$3 800 - 24 731 675 сум</p>
+                              <p class="desc-price">$3 800 - 24 731 675 сум</p>
+                              <p class="mob-price">$3 800</p>
+                              <p class="mob-price">24 731 675 cум</p>
                             </div>
+                            <ul>
+                              <li>
+                                <a href="./single-product.html">
+                                  <button class="button-left button-bottom-left ds-none" type="button"
+                                    style="width: 127px;height: 52px;">
+                                    <p class="carousel-button-text" style="font-size: 16px;">Заказать</p>
+                                  </button>
+                                </a>
+                              </li>
+                            </ul>
                           </div>
                           <div class="card-back bg-violet">
                             <p class="back-title">Буровая установка БР 73212С</p>
@@ -1674,11 +1788,13 @@
                             </div>
                             <div class="buttons" style="text-align: center;padding: 10px;">
                               <ul>
-                                <li><button class="button-product button-bottom-product">
-                                    <p style="font-size: 16px;">Заказать</p>
-                                  </button></li>
+                                <li><a href="./single-product.html">
+                                    <button class="button-product button-bottom-product">
+                                      <p style="font-size: 16px;">Заказать</p>
+                                    </button>
+                                  </a></li>
                               </ul>
-                              <a href="#" class="card-link"><button class="btn-like1"><img src="./images/like.svg"
+                              <a href="#" class="card-link"><button class="btn-like2"><img src="./images/like.svg"
                                     alt=""></button></a>
                             </div>
                           </div>
@@ -1688,26 +1804,36 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-6">
                   <div class="produdcs-section">
                     <div class="flex-item">
                       <div class="flex-item-inner">
                         <!-- card -->
                         <a href="#">
-                          <div class="card-front bg-violet">
-                            <a href="#" class="card-link"><button class="btn"
-                                style="width: 48px;height: 48px;background-color: #FFF5F5;position: absolute;right: 10px;"><img
-                                  src="./images/like.svg" style="margin-top: 7px;" alt=""></button></a>
-                            <a href="#" class="card-link"><button class="btn"
-                                style="width: 48px;height: 48px;background-color: #2EC1AC;position: absolute;right: 70px;border-radius: 50px;">
-                                <p style="margin-left:-52%;color: #fff;font-weight: normal;font-size: 16px;">NEW!</p>
+                          <div class="card-front bg-vioet">
+                            <a href="#" class="card-link"><button class="btn like-mobile-1"><img src="./images/like.svg"
+                                  class="like-img-mobile" alt=""></button></a>
+                            <a href="#" class="card-link"><button class="btn new-mobile-1">
+                                <p class="new-mobile-text">NEW!</p>
                               </button></a>
                             <img src="./images/stanok.png" style="width: 100%;height: auto;" alt="">
                             <div class="card-text">
                               <h4 class="front-title">Буровая установка БР 73212С</h4>
                               <p class="detail">Артикул: US</p>
-                              <p class="desc">$3 800 - 24 731 675 сум</p>
+                              <p class="desc-price">$3 800 - 24 731 675 сум</p>
+                              <p class="mob-price">$3 800</p>
+                              <p class="mob-price">24 731 675 cум</p>
                             </div>
+                            <ul>
+                              <li>
+                                <a href="./single-product.html">
+                                  <button class="button-left button-bottom-left ds-none" type="button"
+                                    style="width: 127px;height: 52px;">
+                                    <p class="carousel-button-text" style="font-size: 16px;">Заказать</p>
+                                  </button>
+                                </a>
+                              </li>
+                            </ul>
                           </div>
                           <div class="card-back bg-violet">
                             <p class="back-title">Буровая установка БР 73212С</p>
@@ -1779,11 +1905,13 @@
                             </div>
                             <div class="buttons" style="text-align: center;padding: 10px;">
                               <ul>
-                                <li><button class="button-product button-bottom-product">
-                                    <p style="font-size: 16px;">Заказать</p>
-                                  </button></li>
+                                <li><a href="./single-product.html">
+                                    <button class="button-product button-bottom-product">
+                                      <p style="font-size: 16px;">Заказать</p>
+                                    </button>
+                                  </a></li>
                               </ul>
-                              <a href="#" class="card-link"><button class="btn-like1"><img src="./images/like.svg"
+                              <a href="#" class="card-link"><button class="btn-like2"><img src="./images/like.svg"
                                     alt=""></button></a>
                             </div>
                           </div>
@@ -1793,26 +1921,36 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-6">
                   <div class="produdcs-section">
                     <div class="flex-item">
                       <div class="flex-item-inner">
                         <!-- card -->
                         <a href="#">
-                          <div class="card-front bg-violet">
-                            <a href="#" class="card-link"><button class="btn"
-                                style="width: 48px;height: 48px;background-color: #FFF5F5;position: absolute;right: 10px;"><img
-                                  src="./images/like.svg" style="margin-top: 7px;" alt=""></button></a>
-                            <a href="#" class="card-link"><button class="btn"
-                                style="width: 48px;height: 48px;background-color: #E97171;position: absolute;right: 70px;border-radius: 50px;">
-                                <p style="margin-left:-32%;color: #fff;font-weight: normal;">-30%</p>
+                          <div class="card-front bg-vioet">
+                            <a href="#" class="card-link"><button class="btn like-mobile-1"><img src="./images/like.svg"
+                                  class="like-img-mobile" alt=""></button></a>
+                            <a href="#" class="card-link"><button class="btn new-mobile-1">
+                                <p class="new-mobile-text">NEW!</p>
                               </button></a>
                             <img src="./images/stanok.png" style="width: 100%;height: auto;" alt="">
                             <div class="card-text">
                               <h4 class="front-title">Буровая установка БР 73212С</h4>
                               <p class="detail">Артикул: US</p>
-                              <p class="desc">$3 800 - 24 731 675 сум</p>
+                              <p class="desc-price">$3 800 - 24 731 675 сум</p>
+                              <p class="mob-price">$3 800</p>
+                              <p class="mob-price">24 731 675 cум</p>
                             </div>
+                            <ul>
+                              <li>
+                                <a href="./single-product.html">
+                                  <button class="button-left button-bottom-left ds-none" type="button"
+                                    style="width: 127px;height: 52px;">
+                                    <p class="carousel-button-text" style="font-size: 16px;">Заказать</p>
+                                  </button>
+                                </a>
+                              </li>
+                            </ul>
                           </div>
                           <div class="card-back bg-violet">
                             <p class="back-title">Буровая установка БР 73212С</p>
@@ -1884,11 +2022,13 @@
                             </div>
                             <div class="buttons" style="text-align: center;padding: 10px;">
                               <ul>
-                                <li><button class="button-product button-bottom-product">
-                                    <p style="font-size: 16px;">Заказать</p>
-                                  </button></li>
+                                <li><a href="./single-product.html">
+                                    <button class="button-product button-bottom-product">
+                                      <p style="font-size: 16px;">Заказать</p>
+                                    </button>
+                                  </a></li>
                               </ul>
-                              <a href="#" class="card-link"><button class="btn-like1"><img src="./images/like.svg"
+                              <a href="#" class="card-link"><button class="btn-like2"><img src="./images/like.svg"
                                     alt=""></button></a>
                             </div>
                           </div>
@@ -1898,28 +2038,36 @@
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 col-6">
                   <div class="produdcs-section">
                     <div class="flex-item">
                       <div class="flex-item-inner">
                         <!-- card -->
                         <a href="#">
-                          <div class="card-front bg-violet">
-                            <a href="#" class="card-link"><button class="btn"
-                                style="width: 48px;height: 48px;background-color: #FFF5F5;position: absolute;right: 10px;"><img
-                                  src="./images/like.svg" style="margin-top: 7px;" alt=""></button></a>
-                            <a href="#" class="card-link"><button class="btn"
-                                style="width: 48px;height: 48px;background-color: #2EC1AC;position: absolute;right: 70px;border-radius: 50px;">
-                                <p style="margin-left:-52%;color: #fff;font-weight: normal;font-size: 16px;">NEW!</p>
+                          <div class="card-front bg-vioet">
+                            <a href="#" class="card-link"><button class="btn like-mobile-1"><img src="./images/like.svg"
+                                  class="like-img-mobile" alt=""></button></a>
+                            <a href="#" class="card-link"><button class="btn new-mobile-1">
+                                <p class="new-mobile-text">NEW!</p>
                               </button></a>
                             <img src="./images/stanok.png" style="width: 100%;height: auto;" alt="">
                             <div class="card-text">
                               <h4 class="front-title">Буровая установка БР 73212С</h4>
                               <p class="detail">Артикул: US</p>
-                              <p class="desc">$3 800 - 24 731 675 сум</p>
+                              <p class="desc-price">$3 800 - 24 731 675 сум</p>
+                              <p class="mob-price">$3 800</p>
+                              <p class="mob-price">24 731 675 cум</p>
                             </div>
+                            <ul>
+                              <li>
+                                <a href="./single-product.html">
+                                  <button class="button-left button-bottom-left ds-none" type="button"
+                                    style="width: 127px;height: 52px;">
+                                    <p class="carousel-button-text" style="font-size: 16px;">Заказать</p>
+                                  </button>
+                                </a>
+                              </li>
+                            </ul>
                           </div>
                           <div class="card-back bg-violet">
                             <p class="back-title">Буровая установка БР 73212С</p>
@@ -1991,11 +2139,13 @@
                             </div>
                             <div class="buttons" style="text-align: center;padding: 10px;">
                               <ul>
-                                <li><button class="button-product button-bottom-product">
-                                    <p style="font-size: 16px;">Заказать</p>
-                                  </button></li>
+                                <li><a href="./single-product.html">
+                                    <button class="button-product button-bottom-product">
+                                      <p style="font-size: 16px;">Заказать</p>
+                                    </button>
+                                  </a></li>
                               </ul>
-                              <a href="#" class="card-link"><button class="btn-like1"><img src="./images/like.svg"
+                              <a href="#" class="card-link"><button class="btn-like2"><img src="./images/like.svg"
                                     alt=""></button></a>
                             </div>
                           </div>
@@ -2005,26 +2155,36 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-6">
                   <div class="produdcs-section">
                     <div class="flex-item">
                       <div class="flex-item-inner">
                         <!-- card -->
                         <a href="#">
-                          <div class="card-front bg-violet">
-                            <a href="#" class="card-link"><button class="btn"
-                                style="width: 48px;height: 48px;background-color: #FFF5F5;position: absolute;right: 10px;"><img
-                                  src="./images/like.svg" style="margin-top: 7px;" alt=""></button></a>
-                            <a href="#" class="card-link"><button class="btn"
-                                style="width: 48px;height: 48px;background-color: #2EC1AC;position: absolute;right: 70px;border-radius: 50px;">
-                                <p style="margin-left:-52%;color: #fff;font-weight: normal;font-size: 16px;">NEW!</p>
+                          <div class="card-front bg-vioet">
+                            <a href="#" class="card-link"><button class="btn like-mobile-1"><img src="./images/like.svg"
+                                  class="like-img-mobile" alt=""></button></a>
+                            <a href="#" class="card-link"><button class="btn new-mobile-1">
+                                <p class="new-mobile-text">NEW!</p>
                               </button></a>
                             <img src="./images/stanok.png" style="width: 100%;height: auto;" alt="">
                             <div class="card-text">
                               <h4 class="front-title">Буровая установка БР 73212С</h4>
                               <p class="detail">Артикул: US</p>
-                              <p class="desc">$3 800 - 24 731 675 сум</p>
+                              <p class="desc-price">$3 800 - 24 731 675 сум</p>
+                              <p class="mob-price">$3 800</p>
+                              <p class="mob-price">24 731 675 cум</p>
                             </div>
+                            <ul>
+                              <li>
+                                <a href="./single-product.html">
+                                  <button class="button-left button-bottom-left ds-none" type="button"
+                                    style="width: 127px;height: 52px;">
+                                    <p class="carousel-button-text" style="font-size: 16px;">Заказать</p>
+                                  </button>
+                                </a>
+                              </li>
+                            </ul>
                           </div>
                           <div class="card-back bg-violet">
                             <p class="back-title">Буровая установка БР 73212С</p>
@@ -2096,11 +2256,13 @@
                             </div>
                             <div class="buttons" style="text-align: center;padding: 10px;">
                               <ul>
-                                <li><button class="button-product button-bottom-product">
-                                    <p style="font-size: 16px;">Заказать</p>
-                                  </button></li>
+                                <li><a href="./single-product.html">
+                                    <button class="button-product button-bottom-product">
+                                      <p style="font-size: 16px;">Заказать</p>
+                                    </button>
+                                  </a></li>
                               </ul>
-                              <a href="#" class="card-link"><button class="btn-like1"><img src="./images/like.svg"
+                              <a href="#" class="card-link"><button class="btn-like2"><img src="./images/like.svg"
                                     alt=""></button></a>
                             </div>
                           </div>
@@ -2110,28 +2272,36 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4">
-                  <img src="./images/Group_418.svg" class="icon-right" style="right: -30%;transform: rotate(-29.52deg);"
-                    alt="">
+                <div class="col-md-4 col-6">
                   <div class="produdcs-section">
                     <div class="flex-item">
                       <div class="flex-item-inner">
                         <!-- card -->
                         <a href="#">
-                          <div class="card-front bg-violet">
-                            <a href="#" class="card-link"><button class="btn"
-                                style="width: 48px;height: 48px;background-color: #FFF5F5;position: absolute;right: 10px;"><img
-                                  src="./images/like.svg" style="margin-top: 7px;" alt=""></button></a>
-                            <a href="#" class="card-link"><button class="btn"
-                                style="width: 48px;height: 48px;background-color: #E97171;position: absolute;right: 70px;border-radius: 50px;">
-                                <p style="margin-left:-32%;color: #fff;font-weight: normal;">-30%</p>
+                          <div class="card-front bg-vioet">
+                            <a href="#" class="card-link"><button class="btn like-mobile-1"><img src="./images/like.svg"
+                                  class="like-img-mobile" alt=""></button></a>
+                            <a href="#" class="card-link"><button class="btn new-mobile-1">
+                                <p class="new-mobile-text">NEW!</p>
                               </button></a>
                             <img src="./images/stanok.png" style="width: 100%;height: auto;" alt="">
                             <div class="card-text">
                               <h4 class="front-title">Буровая установка БР 73212С</h4>
                               <p class="detail">Артикул: US</p>
-                              <p class="desc">$3 800 - 24 731 675 сум</p>
+                              <p class="desc-price">$3 800 - 24 731 675 сум</p>
+                              <p class="mob-price">$3 800</p>
+                              <p class="mob-price">24 731 675 cум</p>
                             </div>
+                            <ul>
+                              <li>
+                                <a href="./single-product.html">
+                                  <button class="button-left button-bottom-left ds-none" type="button"
+                                    style="width: 127px;height: 52px;">
+                                    <p class="carousel-button-text" style="font-size: 16px;">Заказать</p>
+                                  </button>
+                                </a>
+                              </li>
+                            </ul>
                           </div>
                           <div class="card-back bg-violet">
                             <p class="back-title">Буровая установка БР 73212С</p>
@@ -2203,11 +2373,13 @@
                             </div>
                             <div class="buttons" style="text-align: center;padding: 10px;">
                               <ul>
-                                <li><button class="button-product button-bottom-product">
-                                    <p style="font-size: 16px;">Заказать</p>
-                                  </button></li>
+                                <li><a href="./single-product.html">
+                                    <button class="button-product button-bottom-product">
+                                      <p style="font-size: 16px;">Заказать</p>
+                                    </button>
+                                  </a></li>
                               </ul>
-                              <a href="#" class="card-link"><button class="btn-like1"><img src="./images/like.svg"
+                              <a href="#" class="card-link"><button class="btn-like2"><img src="./images/like.svg"
                                     alt=""></button></a>
                             </div>
                           </div>
@@ -2217,29 +2389,36 @@
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="row">
-                <div class="col-md-4">
-                  <img src="./images/settings.svg" class="icon-left" style="left: -26%;" alt="">
+                <div class="col-md-4 col-6">
                   <div class="produdcs-section">
                     <div class="flex-item">
                       <div class="flex-item-inner">
                         <!-- card -->
                         <a href="#">
-                          <div class="card-front bg-violet">
-                            <a href="#" class="card-link"><button class="btn"
-                                style="width: 48px;height: 48px;background-color: #FFF5F5;position: absolute;right: 10px;"><img
-                                  src="./images/like.svg" style="margin-top: 7px;" alt=""></button></a>
-                            <a href="#" class="card-link"><button class="btn"
-                                style="width: 48px;height: 48px;background-color: #2EC1AC;position: absolute;right: 70px;border-radius: 50px;">
-                                <p style="margin-left:-52%;color: #fff;font-weight: normal;font-size: 16px;">NEW!</p>
+                          <div class="card-front bg-vioet">
+                            <a href="#" class="card-link"><button class="btn like-mobile-1"><img src="./images/like.svg"
+                                  class="like-img-mobile" alt=""></button></a>
+                            <a href="#" class="card-link"><button class="btn new-mobile-1">
+                                <p class="new-mobile-text">NEW!</p>
                               </button></a>
                             <img src="./images/stanok.png" style="width: 100%;height: auto;" alt="">
                             <div class="card-text">
                               <h4 class="front-title">Буровая установка БР 73212С</h4>
                               <p class="detail">Артикул: US</p>
-                              <p class="desc">$3 800 - 24 731 675 сум</p>
+                              <p class="desc-price">$3 800 - 24 731 675 сум</p>
+                              <p class="mob-price">$3 800</p>
+                              <p class="mob-price">24 731 675 cум</p>
                             </div>
+                            <ul>
+                              <li>
+                                <a href="./single-product.html">
+                                  <button class="button-left button-bottom-left ds-none" type="button"
+                                    style="width: 127px;height: 52px;">
+                                    <p class="carousel-button-text" style="font-size: 16px;">Заказать</p>
+                                  </button>
+                                </a>
+                              </li>
+                            </ul>
                           </div>
                           <div class="card-back bg-violet">
                             <p class="back-title">Буровая установка БР 73212С</p>
@@ -2311,11 +2490,13 @@
                             </div>
                             <div class="buttons" style="text-align: center;padding: 10px;">
                               <ul>
-                                <li><button class="button-product button-bottom-product">
-                                    <p style="font-size: 16px;">Заказать</p>
-                                  </button></li>
+                                <li><a href="./single-product.html">
+                                    <button class="button-product button-bottom-product">
+                                      <p style="font-size: 16px;">Заказать</p>
+                                    </button>
+                                  </a></li>
                               </ul>
-                              <a href="#" class="card-link"><button class="btn-like1"><img src="./images/like.svg"
+                              <a href="#" class="card-link"><button class="btn-like2"><img src="./images/like.svg"
                                     alt=""></button></a>
                             </div>
                           </div>
@@ -2325,26 +2506,36 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-6">
                   <div class="produdcs-section">
                     <div class="flex-item">
                       <div class="flex-item-inner">
                         <!-- card -->
                         <a href="#">
-                          <div class="card-front bg-violet">
-                            <a href="#" class="card-link"><button class="btn"
-                                style="width: 48px;height: 48px;background-color: #FFF5F5;position: absolute;right: 10px;"><img
-                                  src="./images/like.svg" style="margin-top: 7px;" alt=""></button></a>
-                            <a href="#" class="card-link"><button class="btn"
-                                style="width: 48px;height: 48px;background-color: #2EC1AC;position: absolute;right: 70px;border-radius: 50px;">
-                                <p style="margin-left:-52%;color: #fff;font-weight: normal;font-size: 16px;">NEW!</p>
+                          <div class="card-front bg-vioet">
+                            <a href="#" class="card-link"><button class="btn like-mobile-1"><img src="./images/like.svg"
+                                  class="like-img-mobile" alt=""></button></a>
+                            <a href="#" class="card-link"><button class="btn new-mobile-1">
+                                <p class="new-mobile-text">NEW!</p>
                               </button></a>
                             <img src="./images/stanok.png" style="width: 100%;height: auto;" alt="">
                             <div class="card-text">
                               <h4 class="front-title">Буровая установка БР 73212С</h4>
                               <p class="detail">Артикул: US</p>
-                              <p class="desc">$3 800 - 24 731 675 сум</p>
+                              <p class="desc-price">$3 800 - 24 731 675 сум</p>
+                              <p class="mob-price">$3 800</p>
+                              <p class="mob-price">24 731 675 cум</p>
                             </div>
+                            <ul>
+                              <li>
+                                <a href="./single-product.html">
+                                  <button class="button-left button-bottom-left ds-none" type="button"
+                                    style="width: 127px;height: 52px;">
+                                    <p class="carousel-button-text" style="font-size: 16px;">Заказать</p>
+                                  </button>
+                                </a>
+                              </li>
+                            </ul>
                           </div>
                           <div class="card-back bg-violet">
                             <p class="back-title">Буровая установка БР 73212С</p>
@@ -2416,11 +2607,13 @@
                             </div>
                             <div class="buttons" style="text-align: center;padding: 10px;">
                               <ul>
-                                <li><button class="button-product button-bottom-product">
-                                    <p style="font-size: 16px;">Заказать</p>
-                                  </button></li>
+                                <li><a href="./single-product.html">
+                                    <button class="button-product button-bottom-product">
+                                      <p style="font-size: 16px;">Заказать</p>
+                                    </button>
+                                  </a></li>
                               </ul>
-                              <a href="#" class="card-link"><button class="btn-like1"><img src="./images/like.svg"
+                              <a href="#" class="card-link"><button class="btn-like2"><img src="./images/like.svg"
                                     alt=""></button></a>
                             </div>
                           </div>
@@ -2430,26 +2623,36 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-6">
                   <div class="produdcs-section">
                     <div class="flex-item">
                       <div class="flex-item-inner">
                         <!-- card -->
                         <a href="#">
-                          <div class="card-front bg-violet">
-                            <a href="#" class="card-link"><button class="btn"
-                                style="width: 48px;height: 48px;background-color: #FFF5F5;position: absolute;right: 10px;"><img
-                                  src="./images/like.svg" style="margin-top: 7px;" alt=""></button></a>
-                            <a href="#" class="card-link"><button class="btn"
-                                style="width: 48px;height: 48px;background-color: #E97171;position: absolute;right: 70px;border-radius: 50px;">
-                                <p style="margin-left:-32%;color: #fff;font-weight: normal;">-30%</p>
+                          <div class="card-front bg-vioet">
+                            <a href="#" class="card-link"><button class="btn like-mobile-1"><img src="./images/like.svg"
+                                  class="like-img-mobile" alt=""></button></a>
+                            <a href="#" class="card-link"><button class="btn new-mobile-1">
+                                <p class="new-mobile-text">NEW!</p>
                               </button></a>
                             <img src="./images/stanok.png" style="width: 100%;height: auto;" alt="">
                             <div class="card-text">
                               <h4 class="front-title">Буровая установка БР 73212С</h4>
                               <p class="detail">Артикул: US</p>
-                              <p class="desc">$3 800 - 24 731 675 сум</p>
+                              <p class="desc-price">$3 800 - 24 731 675 сум</p>
+                              <p class="mob-price">$3 800</p>
+                              <p class="mob-price">24 731 675 cум</p>
                             </div>
+                            <ul>
+                              <li>
+                                <a href="./single-product.html">
+                                  <button class="button-left button-bottom-left ds-none" type="button"
+                                    style="width: 127px;height: 52px;">
+                                    <p class="carousel-button-text" style="font-size: 16px;">Заказать</p>
+                                  </button>
+                                </a>
+                              </li>
+                            </ul>
                           </div>
                           <div class="card-back bg-violet">
                             <p class="back-title">Буровая установка БР 73212С</p>
@@ -2521,11 +2724,13 @@
                             </div>
                             <div class="buttons" style="text-align: center;padding: 10px;">
                               <ul>
-                                <li><button class="button-product button-bottom-product">
-                                    <p style="font-size: 16px;">Заказать</p>
-                                  </button></li>
+                                <li><a href="./single-product.html">
+                                    <button class="button-product button-bottom-product">
+                                      <p style="font-size: 16px;">Заказать</p>
+                                    </button>
+                                  </a></li>
                               </ul>
-                              <a href="#" class="card-link"><button class="btn-like1"><img src="./images/like.svg"
+                              <a href="#" class="card-link"><button class="btn-like2"><img src="./images/like.svg"
                                     alt=""></button></a>
                             </div>
                           </div>
@@ -2542,86 +2747,29 @@
           <div id="Paris" class="tabcontent3">
             <div class="container">
               <div class="sort-menu-products">
-                  <div class="row">
-                    <div class="col-md-3">
-                      <img src="./images/stanok.png" style="width: 100%;height: 172px;" alt="">
-                    </div>
-                    <div class="col-md-6 mt-3">
-                      <h4 class="front-title" style="padding:10px;font-size: 18px;font-weight: 500;line-height: 21px;">Буровая установка БР 73212С</h4>
-                      <p class="detail" style="padding:10px;font-style: 14px;line-height: 17px;color: #656565;font-family: 'system-ui';">Артикул: US</p>
-                      <p class="desc" style="padding:10px;font-size: 18px;font-weight: 500;line-height: 24px;">$3 800 - 24 731 675 сум</p>
-                    </div>
-                    <div class="col-md-3">
-                      <a href="#" class="card-link"><button class="btn"
-                          style="width: 48px;height: 48px;background-color: #FFF5F5;position: absolute;right: 15px;"><img
-                            src="./images/like.svg" style="margin-top: 7px;" alt=""></button></a>
-                      <a href="#" class="card-link"><button class="btn"
-                          style="width: 48px;height: 48px;background-color: #E97171;position: absolute;right: 74px;border-radius: 50px;">
-                          <p style="margin-left:-32%;color: #fff;font-weight: normal;">-30%</p>
-                        </button></a>
-                    </div>
-                    
-                    <br>
-                  </div>
-                  <div class="sort-menu-info">
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-3">
-                          <p class="info-back-product">Емкость лотка:</p>
-                          <p class="info-back-product">Емкость шаблона:</p>
-                          <p class="info-back-product">Напряжение:</p>
-                          <p class="info-back-product">Размер оборудования:</p>
-                        </div>
-                        <div class="col-md-3">
-                          <p style="padding-top: 3%;">9 та</p>
-                          <p style="padding-top: 19%;">108 дона</p>
-                          <p style="padding-top: 11%;">380 В 50 Гц</p>
-                          <p style="padding-top: 17%;">мм</p>
-                        </div>
-                        <div class="col-md-3">
-                          <p class="info-back-product">Энергопотребление:</p>
-                          <p class="info-back-product">Материал:</p>
-                          <p class="info-back-product">Тип энергии:</p>
-                        </div>
-                        <div class="col-md-3">
-                          <p style="padding-top: 3%;">25 кв / ч.</p>
-                          <p style="padding-top: 11%;">Зангламас металл S208:</p>
-                          <p style="padding-top: 11%;">Ток</p>
-                        </div>
-                        
-                      </div>
-                      <div class="text-center">
-                        <ul>
-                          <li><button class="button-product button-bottom-product" style="right: 0%;margin: auto;display: table;">
-                              <p style="font-size: 16px;">Заказать</p>
-                            </button></li>
-                        </ul>
-                      </div>
-                      <br>
-                      <br>
-                    </div>
-                </div>
-              </div>
-              <div class="sort-menu-products">
                 <div class="row">
                   <div class="col-md-3">
                     <img src="./images/stanok.png" style="width: 100%;height: 172px;" alt="">
                   </div>
                   <div class="col-md-6 mt-3">
-                    <h4 class="front-title" style="padding:10px;font-size: 18px;font-weight: 500;line-height: 21px;">Буровая установка БР 73212С</h4>
-                    <p class="detail" style="padding:10px;font-style: 14px;line-height: 17px;color: #656565;font-family: 'system-ui';">Артикул: US</p>
-                    <p class="desc" style="padding:10px;font-size: 18px;font-weight: 500;line-height: 24px;">$3 800 - 24 731 675 сум</p>
+                    <h4 class="front-title" style="padding:10px;font-size: 18px;font-weight: 500;line-height: 21px;">
+                      Буровая установка БР 73212С</h4>
+                    <p class="detail"
+                      style="padding:10px;font-style: 14px;line-height: 17px;color: #656565;font-family: 'system-ui';">
+                      Артикул: US</p>
+                    <p class="desc" style="padding:10px;font-size: 18px;font-weight: 500;line-height: 24px;">$3 800 - 24
+                      731 675 сум</p>
                   </div>
                   <div class="col-md-3">
                     <a href="#" class="card-link"><button class="btn"
                         style="width: 48px;height: 48px;background-color: #FFF5F5;position: absolute;right: 15px;"><img
                           src="./images/like.svg" style="margin-top: 7px;" alt=""></button></a>
                     <a href="#" class="card-link"><button class="btn"
-                        style="width: 48px;height: 48px;background-color: #E97171;position: absolute;right: 74px;border-radius: 50px;">
-                        <p style="margin-left:-32%;color: #fff;font-weight: normal;">-30%</p>
+                        style="width: 48px;height: 48px;background-color: #2EC1AC;position: absolute;right: 70px;border-radius: 50px;">
+                        <p style="margin-left:-52%;color: #fff;font-weight: normal;font-size: 16px;">NEW!</p>
                       </button></a>
                   </div>
-                  
+
                   <br>
                 </div>
                 <div class="sort-menu-info">
@@ -2649,11 +2797,12 @@
                         <p style="padding-top: 11%;">Зангламас металл S208:</p>
                         <p style="padding-top: 11%;">Ток</p>
                       </div>
-                      
+
                     </div>
                     <div class="text-center">
                       <ul>
-                        <li><button class="button-product button-bottom-product" style="right: 0%;margin: auto;display: table;padding: 20px;">
+                        <li><button class="button-product button-bottom-product"
+                            style="right: 0%;margin: auto;display: table;">
                             <p style="font-size: 16px;">Заказать</p>
                           </button></li>
                       </ul>
@@ -2661,7 +2810,7 @@
                     <br>
                     <br>
                   </div>
-              </div>
+                </div>
               </div>
               <div class="sort-menu-products">
                 <div class="row">
@@ -2669,9 +2818,13 @@
                     <img src="./images/stanok.png" style="width: 100%;height: 172px;" alt="">
                   </div>
                   <div class="col-md-6 mt-3">
-                    <h4 class="front-title" style="padding:10px;font-size: 18px;font-weight: 500;line-height: 21px;">Буровая установка БР 73212С</h4>
-                    <p class="detail" style="padding:10px;font-style: 14px;line-height: 17px;color: #656565;font-family: 'system-ui';">Артикул: US</p>
-                    <p class="desc" style="padding:10px;font-size: 18px;font-weight: 500;line-height: 24px;">$3 800 - 24 731 675 сум</p>
+                    <h4 class="front-title" style="padding:10px;font-size: 18px;font-weight: 500;line-height: 21px;">
+                      Буровая установка БР 73212С</h4>
+                    <p class="detail"
+                      style="padding:10px;font-style: 14px;line-height: 17px;color: #656565;font-family: 'system-ui';">
+                      Артикул: US</p>
+                    <p class="desc" style="padding:10px;font-size: 18px;font-weight: 500;line-height: 24px;">$3 800 - 24
+                      731 675 сум</p>
                   </div>
                   <div class="col-md-3">
                     <a href="#" class="card-link"><button class="btn"
@@ -2682,7 +2835,7 @@
                         <p style="margin-left:-32%;color: #fff;font-weight: normal;">-30%</p>
                       </button></a>
                   </div>
-                  
+
                   <br>
                 </div>
                 <div class="sort-menu-info">
@@ -2710,11 +2863,12 @@
                         <p style="padding-top: 11%;">Зангламас металл S208:</p>
                         <p style="padding-top: 11%;">Ток</p>
                       </div>
-                      
+
                     </div>
                     <div class="text-center">
                       <ul>
-                        <li><button class="button-product button-bottom-product" style="right: 0%;margin: auto;display: table;padding: 20px;">
+                        <li><button class="button-product button-bottom-product"
+                            style="right: 0%;margin: auto;display: table;padding: 20px;">
                             <p style="font-size: 16px;">Заказать</p>
                           </button></li>
                       </ul>
@@ -2722,7 +2876,7 @@
                     <br>
                     <br>
                   </div>
-              </div>
+                </div>
               </div>
               <div class="sort-menu-products">
                 <div class="row">
@@ -2730,9 +2884,13 @@
                     <img src="./images/stanok.png" style="width: 100%;height: 172px;" alt="">
                   </div>
                   <div class="col-md-6 mt-3">
-                    <h4 class="front-title" style="padding:10px;font-size: 18px;font-weight: 500;line-height: 21px;">Буровая установка БР 73212С</h4>
-                    <p class="detail" style="padding:10px;font-style: 14px;line-height: 17px;color: #656565;font-family: 'system-ui';">Артикул: US</p>
-                    <p class="desc" style="padding:10px;font-size: 18px;font-weight: 500;line-height: 24px;">$3 800 - 24 731 675 сум</p>
+                    <h4 class="front-title" style="padding:10px;font-size: 18px;font-weight: 500;line-height: 21px;">
+                      Буровая установка БР 73212С</h4>
+                    <p class="detail"
+                      style="padding:10px;font-style: 14px;line-height: 17px;color: #656565;font-family: 'system-ui';">
+                      Артикул: US</p>
+                    <p class="desc" style="padding:10px;font-size: 18px;font-weight: 500;line-height: 24px;">$3 800 - 24
+                      731 675 сум</p>
                   </div>
                   <div class="col-md-3">
                     <a href="#" class="card-link"><button class="btn"
@@ -2743,7 +2901,7 @@
                         <p style="margin-left:-32%;color: #fff;font-weight: normal;">-30%</p>
                       </button></a>
                   </div>
-                  
+
                   <br>
                 </div>
                 <div class="sort-menu-info">
@@ -2771,11 +2929,12 @@
                         <p style="padding-top: 11%;">Зангламас металл S208:</p>
                         <p style="padding-top: 11%;">Ток</p>
                       </div>
-                      
+
                     </div>
                     <div class="text-center">
                       <ul>
-                        <li><button class="button-product button-bottom-product" style="right: 0%;margin: auto;display: table;padding: 20px;">
+                        <li><button class="button-product button-bottom-product"
+                            style="right: 0%;margin: auto;display: table;padding: 20px;">
                             <p style="font-size: 16px;">Заказать</p>
                           </button></li>
                       </ul>
@@ -2783,7 +2942,7 @@
                     <br>
                     <br>
                   </div>
-              </div>
+                </div>
               </div>
               <div class="sort-menu-products">
                 <div class="row">
@@ -2791,9 +2950,13 @@
                     <img src="./images/stanok.png" style="width: 100%;height: 172px;" alt="">
                   </div>
                   <div class="col-md-6 mt-3">
-                    <h4 class="front-title" style="padding:10px;font-size: 18px;font-weight: 500;line-height: 21px;">Буровая установка БР 73212С</h4>
-                    <p class="detail" style="padding:10px;font-style: 14px;line-height: 17px;color: #656565;font-family: 'system-ui';">Артикул: US</p>
-                    <p class="desc" style="padding:10px;font-size: 18px;font-weight: 500;line-height: 24px;">$3 800 - 24 731 675 сум</p>
+                    <h4 class="front-title" style="padding:10px;font-size: 18px;font-weight: 500;line-height: 21px;">
+                      Буровая установка БР 73212С</h4>
+                    <p class="detail"
+                      style="padding:10px;font-style: 14px;line-height: 17px;color: #656565;font-family: 'system-ui';">
+                      Артикул: US</p>
+                    <p class="desc" style="padding:10px;font-size: 18px;font-weight: 500;line-height: 24px;">$3 800 - 24
+                      731 675 сум</p>
                   </div>
                   <div class="col-md-3">
                     <a href="#" class="card-link"><button class="btn"
@@ -2804,7 +2967,7 @@
                         <p style="margin-left:-32%;color: #fff;font-weight: normal;">-30%</p>
                       </button></a>
                   </div>
-                  
+
                   <br>
                 </div>
                 <div class="sort-menu-info">
@@ -2832,11 +2995,12 @@
                         <p style="padding-top: 11%;">Зангламас металл S208:</p>
                         <p style="padding-top: 11%;">Ток</p>
                       </div>
-                      
+
                     </div>
                     <div class="text-center">
                       <ul>
-                        <li><button class="button-product button-bottom-product" style="right: 0%;margin: auto;display: table;padding: 20px;">
+                        <li><button class="button-product button-bottom-product"
+                            style="right: 0%;margin: auto;display: table;padding: 20px;">
                             <p style="font-size: 16px;">Заказать</p>
                           </button></li>
                       </ul>
@@ -2844,7 +3008,7 @@
                     <br>
                     <br>
                   </div>
-              </div>
+                </div>
               </div>
               <div class="sort-menu-products">
                 <div class="row">
@@ -2852,9 +3016,13 @@
                     <img src="./images/stanok.png" style="width: 100%;height: 172px;" alt="">
                   </div>
                   <div class="col-md-6 mt-3">
-                    <h4 class="front-title" style="padding:10px;font-size: 18px;font-weight: 500;line-height: 21px;">Буровая установка БР 73212С</h4>
-                    <p class="detail" style="padding:10px;font-style: 14px;line-height: 17px;color: #656565;font-family: 'system-ui';">Артикул: US</p>
-                    <p class="desc" style="padding:10px;font-size: 18px;font-weight: 500;line-height: 24px;">$3 800 - 24 731 675 сум</p>
+                    <h4 class="front-title" style="padding:10px;font-size: 18px;font-weight: 500;line-height: 21px;">
+                      Буровая установка БР 73212С</h4>
+                    <p class="detail"
+                      style="padding:10px;font-style: 14px;line-height: 17px;color: #656565;font-family: 'system-ui';">
+                      Артикул: US</p>
+                    <p class="desc" style="padding:10px;font-size: 18px;font-weight: 500;line-height: 24px;">$3 800 - 24
+                      731 675 сум</p>
                   </div>
                   <div class="col-md-3">
                     <a href="#" class="card-link"><button class="btn"
@@ -2865,7 +3033,7 @@
                         <p style="margin-left:-32%;color: #fff;font-weight: normal;">-30%</p>
                       </button></a>
                   </div>
-                  
+
                   <br>
                 </div>
                 <div class="sort-menu-info">
@@ -2893,11 +3061,12 @@
                         <p style="padding-top: 11%;">Зангламас металл S208:</p>
                         <p style="padding-top: 11%;">Ток</p>
                       </div>
-                      
+
                     </div>
                     <div class="text-center">
                       <ul>
-                        <li><button class="button-product button-bottom-product" style="right: 0%;margin: auto;display: table;padding: 20px;">
+                        <li><button class="button-product button-bottom-product"
+                            style="right: 0%;margin: auto;display: table;padding: 20px;">
                             <p style="font-size: 16px;">Заказать</p>
                           </button></li>
                       </ul>
@@ -2905,7 +3074,73 @@
                     <br>
                     <br>
                   </div>
+                </div>
               </div>
+              <div class="sort-menu-products">
+                <div class="row">
+                  <div class="col-md-3">
+                    <img src="./images/stanok.png" style="width: 100%;height: 172px;" alt="">
+                  </div>
+                  <div class="col-md-6 mt-3">
+                    <h4 class="front-title" style="padding:10px;font-size: 18px;font-weight: 500;line-height: 21px;">
+                      Буровая установка БР 73212С</h4>
+                    <p class="detail"
+                      style="padding:10px;font-style: 14px;line-height: 17px;color: #656565;font-family: 'system-ui';">
+                      Артикул: US</p>
+                    <p class="desc" style="padding:10px;font-size: 18px;font-weight: 500;line-height: 24px;">$3 800 - 24
+                      731 675 сум</p>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="#" class="card-link"><button class="btn"
+                        style="width: 48px;height: 48px;background-color: #FFF5F5;position: absolute;right: 15px;"><img
+                          src="./images/like.svg" style="margin-top: 7px;" alt=""></button></a>
+                    <a href="#" class="card-link"><button class="btn"
+                        style="width: 48px;height: 48px;background-color: #E97171;position: absolute;right: 74px;border-radius: 50px;">
+                        <p style="margin-left:-32%;color: #fff;font-weight: normal;">-30%</p>
+                      </button></a>
+                  </div>
+
+                  <br>
+                </div>
+                <div class="sort-menu-info">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-3">
+                        <p class="info-back-product">Емкость лотка:</p>
+                        <p class="info-back-product">Емкость шаблона:</p>
+                        <p class="info-back-product">Напряжение:</p>
+                        <p class="info-back-product">Размер оборудования:</p>
+                      </div>
+                      <div class="col-md-3">
+                        <p style="padding-top: 3%;">9 та</p>
+                        <p style="padding-top: 19%;">108 дона</p>
+                        <p style="padding-top: 11%;">380 В 50 Гц</p>
+                        <p style="padding-top: 17%;">мм</p>
+                      </div>
+                      <div class="col-md-3">
+                        <p class="info-back-product">Энергопотребление:</p>
+                        <p class="info-back-product">Материал:</p>
+                        <p class="info-back-product">Тип энергии:</p>
+                      </div>
+                      <div class="col-md-3">
+                        <p style="padding-top: 3%;">25 кв / ч.</p>
+                        <p style="padding-top: 11%;">Зангламас металл S208:</p>
+                        <p style="padding-top: 11%;">Ток</p>
+                      </div>
+
+                    </div>
+                    <div class="text-center">
+                      <ul>
+                        <li><button class="button-product button-bottom-product"
+                            style="right: 0%;margin: auto;display: table;padding: 20px;">
+                            <p style="font-size: 16px;">Заказать</p>
+                          </button></li>
+                      </ul>
+                    </div>
+                    <br>
+                    <br>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -3417,12 +3652,7 @@ justify-content: center;">
                     placeholder="Введите свой email">
                 </div>
                 <div class="col-md-3">
-                  <button class="btn send-email" style="background-color: #ffe600; position: absolute;
-                  left: 0px;
-                  top: 0px;
-                  width: 44px;
-                  border-radius: unset;
-                  height: 45px;"><img src="./images/send.svg" style="position: absolute;
+                  <button class="btn send-email"><img src="./images/send.svg" style="position: absolute;
     left: 12px;
     top: 13px;" alt=""></button>
                 </div>
@@ -3435,22 +3665,22 @@ justify-content: center;">
               <h5 class="widget-title ml-2">Меню<span></span></h5>
               <ul class="thumbnail-widget">
                 <li>
-                  <div class="thumb-content"><a href="#." class="thumb-content">Каталог</a></div>
+                  <div class="thumb-content"><a href="./catelog.html" class="thumb-content">Каталог</a></div>
                 </li>
                 <li>
-                  <div class="thumb-content"><a href="#." class="thumb-content">Наши работа</a></div>
+                  <div class="thumb-content"><a href="./our_works.html" class="thumb-content">Наши работа</a></div>
                 </li>
                 <li>
-                  <div class="thumb-content"><a href="#." class="thumb-content">Наши видео</a></div>
+                  <div class="thumb-content"><a href="./videos.html" class="thumb-content">Наши видео</a></div>
                 </li>
                 <li>
-                  <div class="thumb-content"><a href="#." class="thumb-content">Статьи</a></div>
+                  <div class="thumb-content"><a href="./blog.html" class="thumb-content">Статьи</a></div>
                 </li>
                 <li>
-                  <div class="thumb-content"><a href="#." class="thumb-content">О нас</a></div>
+                  <div class="thumb-content"><a href="./about.html" class="thumb-content">О нас</a></div>
                 </li>
                 <li>
-                  <div class="thumb-content"><a href="#." class="thumb-content">Контакты</a></div>
+                  <div class="thumb-content"><a href="./contacts.html" class="thumb-content">Контакты</a></div>
                 </li>
               </ul>
             </div>
@@ -3461,7 +3691,9 @@ justify-content: center;">
               <h5 class="widget-title">Контакты<span></span></h5>
               <p class="widget-number"> <img src="./images/map1.png" style="width: 25px;height: 25px;" alt=""> Тошкент
                 шаҳри, Сирғали тумани, Катта олмос 1-тор кўчаси 9а-уй.</p>
-              <p class="widget-number"> <img src="./images/phone.svg" alt=""> +998 71 250 77 77</p>
+              <a href="tel:+998 71 250 77 77">
+                <p class="widget-number"> <img src="./images/phone.svg" alt=""> +998 71 250 77 77</p>
+              </a>
               <p class="widget-number"> <img src="./images/clock.svg" alt=""> c 9:00 до 18:00 ежедневно</p>
             </div>
           </div>
@@ -3469,24 +3701,19 @@ justify-content: center;">
           <div class="col-xs-12 col-sm-6 col-md-3">
 
             <div class="widget no-box">
-              <h5 class="widget-title ml-2">Соц.сети<span></span></h5>
-              <ul class="thumbnail-widget">
-                <li>
-                  <div class="thumb-content"><a href="#." class="thumb-content"><img
-                        src="https://img.icons8.com/fluency/25/000000/facebook-new.png"
-                        style="position: absolute;left: 0;" />Facebook</a></div>
-                </li>
-                <li>
-                  <div class="thumb-content"><a href="#." class="thumb-content"><img
-                        src="https://img.icons8.com/fluency/25/000000/instagram-new.png"
-                        style="position: absolute;left: 0;" />Instagram</a></div>
-                </li>
-                <li>
-                  <div class="thumb-content"><a href="#." class="thumb-content"><img
-                        src="https://img.icons8.com/color/25/000000/telegram-app--v1.png"
-                        style="position: absolute;left: 0;" />Telegram</a></div>
-                </li>
-              </ul>
+              <h5 class="widget-title">Соц.сети<span></span></h5>
+              <a href="">
+                <p class="widget-number"> <img src="./images/facebook.svg" style="width: 25px;" alt=""> <span
+                    style="margin-left: 2%;position: absolute;">Facebook</span> </p>
+              </a>
+              <a href="">
+                <p class="widget-number"> <img src="./images/instagram.svg" style="width: 25px;" alt=""> <span
+                    style="margin-left: 2%;position: absolute;">Instasgram</span> </p>
+              </a>
+              <a href="">
+                <p class="widget-number"> <img src="https://img.icons8.com/color/29/000000/telegram-app--v1.png" />
+                  <span style="margin-left: 2%;position: absolute;">Telegram</span> </p>
+              </a>
             </div>
           </div>
 
@@ -3498,7 +3725,7 @@ justify-content: center;">
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            <p>Uskunalar.uz © <span id="year"></span>. Все права защищены.</p>
+            <p>Copyright Uskunalar.uz © <span id="year"></span> . All rights reserved. LF</p>
           </div>
         </div>
       </div>
@@ -3510,7 +3737,6 @@ justify-content: center;">
   </script>
 
 
-
 </body>
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -3518,7 +3744,6 @@ justify-content: center;">
 <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js'></script>
 <script src='https://mverissimo.github.io/tweenslideshow/dist/assets/javascript/script.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
@@ -3621,6 +3846,57 @@ justify-content: center;">
     var accordion = new Accordion($('#accordion2'), false);
   });
 
+</script>
+<script>
+  $(function () {
+    var Accordion = function (el, multiple) {
+      this.el = el || {};
+      this.multiple = multiple || false;
+
+      // Variables privadas
+      var links = this.el.find('.link');
+      // Evento
+      links.on('click', { el: this.el, multiple: this.multiple }, this.dropdown)
+    }
+
+    Accordion.prototype.dropdown = function (e) {
+      var $el = e.data.el;
+      $this = $(this),
+        $next = $this.next();
+
+      $next.slideToggle();
+      $this.parent().toggleClass('open');
+
+      if (!e.data.multiple) {
+        $el.find('.submenu').not($next).slideUp().parent().removeClass('open');
+      };
+    }
+
+    var accordion = new Accordion($('#accordion4_2'), false);
+  });
+
+</script>
+<script>
+  (function ($) {
+    $('.accordion5_1 > a').addClass('active').next().slideDown();
+
+    $('.accordion5_1 a').click(function (j) {
+      var dropDown = $(this).closest('li').find('p');
+
+      $(this).closest('.accordion5_1').find('p').not(dropDown).slideUp();
+
+      if ($(this).hasClass('active')) {
+        $(this).removeClass('active');
+      } else {
+        $(this).closest('.accordion5_1').find('a.active').removeClass('active');
+        $(this).addClass('active');
+      }
+
+      dropDown.stop(false, true).slideToggle();
+
+      j.preventDefault();
+    });
+  })(jQuery);
 </script>
 <script>
   $(document).ready(function () {
