@@ -633,7 +633,7 @@ p {
   position: absolute;
   width: 70%;
   height: 479px;
-  margin-top: -4%;
+  margin-top: -1%;
 }
 
 
@@ -2479,11 +2479,10 @@ nav .nav-ul li a span.rotate {
   .home-blog {
     display: initial;
     position: absolute;
-    left: 10px;
+    margin: auto;
     padding: 20px 20px;
-    margin: 12px;
     bottom: 0px;
-    width: 316px;
+    width: 92%;
     height: auto;
     z-index: 1;
     border-radius: 15px;
@@ -2494,10 +2493,10 @@ nav .nav-ul li a span.rotate {
   .home-blog2 {
     display: initial;
     position: absolute;
-    right: 30px;
-    bottom: 4px;
+    margin: auto;
+    bottom: 0px;
     padding: 20px 20px;
-    width: 354px;
+    width: 92%;
     height: auto;
     border-radius: 15px;
     background-color: #fff;
