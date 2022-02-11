@@ -90,6 +90,31 @@ $(document).ready(function() {
     });
   });
 
+  $(document).ready(function () {
+    $(".minimalist-vertical-menu3").on("mouseleave", function () {
+      $(".minimalist-tab-content3").removeClass("active");
+      $(".minimalist-tab-menu3>.list-group3>.menu-item3").removeClass("active");
+    });
+
+    $(".menu-item3").on("mouseleave", function () {
+      if (!$(".minimalist-tab-content3").hasClass("active")) {
+        $(this).removeClass("active");
+      }
+    }).on("mouseenter", function (e) {
+      e.preventDefault();
+      $(this)
+        .siblings(".menu-item3.active")
+        .removeClass("active");
+      $(this).addClass("active");
+      var index = $(this).index();
+      $(".minimalist-tab-content3")
+        .removeClass("active")
+      $(".minimalist-tab3>.minimalist-tab-content3")
+        .eq(index)
+        .addClass("active");
+    });
+  });
+
   $('.btn1').click(function () {
     $(this).toggleClass("click");
     $('.sidebar').toggleClass("show");
