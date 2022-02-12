@@ -2878,6 +2878,18 @@ nav .nav-ul li a span.rotate {
     .desk_pagination {
       margin-top: 35%;
     }
+
+    .icon-right-2 {
+      margin-top: 34%;
+    }
+
+    .btn.btn-prev-mobile {
+      display: none;
+    }
+
+    .btn.btn-next-mobile {
+      display: none;
+    }
 }
 
 @media (min-width:1400px) and (max-width:2000px) {
@@ -2887,6 +2899,18 @@ nav .nav-ul li a span.rotate {
 
   .desk_pagination {
     margin-top: 25%;
+  }
+  
+  .icon-right-2 {
+    margin-top: 25%;
+  }
+
+  .btn.btn-prev-mobile {
+    display: none;
+  }
+
+  .btn.btn-next-mobile {
+    display: none;
   }
   
 }
@@ -2932,7 +2956,7 @@ nav .nav-ul li a span.rotate {
 
   .icon-right {
     position: absolute;
-    right: 14%;
+    right: 7%;
     width: 82px;
     height: 82px;
   }
